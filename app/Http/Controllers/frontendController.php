@@ -35,6 +35,19 @@ class frontendController extends Controller
         $project = Project::where('status',1)->latest()->get();
         return view('frontend.project',compact('project'));
     }
+
+    public function partner()
+    {
+        $partner = Partner::where('status',1)->latest()->get();
+        return view('frontend.partner',compact('partner'));
+    }
+
+    public function carrier()
+    {
+        $carrier = Carrier::where('status',1)->latest()->get();
+        return view('frontend.carrier',compact('carrier'));
+    }
+
     public function blog()
     {
         $blogs = Blog::with('category')->where('is_offer',0)->where('status',1)->latest()->simplePaginate(9);

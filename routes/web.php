@@ -28,6 +28,10 @@ use App\Http\Controllers\PortfolioController;
 Route::get('/',[frontendController::class,'home'])->name('home');
 Route::get('/service',[frontendController::class,'service'])->name('service');
 Route::get('/project',[frontendController::class,'project'])->name('project');
+
+Route::get('/Partner',[frontendController::class,'partner'])->name('partner');
+Route::get('/carrier',[frontendController::class,'carrier'])->name('carrier');
+
 Route::get('/portfolio',[frontendController::class,'portfolio'])->name('portfolio');
 Route::get('/portfolio/{slug}',[frontendController::class,'singlePortfolio'])->name('singlePortfolio');
 Route::get('/project/{slug}',[frontendController::class,'singleProject'])->name('singleProject');

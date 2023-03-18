@@ -55,8 +55,15 @@
                     </li>
                     <li>
                         <a class="smooth-menu @if(\Request::segment(1)== "portfolio") active @endif" href="{{route('portfolio')}}">Portfolio</a>
-                    </li><li>
-                        <a class="smooth-menu @if(\Request::segment(1)== "project") active @endif" href="{{route('project')}}">Project</a>
+                    </li>
+                    <li>
+                        <a class="smooth-menu @if(\Request::segment(1)== "project") active @endif" href="{{route('project')}}">Project</a>  
+                    </li>
+                    <li>
+                        <a class="smooth-menu @if(\Request::segment(1)== "Partner") active @endif" href="{{route('partner')}}">Partner</a>  
+                    </li>
+                    <li>
+                        <a class="smooth-menu @if(\Request::segment(1)== "Carrier") active @endif" href="{{route('carrier')}}">Carrier</a>  
                     </li>
                     <li>
                         <a class="smooth-menu @if(\Request::segment(1)== "news") active @endif" href="{{route('blog')}}">Blog</a>
@@ -64,9 +71,9 @@
                     <li>
                         <a class="smooth-menu @if(\Request::segment(1)== "about") active @endif" href="{{route('about')}}">About</a>
                     </li>
-                    <li>
+                    {{-- <li>
                         <a class="smooth-menu @if(\Request::segment(1)== "contact") active @endif" href="{{route('contact')}}">Contact</a>
-                    </li>
+                    </li> --}}
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div>
