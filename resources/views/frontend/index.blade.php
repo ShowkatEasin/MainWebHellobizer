@@ -124,8 +124,6 @@
                                             </div>
                                         </div>
                                     </a>
-
-
                                     <a href="{{route('singleService',[$serv->slug])}}">
                                         <div class="single-item">
                                             <div class="item">
@@ -151,7 +149,6 @@
                                             </div>
                                         </div>
                                     </a>
-
                                     <a href="{{route('singleService',[$serv->slug])}}">
                                         <div class="single-item">
                                             <div class="item">
@@ -159,15 +156,13 @@
                                                 <h5>Graphics Design
                                                 </h5>
                                                 <p>
-
                                                     Elevate your brand's visual identity with our expert and professional graphic design services as your requirements. 
                                                     {{-- {{ Str::limit(strip_tags( $serv->description)) }} --}}
                                                 </p>
                                             </div>
                                         </div>
                                     </a>
-
-                                    <a href="{{route('singleService',[$serv->slug])}}">
+                                  <a href="{{route('singleService',[$serv->slug])}}">
                                         <div class="single-item">
                                             <div class="item">
                                                 <img src="{{asset('uploads/service/icon/web.png'/* .$serv->ico */)}}" alt="">
@@ -179,7 +174,6 @@
                                             </div>
                                         </div>
                                     </a>
-
                                     <a href="{{route('singleService',[$serv->slug])}}">
                                         <div class="single-item">
                                             <div class="item">
@@ -192,7 +186,6 @@
                                             </div>
                                         </div>
                                     </a>
-
                                     <a href="{{route('singleService',[$serv->slug])}}">
                                         <div class="single-item">
                                             <div class="item">
@@ -207,15 +200,12 @@
                                     </a>
  
                         {{-- End new 8 --}}
-
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- End Services -->
-
-
     <!-- start Emi Banner Area -->
     {{-- <div id="emi-banner">
         <div class="container default-padding">
@@ -232,8 +222,8 @@
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
                 <div class="site-heading text-center">
-                    <h2>Our Partners{{--  @foreach ( $frontServices as $serv)  @if ($serv->id == $titles->special_service) {{$serv->title}} @endif @endforeach --}}</h2>
-                    <p>Our partners include startup business, civil society organisations, faith communities,
+                    <h2>For Your Digital Marketing{{--  @foreach ( $frontServices as $serv)  @if ($serv->id == $titles->special_service) {{$serv->title}} @endif @endforeach --}}</h2>
+                    <p>Our Digital Marketing include startup business, civil society organisations, faith communities,
                          faith-based organisations, businesses, academia, and more. </p>
                 </div>
             </div>
@@ -250,8 +240,20 @@
                     <a href="">
                         <div class="single-item">
                             <div class="item">
-                                <img src="{{asset('uploads/service/icon/'.$serv->ico)}}" alt="">
-                                <h5> LOGO 1{{-- {{$serv->title}} --}}</h5>
+                                <img src="{{asset('uploads/service/icon/'/* .$serv->ico */)}}" alt="">
+                                <h5>Social Media Marketing{{-- {{$serv->title}} --}}</h5>
+                                
+                                <p>
+                                   {{--  {{ Str::limit(strip_tags( $serv->description)) }} --}}
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="single-item">
+                            <div class="item">
+                                <img src="{{asset('uploads/service/icon/')}}" alt="">
+                                <h5>Content Marketing{{-- {{$serv->title}} --}}</h5>
                                 <p>
                                    {{--  {{ Str::limit(strip_tags( $serv->description)) }} --}}
                                 </p>
@@ -262,8 +264,8 @@
                     <a href="">
                         <div class="single-item">
                             <div class="item">
-                                <img src="{{asset('uploads/service/icon/'.$serv->ico)}}" alt="">
-                                <h5> LOGO 2{{-- {{$serv->title}} --}}</h5>
+                                <img src="{{asset('uploads/service/icon/')}}" alt="">
+                                <h5>Email Marketing</h5>
                                 <p>
                                    {{--  {{ Str::limit(strip_tags( $serv->description)) }} --}}
                                 </p>
@@ -274,8 +276,8 @@
                     <a href="">
                         <div class="single-item">
                             <div class="item">
-                                <img src="{{asset('uploads/service/icon/'.$serv->ico)}}" alt="">
-                                <h5> LOGO 3{{-- {{$serv->title}} --}}</h5>
+                                <img src="{{asset('uploads/service/icon/')}}" alt="">
+                                <h5>Video Marketing</h5>
                                 <p>
                                    {{--  {{ Str::limit(strip_tags( $serv->description)) }} --}}
                                 </p>
@@ -286,8 +288,8 @@
                     <a href="">
                         <div class="single-item">
                             <div class="item">
-                                <img src="{{asset('uploads/service/icon/'.$serv->ico)}}" alt="">
-                                <h5> LOGO 4{{-- {{$serv->title}} --}}</h5>
+                                <img src="{{asset('uploads/service/icon/')}}" alt="">
+                                <h5>Influencer Marketing</h5>
                                 <p>
                                    {{--  {{ Str::limit(strip_tags( $serv->description)) }} --}}
                                 </p>
@@ -295,6 +297,29 @@
                         </div>
                     </a>
 
+                    <a href="">
+                        <div class="single-item">
+                            <div class="item">
+                                <img src="{{asset('uploads/service/icon/')}}" alt="">
+                                <h5>Search Engine Optimization(SEO)</h5>
+                                <p>
+                                   {{--  {{ Str::limit(strip_tags( $serv->description)) }} --}}
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="single-item">
+                            <div class="item">
+                                <img src="{{asset('uploads/service/icon/')}}" alt="">
+                                <h5>Analytics and Tracking</h5>
+                                <p>
+                                   {{--  {{ Str::limit(strip_tags( $serv->description)) }} --}}
+                                </p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -302,7 +327,77 @@
 </div>
 @endif
 
-<!-- End Services -->
+<!-- End Digital marketing -->
+
+
+{{-- LOGO-Partner Start --}}
+               
+<div id="services" class="services-area bg-theme-small default-padding bottom-less">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="site-heading text-center">
+                    <h2>Our Partners</h2>
+                    <p>We are here to provide the services to grow your business up. Here, you can find the support
+                        of Graphics, Branding, Marketing, Software’s & More</p>
+                </div>
+            </div>
+        </div>
+        <div class="services-box text-center">
+            <div class="row">
+                <div class="services-carosul owl-carousel owl-theme text-center">
+                    <!-- Single Item -->
+
+                    @foreach ($frontServices as $serv)
+                    @if ($serv->parent_id == NULL)
+                    {{-- <a href="{{route('singleService',[$serv->slug])}}">
+                        <div class="single-item">
+                            <div class="item">
+                                <img src="{{asset('uploads/service/icon/'.$serv->ico)}}" alt="">
+                                <h5>{{$serv->title}}</h5>
+                                <p>
+                                    {{ Str::limit(strip_tags( $serv->description)) }}
+                                </p>
+                            </div>
+                        </div>
+                    </a> --}}
+                    @endif
+                    @endforeach
+                    <!-- End Single Item -->
+
+                                  <a href="{{route('singleService',[$serv->slug])}}">
+                                    <div class="single-item">
+                                        <div class="item">
+                                            <img src="{{asset('uploads/service/icon/pn2.png'/* .$serv->ico */)}}" alt="">
+                                            {{-- <h5></h5> --}}  
+                                        </div>
+                                    </div>
+                                </a>
+                                  
+                                <a href="{{route('singleService',[$serv->slug])}}">
+                                    <div class="single-item">
+                                        <div class="item">
+                                            <img src="{{asset('uploads/service/icon/pn3.png'/* .$serv->ico */)}}" alt="">
+                                            {{-- <h5></h5> --}}  
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="{{route('singleService',[$serv->slug])}}">
+                                    <div class="single-item">
+                                        <div class="item">
+                                            <img src="{{asset('uploads/service/icon/pn4.png'/* .$serv->ico */)}}" alt="">
+                                            {{-- <h5></h5> --}}  
+                                        </div>
+                                    </div>
+                                </a>
+                          </div>
+                     </div>
+                 </div>
+             </div>
+        </div>
+
+            {{-- LOGO-Partner End --}}
 
 <!-- ======================Start Blog======================= -->
 <div id="blog" class="blog-area bg-gray default-padding bottom-less">
@@ -376,9 +471,7 @@
                             </div>
                             <p style="display: block;overflow:hidden">
                                {{--  {{ Str::limit(strip_tags( $blog->description)) }} --}}
-
-                               Transform your online presence with our professional website design and development services.
-
+                                 Elevate your brand's visual identity with our expert and professional graphic design services as your requirements. 
                                 <a href="{{-- {{url('news/'.$blog->slug)}} --}}">Read more</a>
                             </p>
                         </div>
@@ -400,9 +493,7 @@
                             </div>
                             <p style="display: block;overflow:hidden">
                                {{--  {{ Str::limit(strip_tags( $blog->description)) }} --}}
-
-                               Transform your online presence with our professional website design and development services.
-
+                               Grow your business and reach your target audience with our comprehensive digital marketing services. 
                                 <a href="{{-- {{url('news/'.$blog->slug)}} --}}">Read more</a>
                             </p>
                         </div>
@@ -413,6 +504,10 @@
 
 
                 {{-- New Offer End --}}
+
+
+                
+
                
 
             </div>
@@ -421,14 +516,14 @@
 </div>
 <!-- End Blog -->
 <!-- ====================Start Why Chose Us========================= -->
-    {{-- <div id="about" class="choseus-area default-padding">
+    <div id="about" class="choseus-area default-padding">
         <div class="container">
             <div class="choseus-items">
                 <div class="row">
-                    <div class="col-lg-6 thumb">
+                   {{--  <div class="col-lg-6 thumb">
                         <img src="{{asset('assets/img/illustration/1.png')}}" alt="Thumb">
-                    </div>
-                    <div class="col-lg-6 info">
+                    </div> --}}
+                    {{-- <div class="col-lg-6 info">
                         <h2>Create your app page <br>with expert developer</h2>
                         <p>
                             If you think your business needs to grow, then get started with us.
@@ -439,7 +534,7 @@
                             <li>Moment led family.</li>
                             <li>Opinions property the supplied. </li>
                         </ul>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
             <div class="customer">
@@ -451,19 +546,19 @@
                 </div>
                 <div class="col-lg-4 col-md-4 item">
                     <div class="fun-fact">
-                        <div class="timer" data-to="89" data-speed="5000"></div>
-                        <span class="medium">Professional agents</span>
+                        <div class="timer" data-to="50" data-speed="5000"></div>
+                        <span class="medium">Professional Agents</span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 item">
                     <div class="fun-fact">
-                        <div class="timer" data-to="89" data-speed="5000"></div>
-                        <span class="medium">Professional agents</span>
+                        <div class="timer" data-to="92" data-speed="5000"></div>
+                        <span class="medium">Professional Projects</span>
                     </div>
                 </div>
             </div>
         </div>
-    </div> --}}
+    </div>
 <!-- End Why Us -->
 
 <!--=====================Start Work Process Area======================== -->
@@ -472,9 +567,9 @@
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="site-heading text-center">
-                        <h2>{{$titles->progress_title}}</h2>
+                        <h2>Our Working{{-- {{$titles->progress_title}} --}}</h2>
                         <p>
-                            {{$titles->progress_text}}
+                            Our innovative solutions, expert team, and cutting-edge technologies, we help our clients stay ahead of the curve and achieve success in their respective industries. 
                         </p>
                     </div>
                 </div>
@@ -491,8 +586,7 @@
                             <div class="info">
                                 <h4>Discussion</h4>
                                 <p>
-                                    Evening do forming observe spirits is in. Country hearted be of justice sending. On
-                                    so they as with room cold
+                                    Building a business from the ground up doesn’t come with an instructional manual, after all, and you certainly won’t be a business mogul on day one.
                                 </p>
                             </div>
                         </div>
@@ -509,8 +603,7 @@
                             <div class="info">
                                 <h4>Strategy & Testing</h4>
                                 <p>
-                                    Evening do forming observe spirits is in. Country hearted be of justice sending. On
-                                    so they as with room cold
+                                    A Test Strategy is a plan for defining an approach to the Software Testing Life Cycle (STLC). It guides QA teams to define Test Coverage and testing scope.
                                 </p>
                             </div>
                         </div>
@@ -527,8 +620,7 @@
                             <div class="info">
                                 <h4>Reporting</h4>
                                 <p>
-                                    Evening do forming observe spirits is in. Country hearted be of justice sending. On
-                                    so they as with room cold
+                                    Management reporting is a source of business intelligence that helps business leaders in making more accurate, data-driven decision goes into preparing and presenting.
                                 </p>
                             </div>
                         </div>
