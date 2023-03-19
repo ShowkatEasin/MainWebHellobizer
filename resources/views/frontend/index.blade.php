@@ -41,7 +41,7 @@
                                     <form action="{{route('service.search')}}" method="POST">
                                         @csrf
                                         <div class="input-group stylish-input-group ">
-                                            <input type="text" placeholder="Find your Solution" class="form-control" name="search"id="email">
+                                            <input type="text" placeholder="Find Your Solution" class="form-control" name="search"id="email">
                                             <span class="input-group-addon">
                                                 <button type="submit">
                                                     <i class="fa fa-paper-plane"></i>
@@ -62,6 +62,7 @@
     </div>
     <!-- End Banner -->
 
+    
 
     <!--======================Start Services======================= -->
     <div id="services" class="services-area bg-theme-small default-padding bottom-less">
@@ -96,8 +97,7 @@
                         @endif
                         @endforeach
                         <!-- End Single Item -->
-
-                        {{-- Add new 8 point Here --}}
+                       {{-- Add new 8 point Here --}}
 
                                       <a href="{{route('singleService',[$serv->slug])}}">
                                         <div class="single-item">
