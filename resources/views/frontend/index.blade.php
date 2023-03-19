@@ -224,7 +224,7 @@
     </div> --}}
     <!-- End Emi Banner Area -->
 
-<!--  ====================Start Branding========================= -->
+<!--  ====================Start Partner========================= -->
 
 @if ($titles->special_service > 0)
 <div id="services" class="services-area bg-theme-small default-padding bottom-less">
@@ -233,29 +233,68 @@
             <div class="col-lg-8 offset-lg-2">
                 <div class="site-heading text-center">
                     <h2>Our Partners{{--  @foreach ( $frontServices as $serv)  @if ($serv->id == $titles->special_service) {{$serv->title}} @endif @endforeach --}}</h2>
-                    <p>We are here to provide the services to grow your business up. Here, you can find the support
-                        of Graphics, Branding, Marketing, Software’s & More</p>
+                    <p>Our partners include startup business, civil society organisations, faith communities,
+                         faith-based organisations, businesses, academia, and more. </p>
                 </div>
             </div>
         </div>
         <div class="services-box text-center">
             <div class="row">
                 <div class="services-carosul owl-carousel owl-theme text-center">
-                    @foreach ($frontServices as $serv)
+                   {{--  @foreach ($frontServices as $serv)
                     @if ($serv->parent_id == $titles->special_service)
+                    
+                    @endif
+                    @endforeach --}}
+
                     <a href="">
                         <div class="single-item">
                             <div class="item">
                                 <img src="{{asset('uploads/service/icon/'.$serv->ico)}}" alt="">
-                                <h5> LOGO{{-- {{$serv->title}} --}}</h5>
+                                <h5> LOGO 1{{-- {{$serv->title}} --}}</h5>
                                 <p>
                                    {{--  {{ Str::limit(strip_tags( $serv->description)) }} --}}
                                 </p>
                             </div>
                         </div>
                     </a>
-                    @endif
-                    @endforeach
+
+                    <a href="">
+                        <div class="single-item">
+                            <div class="item">
+                                <img src="{{asset('uploads/service/icon/'.$serv->ico)}}" alt="">
+                                <h5> LOGO 2{{-- {{$serv->title}} --}}</h5>
+                                <p>
+                                   {{--  {{ Str::limit(strip_tags( $serv->description)) }} --}}
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="single-item">
+                            <div class="item">
+                                <img src="{{asset('uploads/service/icon/'.$serv->ico)}}" alt="">
+                                <h5> LOGO 3{{-- {{$serv->title}} --}}</h5>
+                                <p>
+                                   {{--  {{ Str::limit(strip_tags( $serv->description)) }} --}}
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="single-item">
+                            <div class="item">
+                                <img src="{{asset('uploads/service/icon/'.$serv->ico)}}" alt="">
+                                <h5> LOGO 4{{-- {{$serv->title}} --}}</h5>
+                                <p>
+                                   {{--  {{ Str::limit(strip_tags( $serv->description)) }} --}}
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
                 </div>
             </div>
         </div>
@@ -273,7 +312,10 @@
                 <div class="site-heading text-center">
                     <h2>This Week Offers</h2>
                     <p>
-                        {{$titles->blog_text}}
+                        We are providing many offer and discount in every week.
+                        We love it, even if we don’t want to admit it. For many people,
+                         it would be almost impossible not to click to find out what “your deal” is.
+                        {{-- {{$titles->blog_text}} --}}
                     </p>
                 </div>
             </div>
@@ -281,27 +323,98 @@
         <div class="blog-items">
             <div class="row">
                 @foreach ($offers as $blog)
+                {{-- <div class="col-lg-4 col-md-6">
+                    <div class="item"> --}}
+                       {{--  <div class="thumb">
+                            <a href="{{url('news/'.$blog->slug)}}">
+                                <img src="{{asset('uploads/blog/medium/web.jpg'/* .$blog->image */)}}" alt="Thumb">
+                            </a>
+                        </div> --}}
+                  {{--       
+                    </div>
+                </div> --}}
+                @endforeach 
+
+               {{-- New Offer Start --}}
+
                 <div class="col-lg-4 col-md-6">
                     <div class="item">
                         <div class="thumb">
-                            <a href="{{url('news/'.$blog->slug)}}">
-                                <img src="{{asset('uploads/blog/medium/'.$blog->image)}}" alt="Thumb">
+                            <a href="{{-- {{url('news/'.$blog->slug)}} --}}">
+                                <img src="{{asset('uploads/blog/medium/web.jpg'/* .$blog->image */)}}" alt="Thumb">
                             </a>
                         </div>
                         <div class="info">
                             <h4>
-                                <a href="{{url('news/'.$blog->slug)}}">{{$blog->title}}</a>
+                                <a href="{{url('news/'.$blog->slug)}}">Web Design & Development{{-- {{$blog->title}} --}}</a>
                             </h4>
                             <div class="meta">
                             </div>
                             <p style="display: block;overflow:hidden">
-                                {{ Str::limit(strip_tags( $blog->description)) }}
-                                <a href="{{url('news/'.$blog->slug)}}">Read more</a>
+                               {{--  {{ Str::limit(strip_tags( $blog->description)) }} --}}
+
+                               Transform your online presence with our professional website design and development services.
+
+                                <a href="{{-- {{url('news/'.$blog->slug)}} --}}">Read more</a>
                             </p>
                         </div>
                     </div>
                 </div>
-                @endforeach
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="item">
+                        <div class="thumb">
+                            <a href="{{-- {{url('news/'.$blog->slug)}} --}}">
+                                <img src="{{asset('uploads/blog/medium/graphic.jpg'/* .$blog->image */)}}" alt="Thumb">
+                            </a>
+                        </div>
+                        <div class="info">
+                            <h4>
+                                <a href="{{url('news/'.$blog->slug)}}">Graphics Design{{-- {{$blog->title}} --}}</a>
+                            </h4>
+                            <div class="meta">
+                            </div>
+                            <p style="display: block;overflow:hidden">
+                               {{--  {{ Str::limit(strip_tags( $blog->description)) }} --}}
+
+                               Transform your online presence with our professional website design and development services.
+
+                                <a href="{{-- {{url('news/'.$blog->slug)}} --}}">Read more</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="item">
+                        <div class="thumb">
+                            <a href="{{-- {{url('news/'.$blog->slug)}} --}}">
+                                <img src="{{asset('uploads/blog/medium/digitalmarket.png'/* .$blog->image */)}}" alt="Thumb">
+                            </a>
+                        </div>
+                        <div class="info">
+                            <h4>
+                                <a href="{{url('news/'.$blog->slug)}}">Digital Marketing{{-- {{$blog->title}} --}}</a>
+                            </h4>
+                            <div class="meta">
+                            </div>
+                            <p style="display: block;overflow:hidden">
+                               {{--  {{ Str::limit(strip_tags( $blog->description)) }} --}}
+
+                               Transform your online presence with our professional website design and development services.
+
+                                <a href="{{-- {{url('news/'.$blog->slug)}} --}}">Read more</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                {{-- New Offer End --}}
+               
+
             </div>
         </div>
     </div>
