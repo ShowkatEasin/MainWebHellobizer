@@ -10,6 +10,9 @@
 </style>
 @stop
 @section('main-content')
+
+<br>
+<br>
         <!-- Start Banner
     ============================================= -->
     <div class="banner-area shape-index transparent-nav content-double text-medium">
@@ -20,7 +23,14 @@
                         <div class="row align-center">
                             <div class="col-lg-6 left-info simple-video">
                                 <div class="content" data-animation="animated fadeInUpBig">
+                                    
                                     <h1>One Stop <span>Solutions</span> for you business</h1>
+                                    <p>  We specialize in providing one-stop solutions for all your business needs. With our innovative solutions,
+                                         expert team, and cutting-edge technologies, we help our clients stay ahead of the curve and achieve success in their
+                                          respective industries. So if you're looking for a reliable partner to help you take your business to the next level,
+                                         look no further than our digital business service provider firm. </p>
+
+                                         <br>
 
                                         <div class="form-group col-md-12 col-sm-12 col-lg-12">
                                             <div class="subscribe">

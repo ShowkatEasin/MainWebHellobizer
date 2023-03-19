@@ -12,6 +12,8 @@
 
                 @else
                 <div class="col-lg-12 col-md-12">
+                    
+                    
                     <h1>Search Result For: <span style="color: #4ac4f3">{{$search}}</span></h1>
                     <ul class="breadcrumb">
                         <li><a href="{{route('home')}}">Home</a></li>

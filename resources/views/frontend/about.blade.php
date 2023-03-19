@@ -32,7 +32,7 @@
         </div>
     </div>
     <!-- End Banner -->
-
+    
     <!-- Start About
     ============================================= -->
     <div id="about" class="about-area default-padding">
