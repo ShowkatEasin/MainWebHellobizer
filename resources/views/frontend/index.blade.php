@@ -23,36 +23,33 @@
                         <div class="row align-center">
                             <div class="col-lg-6 left-info simple-video">
                                 <div class="content" data-animation="animated fadeInUpBig">
-                                    
                                     <h1>One Stop <span>Solutions</span> for you business</h1>
-                                    <p>  We specialize in providing one-stop solutions for all your business needs. With our innovative solutions,
+                                    <p>We specialize in providing one-stop solutions for all your business needs. With our innovative solutions,
                                          expert team, and cutting-edge technologies, we help our clients stay ahead of the curve and achieve success in their
                                           respective industries. So if you're looking for a reliable partner to help you take your business to the next level,
-                                         look no further than our digital business service provider firm. </p>
-
-                                         <br>
-
-                                        <div class="form-group col-md-12 col-sm-12 col-lg-12">
-                                            <div class="subscribe">
-                                                <form action="{{route('service.search')}}" method="POST">
-                                                    @csrf
-                                                    <div class="input-group stylish-input-group">
-                                                        <input type="text" placeholder="Find your Solution" class="form-control" name="search"id="email">
-                                                        <span class="input-group-addon">
-                                                            <button type="submit">
-                                                                <i class="fa fa-paper-plane"></i>
-                                                            </button>
-                                                        </span>
-                                                    </div>
-                                                </form>
-                                            </div>
-
-                                        </div>
-
-                                </div>
-                            </div>
+                                         look no further than our digital business service provider firm.
+                                        </p>
+                          
+                                    </div>
+                                 </div>
+                                 
                             <div class="col-lg-6 right-info">
                                 <img src="assets/img/illustration/3.png" alt="Thumb">
+                            </div>
+                            <div class="form-group col-md-6 col-sm-12 col-lg-6 mr-5">
+                                <div class="subscribe">
+                                    <form action="{{route('service.search')}}" method="POST">
+                                        @csrf
+                                        <div class="input-group stylish-input-group ">
+                                            <input type="text" placeholder="Find your Solution" class="form-control" name="search"id="email">
+                                            <span class="input-group-addon">
+                                                <button type="submit">
+                                                    <i class="fa fa-paper-plane"></i>
+                                                </button>
+                                            </span>
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -64,6 +61,8 @@
         </div>
     </div>
     <!-- End Banner -->
+
+
     <!--======================Start Services======================= -->
     <div id="services" class="services-area bg-theme-small default-padding bottom-less">
         <div class="container">
@@ -83,7 +82,7 @@
 
                         @foreach ($frontServices as $serv)
                         @if ($serv->parent_id == NULL)
-                        <a href="{{route('singleService',[$serv->slug])}}">
+                        {{-- <a href="{{route('singleService',[$serv->slug])}}">
                             <div class="single-item">
                                 <div class="item">
                                     <img src="{{asset('uploads/service/icon/'.$serv->ico)}}" alt="">
@@ -93,10 +92,121 @@
                                     </p>
                                 </div>
                             </div>
-                        </a>
+                        </a> --}}
                         @endif
                         @endforeach
                         <!-- End Single Item -->
+
+                        {{-- Add new 8 point Here --}}
+
+                                      <a href="{{route('singleService',[$serv->slug])}}">
+                                        <div class="single-item">
+                                            <div class="item">
+                                                <img src="{{asset('uploads/service/icon/videoicon.png'/* .$serv->ico */)}}" alt="">
+                                                <h5>Video Making</h5>
+                                                <p>
+                                                    Elevate your brand's visual story telling with our expert and professional video-making services for your company.
+                                                   {{--  {{ Str::limit(strip_tags( $serv->description)) }} --}}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                      
+                                    <a href="{{route('singleService',[$serv->slug])}}">
+                                        <div class="single-item">
+                                            <div class="item">
+                                                <img src="{{asset('uploads/service/icon/softicon.png'/* .$serv->ico */)}}" alt="">
+                                                <h5>Software Development</h5>
+                                                <p>
+                                                    Transform your business with our expert software development services. Our team creates custom software solutions.
+                                                    {{-- {{ Str::limit(strip_tags( $serv->description)) }} --}}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="{{route('singleService',[$serv->slug])}}">
+                                        <div class="single-item">
+                                            <div class="item">
+                                                <img src="{{asset('uploads/service/icon/businessicon.png'/* .$serv->ico */)}}" alt="">
+                                                <h5>Business Consultancy</h5>
+                                                <p>
+                                                    Unlock your business's full potential with our expert business consultancy services to improve your company.
+                                                   {{--  {{ Str::limit(strip_tags( $serv->description)) }} --}}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                
+                                    <a href="{{route('singleService',[$serv->slug])}}">
+                                        <div class="single-item">
+                                            <div class="item">
+                                                <img src="{{asset('uploads/service/icon/branding.png'/* .$serv->ico */)}}" alt="">
+                                                <h5>Digital Marketing</h5>
+                                                <p>
+                                                    Grow your business and reach your target audience with our comprehensive digital marketing services for your Company. 
+                                                    {{-- {{ Str::limit(strip_tags( $serv->description)) }} --}}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="{{route('singleService',[$serv->slug])}}">
+                                        <div class="single-item">
+                                            <div class="item">
+                                                <img src="{{asset('uploads/service/icon/graphic.png'/* .$serv->ico */)}}" alt="">
+                                                <h5>Graphics Design
+                                                </h5>
+                                                <p>
+
+                                                    Elevate your brand's visual identity with our expert and professional graphic design services as your requirements. 
+                                                    {{-- {{ Str::limit(strip_tags( $serv->description)) }} --}}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="{{route('singleService',[$serv->slug])}}">
+                                        <div class="single-item">
+                                            <div class="item">
+                                                <img src="{{asset('uploads/service/icon/web.png'/* .$serv->ico */)}}" alt="">
+                                                <h5>Web Design & Development</h5>
+                                                <p>
+                                                    Transform your online presence with our professional website design and development services. 
+                                                    {{-- {{ Str::limit(strip_tags( $serv->description)) }} --}}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="{{route('singleService',[$serv->slug])}}">
+                                        <div class="single-item">
+                                            <div class="item">
+                                                <img src="{{asset('uploads/service/icon/digital.png'/* .$serv->ico */)}}" alt="">
+                                                <h5>Social Media Setup & Monitoring</h5>
+                                                <p>
+                                                    We provide the best services for Social Media Setup is a crucial component of any digital marketing strategy. 
+                                                   {{--  {{ Str::limit(strip_tags( $serv->description)) }} --}}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="{{route('singleService',[$serv->slug])}}">
+                                        <div class="single-item">
+                                            <div class="item">
+                                                <img src="{{asset('uploads/service/icon/app.png'/* .$serv->ico */)}}" alt="">
+                                                <h5>App Design & Development</h5>
+                                                <p>
+                                                    This services that deliver innovative and user-friendly mobile applications for businesses.
+                                                   {{--  {{ Str::limit(strip_tags( $serv->description)) }} --}}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+ 
+                        {{-- End new 8 --}}
 
                     </div>
                 </div>
@@ -104,22 +214,25 @@
         </div>
     </div>
     <!-- End Services -->
+
+
     <!-- start Emi Banner Area -->
-    <div id="emi-banner">
+    {{-- <div id="emi-banner">
         <div class="container default-padding">
             <img src="assets/img/emi.webp" alt="">
         </div>
-    </div>
+    </div> --}}
     <!-- End Emi Banner Area -->
 
 <!--  ====================Start Branding========================= -->
+
 @if ($titles->special_service > 0)
 <div id="services" class="services-area bg-theme-small default-padding bottom-less">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
                 <div class="site-heading text-center">
-                    <h2>For Your @foreach ( $frontServices as $serv)  @if ($serv->id == $titles->special_service) {{$serv->title}} @endif @endforeach</h2>
+                    <h2>Our Partners{{--  @foreach ( $frontServices as $serv)  @if ($serv->id == $titles->special_service) {{$serv->title}} @endif @endforeach --}}</h2>
                     <p>We are here to provide the services to grow your business up. Here, you can find the support
                         of Graphics, Branding, Marketing, Software’s & More</p>
                 </div>
@@ -134,9 +247,9 @@
                         <div class="single-item">
                             <div class="item">
                                 <img src="{{asset('uploads/service/icon/'.$serv->ico)}}" alt="">
-                                <h5>{{$serv->title}}</h5>
+                                <h5> LOGO{{-- {{$serv->title}} --}}</h5>
                                 <p>
-                                    {{ Str::limit(strip_tags( $serv->description)) }}
+                                   {{--  {{ Str::limit(strip_tags( $serv->description)) }} --}}
                                 </p>
                             </div>
                         </div>
@@ -158,7 +271,7 @@
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
                 <div class="site-heading text-center">
-                    <h2>Today's Offer</h2>
+                    <h2>This Week Offers</h2>
                     <p>
                         {{$titles->blog_text}}
                     </p>
@@ -195,7 +308,7 @@
 </div>
 <!-- End Blog -->
 <!-- ====================Start Why Chose Us========================= -->
-    <div id="about" class="choseus-area default-padding">
+    {{-- <div id="about" class="choseus-area default-padding">
         <div class="container">
             <div class="choseus-items">
                 <div class="row">
@@ -237,7 +350,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 <!-- End Why Us -->
 
 <!--=====================Start Work Process Area======================== -->
