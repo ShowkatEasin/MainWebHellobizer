@@ -31,8 +31,7 @@
                                         </p>
                           
                                     </div>
-                                 </div>
-                                 
+                                 </div> 
                             <div class="col-lg-6 right-info">
                                 <img src="assets/img/illustration/3.png" alt="Thumb">
                             </div>
@@ -83,36 +82,24 @@
 
                         @foreach ($frontServices as $serv)
                         @if ($serv->parent_id == NULL)
-                        {{-- <a href="{{route('singleService',[$serv->slug])}}">
-                            <div class="single-item">
-                                <div class="item">
-                                    <img src="{{asset('uploads/service/icon/'.$serv->ico)}}" alt="">
-                                    <h5>{{$serv->title}}</h5>
-                                    <p>
-                                        {{ Str::limit(strip_tags( $serv->description)) }}
-                                    </p>
-                                </div>
-                            </div>
-                        </a> --}}
+
                         @endif
                         @endforeach
                         <!-- End Single Item -->
                        {{-- Add new 8 point Here --}}
 
-                                      <a href="{{route('singleService',[$serv->slug])}}">
+                                      <a href="{{route('videomaking')}}">
                                         <div class="single-item">
                                             <div class="item">
-                                                <img src="{{asset('uploads/service/icon/videoicon.png'/* .$serv->ico */)}}" alt="">
+                                                <img src="{{asset('uploads/service/icon/videoicon.png')}}" alt="">
                                                 <h5>Video Making</h5>
                                                 <p>
                                                     Elevate your brand's visual story telling with our expert and professional video-making services for your company.
-                                                   {{--  {{ Str::limit(strip_tags( $serv->description)) }} --}}
                                                 </p>
                                             </div>
                                         </div>
-                                    </a>
-                                      
-                                    <a href="{{route('singleService',[$serv->slug])}}">
+                                    </a> 
+                                    <a href="{{route('softwaredevelopment')}}">
                                         <div class="single-item">
                                             <div class="item">
                                                 <img src="{{asset('uploads/service/icon/softicon.png'/* .$serv->ico */)}}" alt="">
@@ -124,7 +111,7 @@
                                             </div>
                                         </div>
                                     </a>
-                                    <a href="{{route('singleService',[$serv->slug])}}">
+                                    <a href="{{route('businessconsultancy')}}">
                                         <div class="single-item">
                                             <div class="item">
                                                 <img src="{{asset('uploads/service/icon/businessicon.png'/* .$serv->ico */)}}" alt="">
@@ -137,7 +124,7 @@
                                         </div>
                                     </a>
                                 
-                                    <a href="{{route('singleService',[$serv->slug])}}">
+                                    <a href="{{route('digitalmarketing')}}">
                                         <div class="single-item">
                                             <div class="item">
                                                 <img src="{{asset('uploads/service/icon/branding.png'/* .$serv->ico */)}}" alt="">
@@ -149,7 +136,7 @@
                                             </div>
                                         </div>
                                     </a>
-                                    <a href="{{route('singleService',[$serv->slug])}}">
+                                    <a href="{{route('graphicsdesign')}}">
                                         <div class="single-item">
                                             <div class="item">
                                                 <img src="{{asset('uploads/service/icon/graphic.png'/* .$serv->ico */)}}" alt="">
@@ -162,7 +149,7 @@
                                             </div>
                                         </div>
                                     </a>
-                                  <a href="{{route('singleService',[$serv->slug])}}">
+                                  <a href="{{route('webdesignanddevelopment')}}">
                                         <div class="single-item">
                                             <div class="item">
                                                 <img src="{{asset('uploads/service/icon/web.png'/* .$serv->ico */)}}" alt="">
@@ -174,7 +161,7 @@
                                             </div>
                                         </div>
                                     </a>
-                                    <a href="{{route('singleService',[$serv->slug])}}">
+                                    <a href="{{route('socialmedia')}}">
                                         <div class="single-item">
                                             <div class="item">
                                                 <img src="{{asset('uploads/service/icon/digital.png'/* .$serv->ico */)}}" alt="">
@@ -186,7 +173,7 @@
                                             </div>
                                         </div>
                                     </a>
-                                    <a href="{{route('singleService',[$serv->slug])}}">
+                                    <a href="{{route('appdesign')}}">
                                         <div class="single-item">
                                             <div class="item">
                                                 <img src="{{asset('uploads/service/icon/app.png'/* .$serv->ico */)}}" alt="">
@@ -198,7 +185,6 @@
                                             </div>
                                         </div>
                                     </a>
- 
                         {{-- End new 8 --}}
                     </div>
                 </div>
@@ -500,15 +486,7 @@
                     </div>
                 </div>
 
-
-
-
                 {{-- New Offer End --}}
-
-
-                
-
-               
 
             </div>
         </div>
@@ -753,8 +731,6 @@
         </div>
     </div>
     <!-- End Testimonials -->
-
-
 
     <!-- Start Contact Area-->
      @include('frontend.getintouch')

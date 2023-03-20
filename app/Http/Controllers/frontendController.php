@@ -38,14 +38,14 @@ class frontendController extends Controller
 
     public function partner()
     {
-        $partner = Partner::where('status',1)->latest()->get();
-        return view('frontend.partner',compact('partner'));
+        //$partner = Partner::where('status',1)->latest()->get();
+        return view('frontend.partner'/* ,compact('partner') */);
     }
 
-    public function carrier()
+    public function career()
     {
-        $carrier = Carrier::where('status',1)->latest()->get();
-        return view('frontend.carrier',compact('carrier'));
+      //  $carrier = Carrier::where('status',1)->latest()->get();
+        return view('frontend.career'/* ,compact('carrier') */);
     }
 
     public function blog()
@@ -141,7 +141,7 @@ class frontendController extends Controller
             $data = $request->all();
         $serv = Services::where('id', $data['mainservice'])->first();
         $email = $data['email'];
-        $email1= "sazzadurrahman580@gmail.com";
+        $email1= "showkateasin@gmail.com";
         $messageData = ['email'=>$email,'name'=>$data['name'],'phone'=>$data['phone'],'text'=>$data['comments'], 'mainservice'=>$serv->title,'subservice'=>$data['subservice'],'url'=>$data['url']];
        $send = Mail::send('mail.freeQuote',$messageData,function($message) use($email1){
             $message->to($email1)->subject('Hellobizer New Quote Request');

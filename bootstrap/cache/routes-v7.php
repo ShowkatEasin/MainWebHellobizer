@@ -102,7 +102,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::59awwDshDKr0lf7y',
+            '_route' => 'generated::PoEmgwv9UmOjNvtu',
           ),
           1 => NULL,
           2 => 
@@ -196,13 +196,13 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/carrier' => 
+      '/career' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'carrier',
+            '_route' => 'career',
           ),
           1 => NULL,
           2 => 
@@ -283,6 +283,166 @@ app('router')->setCompiledRoutes(
           0 => 
           array (
             '_route' => 'quote',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/videomaking' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'videomaking',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/softwaredevelopment' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'softwaredevelopment',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/businessconsultancy' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'businessconsultancy',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/digitalmarketing' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'digitalmarketing',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/graphicsdesign' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'graphicsdesign',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/webdesignanddevelopment' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'webdesignanddevelopment',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/socialmedia' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'socialmedia',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/appdesign' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'appdesign',
           ),
           1 => NULL,
           2 => 
@@ -420,7 +580,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::TshFHTLV58dNmTX6',
+            '_route' => 'generated::tkLJHnkSF7kxRtFl',
           ),
           1 => NULL,
           2 => 
@@ -475,7 +635,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::7TFCcJy0roR4Jl2U',
+            '_route' => 'generated::RBtWKAUXDVhcPV0h',
           ),
           1 => NULL,
           2 => 
@@ -566,7 +726,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::w8AeiQl6sO13KO49',
+            '_route' => 'generated::yEy8rE8sundncm8s',
           ),
           1 => NULL,
           2 => 
@@ -1058,7 +1218,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::9XsYKcrDptiHcZHi',
+            '_route' => 'generated::7dKPUy8qnGl7nOwL',
           ),
           1 => NULL,
           2 => 
@@ -1246,7 +1406,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::lHpaFF3VyuIaOyXk',
+            '_route' => 'generated::ib3vjnKZ7lV0HoZi',
           ),
           1 => 
           array (
@@ -2064,7 +2224,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::59awwDshDKr0lf7y' => 
+    'generated::PoEmgwv9UmOjNvtu' => 
     array (
       'methods' => 
       array (
@@ -2081,13 +2241,13 @@ app('router')->setCompiledRoutes(
         ),
         'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:297:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:79:"function (\\Illuminate\\Http\\Request $request) {
     return $request->user();
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"0000000000000a4c0000000000000000";}";s:4:"hash";s:44:"wm/mcIACOL0DA3Pb+ZiydnUx3Wr5ybf98kFiBmJXd1s=";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000000000098e0000000000000000";}";s:4:"hash";s:44:"uga0W9LeqX9guYZE+mdHnkTwzV2SSN+S59iC3W+E4dU=";}}',
         'namespace' => NULL,
         'prefix' => 'api',
         'where' => 
         array (
         ),
-        'as' => 'generated::59awwDshDKr0lf7y',
+        'as' => 'generated::PoEmgwv9UmOjNvtu',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2251,28 +2411,28 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'carrier' => 
+    'career' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'carrier',
+      'uri' => 'career',
       'action' => 
       array (
         'middleware' => 
         array (
           0 => 'web',
         ),
-        'uses' => 'App\\Http\\Controllers\\frontendController@carrier',
-        'controller' => 'App\\Http\\Controllers\\frontendController@carrier',
+        'uses' => 'App\\Http\\Controllers\\frontendController@career',
+        'controller' => 'App\\Http\\Controllers\\frontendController@career',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
         array (
         ),
-        'as' => 'carrier',
+        'as' => 'career',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2658,7 +2818,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::lHpaFF3VyuIaOyXk' => 
+    'generated::ib3vjnKZ7lV0HoZi' => 
     array (
       'methods' => 
       array (
@@ -2679,7 +2839,303 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::lHpaFF3VyuIaOyXk',
+        'as' => 'generated::ib3vjnKZ7lV0HoZi',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'videomaking' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'videomaking',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\ServiceController@videomaking',
+        'controller' => 'App\\Http\\Controllers\\ServiceController@videomaking',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'videomaking',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'softwaredevelopment' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'softwaredevelopment',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\ServiceController@softwaredevelopment',
+        'controller' => 'App\\Http\\Controllers\\ServiceController@softwaredevelopment',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'softwaredevelopment',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'businessconsultancy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'businessconsultancy',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\ServiceController@businessconsultancy',
+        'controller' => 'App\\Http\\Controllers\\ServiceController@businessconsultancy',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'businessconsultancy',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'digitalmarketing' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'digitalmarketing',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\ServiceController@digitalmarketing',
+        'controller' => 'App\\Http\\Controllers\\ServiceController@digitalmarketing',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'digitalmarketing',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'graphicsdesign' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'graphicsdesign',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\ServiceController@graphicsdesign',
+        'controller' => 'App\\Http\\Controllers\\ServiceController@graphicsdesign',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'graphicsdesign',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'webdesignanddevelopment' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'webdesignanddevelopment',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\ServiceController@webdesignanddevelopment',
+        'controller' => 'App\\Http\\Controllers\\ServiceController@webdesignanddevelopment',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'webdesignanddevelopment',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'socialmedia' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'socialmedia',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\ServiceController@socialmedia',
+        'controller' => 'App\\Http\\Controllers\\ServiceController@socialmedia',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'socialmedia',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'appdesign' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'appdesign',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\ServiceController@appdesign',
+        'controller' => 'App\\Http\\Controllers\\ServiceController@appdesign',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'appdesign',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2918,7 +3374,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::TshFHTLV58dNmTX6' => 
+    'generated::tkLJHnkSF7kxRtFl' => 
     array (
       'methods' => 
       array (
@@ -2938,7 +3394,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::TshFHTLV58dNmTX6',
+        'as' => 'generated::tkLJHnkSF7kxRtFl',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3027,7 +3483,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::7TFCcJy0roR4Jl2U' => 
+    'generated::RBtWKAUXDVhcPV0h' => 
     array (
       'methods' => 
       array (
@@ -3047,7 +3503,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::7TFCcJy0roR4Jl2U',
+        'as' => 'generated::RBtWKAUXDVhcPV0h',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3246,7 +3702,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::w8AeiQl6sO13KO49' => 
+    'generated::yEy8rE8sundncm8s' => 
     array (
       'methods' => 
       array (
@@ -3266,7 +3722,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::w8AeiQl6sO13KO49',
+        'as' => 'generated::yEy8rE8sundncm8s',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5322,7 +5778,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::9XsYKcrDptiHcZHi' => 
+    'generated::7dKPUy8qnGl7nOwL' => 
     array (
       'methods' => 
       array (
@@ -5339,13 +5795,13 @@ app('router')->setCompiledRoutes(
         'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:342:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:123:"function(){
     \\Illuminate\\Support\\Facades\\Artisan::call(\'migrate:fresh\', [\'--force\' => true]);
     \\dd(\'migrated!\');
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"0000000000000a630000000000000000";}";s:4:"hash";s:44:"PiTsHh9mscSGTN4SR2gqtEf95uey41hoJqcxer4fJFs=";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000009ad0000000000000000";}";s:4:"hash";s:44:"pRRZ3cxv5TiLtIkyIsiUcbwglkTOhB3rZA39AMQIS1Y=";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
         array (
         ),
-        'as' => 'generated::9XsYKcrDptiHcZHi',
+        'as' => 'generated::7dKPUy8qnGl7nOwL',
       ),
       'fallback' => false,
       'defaults' => 

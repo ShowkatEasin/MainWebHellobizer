@@ -13,6 +13,7 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\frontendController;
 use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\PortfolioController;
+use App\Http\Controllers\ServiceController;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,7 +31,7 @@ Route::get('/service',[frontendController::class,'service'])->name('service');
 Route::get('/project',[frontendController::class,'project'])->name('project');
 
 Route::get('/Partner',[frontendController::class,'partner'])->name('partner');
-Route::get('/carrier',[frontendController::class,'carrier'])->name('carrier');
+Route::get('/career',[frontendController::class,'career'])->name('career');
 
 Route::get('/portfolio',[frontendController::class,'portfolio'])->name('portfolio');
 Route::get('/portfolio/{slug}',[frontendController::class,'singlePortfolio'])->name('singlePortfolio');
@@ -43,6 +44,21 @@ Route::get('/tag/{slug}',[frontendController::class,'searchTag'])->name('searchT
 Route::get('/category/{slug}',[CategoryController::class,'singleCat'])->name('singleCat');
 Route::get('/service/{slug}',[ServicesController::class,'singleService'])->name('singleService');
 Route::get('/submain/{id}',[ServicesController::class,'subMain']);
+
+/* ==================Service Routes==================*/
+
+Route::get('/videomaking',[ServiceController::class,'videomaking'])->name('videomaking');
+Route::get('/softwaredevelopment',[ServiceController::class,'softwaredevelopment'])->name('softwaredevelopment');
+Route::get('/businessconsultancy',[ServiceController::class,'businessconsultancy'])->name('businessconsultancy');
+Route::get('/digitalmarketing',[ServiceController::class,'digitalmarketing'])->name('digitalmarketing');
+Route::get('/graphicsdesign',[ServiceController::class,'graphicsdesign'])->name('graphicsdesign');
+Route::get('/webdesignanddevelopment',[ServiceController::class,'webdesignanddevelopment'])->name('webdesignanddevelopment');
+Route::get('/socialmedia',[ServiceController::class,'socialmedia'])->name('socialmedia');
+Route::get('/appdesign',[ServiceController::class,'appdesign'])->name('appdesign');
+
+
+
+
 
 Route::get('/popup',[frontendController::class,'popup'])->name('quote2');
 Route::match(['get','post'],'/search',[ServicesController::class,'serviceSearch'])->name('service.search');

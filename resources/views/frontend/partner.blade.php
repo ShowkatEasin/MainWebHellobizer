@@ -1,1 +1,1 @@
-<h1>partner</h1>
+<h1>Partner Contect Here</h1>

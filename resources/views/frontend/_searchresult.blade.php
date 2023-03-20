@@ -68,7 +68,6 @@
                                 </div>
                              </div>
                             @endforelse
-
                 </div>
             </div>
         </div>
