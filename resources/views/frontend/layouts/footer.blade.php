@@ -54,27 +54,27 @@
                             <h2 style="font-size: 18px">Recent Blogs</h2>
                             <ul>
                                 <li style="border-bottom: 1px dashed #4ac4f3;">
-                                    <a class="smooth-menu" href="{{route('service')}}">Blog January 2023</a>
+                                    <a class="smooth-menu" href="">Blog January 2023</a>
                                 </li>
                                 <li style="border-bottom: 1px dashed #4ac4f3;">
-                                    <a class="smooth-menu" href="{{route('portfolio')}}">Blog February 2023</a>
+                                    <a class="smooth-menu" href="">Blog February 2023</a>
                                 </li>
                                 <li style="border-bottom: 1px dashed #4ac4f3;">
-                                    <a class="smooth-menu" href="{{route('partner')}}">Blog March 2023</a>
+                                    <a class="smooth-menu" href="">Blog March 2023</a>
                                 </li>
                                 <li style="border-bottom: 1px dashed #4ac4f3;">
-                                    <a class="smooth-menu" href="{{route('career')}}">Blog April 2023</a>
+                                    <a class="smooth-menu" href="">Blog April 2023</a>
                                 </li>
                                 <li style="border-bottom: 1px dashed #4ac4f3;">
-                                    <a class="smooth-menu" href="{{route('blog')}}">Blog May 2023</a>
+                                    <a class="smooth-menu" href="">Blog May 2023</a>
                                 </li>
                                 <li >
                                     <li style="border-bottom: 1px dashed #4ac4f3;">
-                                    <a class="smooth-menu" href="{{route('about')}}">Blog June 2023</a>
+                                    <a class="smooth-menu" href="">Blog June 2023</a>
                                 </li>
                                 <li >
                                     <li style="border-bottom: 1px dashed #4ac4f3;">
-                                    <a class="smooth-menu" href="{{route('contact')}}">Blog July 2023</a>
+                                    <a class="smooth-menu" href="">Blog July 2023</a>
                                 </li>
                             </ul>
                         </section><!-- .widget -->
@@ -102,7 +102,7 @@
                                     </div>
                                     <div class="info">
                                         <p>Email:</p>
-                                        <span>support@validtheme.com</span>
+                                        <span>hellobizer@gmail.com</span>
                                     </div>
                                 </li>
                                 <li style="border-bottom: 1px dashed #4ac4f3;">

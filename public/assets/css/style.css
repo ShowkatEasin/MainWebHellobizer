@@ -1899,7 +1899,8 @@ body,
   position: relative;
   z-index: 1;
   /* border: 1px solid rgba(255, 255, 255, 1); */
-  border-radius: 5px;
+  border-radius: 10px;
+  box-shadow: #8fd3f5 2px 4px;
 }
 
 .services-area .services-box .item::after {
@@ -1938,7 +1939,7 @@ body,
 }
 .services-area .services-box .item img {
     display: inline-block;
-    width: 60px;
+    width: 80px;
     margin-bottom: 30px;
   }
 .services-area .services-box .item h5 {
