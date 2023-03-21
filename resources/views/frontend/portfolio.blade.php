@@ -1,43 +1,141 @@
 @extends('frontend.layouts.main')
 @section('main-content')
-    <!-- Start Blog
-    ============================================= -->
-    <div id="blog" class="blog-area bg-gray default-padding bottom-less">
+
+        <!--======================Start Services======================= -->
+    <div id="services" class="services-area bg-theme-small default-padding bottom-less">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="site-heading text-center">
-                        <h2>{{$titles->portfolio_title}}</h2>
-                        <p>{{$titles->portfolio_text}} </p>
+                        <h2>Our Recent projects</h2>
+                        <p>We are here to provide the services to grow your business up. Here, you can find the support
+                            of Graphics, Branding, Marketing, Software’s & More</p>
                     </div>
                 </div>
             </div>
-            <div class="blog-items">
-                <div class="row">
 
-                    @foreach ($portfolio as $item)
-                    <div class="col-lg-4 col-md-6">
-                        <div class="item">
-                            <div class="thumb">
-                                <a href="{{route('singlePortfolio',[$item->slug])}}">
-                                    <img src="{{asset('uploads/portfolio/medium/'.$item->image)}}" alt="Thumb">
-                                </a>
-                            </div>
-                            <div class="info">
-                                <h4>
-                                    <a href="{{route('singlePortfolio',[$item->slug])}}">{{$item->title}}</a>
-                                </h4>
-                                <p>
-                                    {{ Str::limit(strip_tags( $item->desc)) }}
-                                </p>
-                            </div>
-                        </div>
+            <br>
+            
+       {{--    ====Logo with branding======= --}}
+           
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="site-heading text-center">
+                        <h2>Logo with branding</h2>
                     </div>
-                    @endforeach
-
+            </div>
+            <div class="services-box text-center">
+                <div class="row">
+                    <div class="services-carosul owl-carousel owl-theme text-center">
+                       
+                                   <a href="">
+                                        <div class="single-item">
+                                            <div class="item">
+                                               <h1>LOGO</h1>
+                                                <h5>Company Name</h5>                          
+                                            </div>
+                                        </div>
+                                    </a> 
+                                    <a href="">
+                                        <div class="single-item">
+                                            <div class="item">
+                                               <h1>LOGO</h1>
+                                                <h5>Company Name</h5>                          
+                                            </div>
+                                        </div>
+                                    </a> 
+                                    <a href="">
+                                        <div class="single-item">
+                                            <div class="item">
+                                               <h1>LOGO</h1>
+                                                <h5>Company Name</h5>                          
+                                            </div>
+                                        </div>
+                                    </a> 
+                                
+                                    <a href="">
+                                        <div class="single-item">
+                                            <div class="item">
+                                               <h1>LOGO</h1>
+                                                <h5>Company Name</h5>                          
+                                            </div>
+                                        </div>
+                                    </a> 
+                                    
+                                            </div>
+                                        </div>
+                                    </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End Blog -->
+    <!-- End Logo Branding -->
+
+     <!-- Start Web and Ecommerce -->
+
+     <div id="services" class="services-area bg-theme-small default-padding bottom-less">
+        <div class="container">
+         <div class="col-lg-8 offset-lg-2">
+                    <div class="site-heading text-center">
+                        <h2>E-Commerce & Website</h2>
+                       </div>
+            </div>
+            <div class="services-box text-center">
+                <div class="row">
+                    <div class="services-carosul owl-carousel owl-theme text-center">
+                   
+                                   <a href="">
+                                        <div class="single-item">
+                                            <div class="item">
+                                               <h1>Templetes</h1>
+                                                <h5>Website</h5>                          
+                                            </div>
+                                        </div>
+                                    </a> 
+                                    <a href="">
+                                        <div class="single-item">
+                                            <div class="item">
+                                               <h1>Templetes</h1>
+                                                <h5>Website</h5>                          
+                                            </div>
+                                        </div>
+                                    </a> 
+                                    <a href="">
+                                        <div class="single-item">
+                                            <div class="item">
+                                               <h1>Templetes</h1>
+                                                <h5>Website</h5>                          
+                                            </div>
+                                        </div>
+                                    </a> 
+                                
+                                    <a href="">
+                                        <div class="single-item">
+                                            <div class="item">
+                                               <h1>Templetes</h1>
+                                                <h5>Website</h5>                          
+                                            </div>
+                                        </div>
+                                    </a>
+                                    
+                                            </div>
+                                        </div>
+                                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     
+
+     
+
+
+     
+     <!-- E Web and Ecommerce -->
+
+
+
+
 @endsection

@@ -102,7 +102,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::zDXHU9C7POxGnDp0',
+            '_route' => 'generated::NqXwpFjoSvAfBAyg',
           ),
           1 => NULL,
           2 => 
@@ -456,6 +456,146 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
+      '/socialmediamarketing' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'socialmediamarketing',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/contentmarketing' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'contentmarketing',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/emailmarketing' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'emailmarketing',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/videomarketing' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'videomarketing',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/influencermarketing' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'influencermarketing',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/seo' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'seo',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/analyticsandtracking' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'analyticsandtracking',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
       '/popup' => 
       array (
         0 => 
@@ -580,7 +720,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::8vlKwf2iZkveL4rY',
+            '_route' => 'generated::bTHQb3XY4sd0x5gS',
           ),
           1 => NULL,
           2 => 
@@ -635,7 +775,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::SGNSuRGV9xN9mbYE',
+            '_route' => 'generated::SPF7vDejEFgdAaiw',
           ),
           1 => NULL,
           2 => 
@@ -726,7 +866,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::E3ghfHgxdHv6g6vC',
+            '_route' => 'generated::0OIhnUgE0cELwIas',
           ),
           1 => NULL,
           2 => 
@@ -1218,7 +1358,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::AOjCZX6ffd3snd6H',
+            '_route' => 'generated::w2xzUAXC6XkzM0mu',
           ),
           1 => NULL,
           2 => 
@@ -1406,7 +1546,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::ASpBCoFB7e7TQAzm',
+            '_route' => 'generated::pfWGGMXXf3qd5noL',
           ),
           1 => 
           array (
@@ -2224,7 +2364,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::zDXHU9C7POxGnDp0' => 
+    'generated::NqXwpFjoSvAfBAyg' => 
     array (
       'methods' => 
       array (
@@ -2247,7 +2387,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::zDXHU9C7POxGnDp0',
+        'as' => 'generated::NqXwpFjoSvAfBAyg',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2818,7 +2958,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::ASpBCoFB7e7TQAzm' => 
+    'generated::pfWGGMXXf3qd5noL' => 
     array (
       'methods' => 
       array (
@@ -2839,7 +2979,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::ASpBCoFB7e7TQAzm',
+        'as' => 'generated::pfWGGMXXf3qd5noL',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3151,6 +3291,265 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
+    'socialmediamarketing' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'socialmediamarketing',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\DigitalMarketingController@socialmediamarketing',
+        'controller' => 'App\\Http\\Controllers\\DigitalMarketingController@socialmediamarketing',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'socialmediamarketing',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'contentmarketing' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'contentmarketing',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\DigitalMarketingController@contentmarketing',
+        'controller' => 'App\\Http\\Controllers\\DigitalMarketingController@contentmarketing',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'contentmarketing',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'emailmarketing' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'emailmarketing',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\DigitalMarketingController@emailmarketing',
+        'controller' => 'App\\Http\\Controllers\\DigitalMarketingController@emailmarketing',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'emailmarketing',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'videomarketing' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'videomarketing',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\DigitalMarketingController@videomarketing',
+        'controller' => 'App\\Http\\Controllers\\DigitalMarketingController@videomarketing',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'videomarketing',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'influencermarketing' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'influencermarketing',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\DigitalMarketingController@influencermarketing',
+        'controller' => 'App\\Http\\Controllers\\DigitalMarketingController@influencermarketing',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'influencermarketing',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'seo' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'seo',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\DigitalMarketingController@seo',
+        'controller' => 'App\\Http\\Controllers\\DigitalMarketingController@seo',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'seo',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'analyticsandtracking' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'analyticsandtracking',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\DigitalMarketingController@analyticsandtracking',
+        'controller' => 'App\\Http\\Controllers\\DigitalMarketingController@analyticsandtracking',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'analyticsandtracking',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
     'quote2' => 
     array (
       'methods' => 
@@ -3374,7 +3773,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::8vlKwf2iZkveL4rY' => 
+    'generated::bTHQb3XY4sd0x5gS' => 
     array (
       'methods' => 
       array (
@@ -3394,7 +3793,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::8vlKwf2iZkveL4rY',
+        'as' => 'generated::bTHQb3XY4sd0x5gS',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3483,7 +3882,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::SGNSuRGV9xN9mbYE' => 
+    'generated::SPF7vDejEFgdAaiw' => 
     array (
       'methods' => 
       array (
@@ -3503,7 +3902,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::SGNSuRGV9xN9mbYE',
+        'as' => 'generated::SPF7vDejEFgdAaiw',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3702,7 +4101,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::E3ghfHgxdHv6g6vC' => 
+    'generated::0OIhnUgE0cELwIas' => 
     array (
       'methods' => 
       array (
@@ -3722,7 +4121,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::E3ghfHgxdHv6g6vC',
+        'as' => 'generated::0OIhnUgE0cELwIas',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5778,7 +6177,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::AOjCZX6ffd3snd6H' => 
+    'generated::w2xzUAXC6XkzM0mu' => 
     array (
       'methods' => 
       array (
@@ -5795,13 +6194,13 @@ app('router')->setCompiledRoutes(
         'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:342:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:123:"function(){
     \\Illuminate\\Support\\Facades\\Artisan::call(\'migrate:fresh\', [\'--force\' => true]);
     \\dd(\'migrated!\');
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000009ad0000000000000000";}";s:4:"hash";s:44:"pRRZ3cxv5TiLtIkyIsiUcbwglkTOhB3rZA39AMQIS1Y=";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000009b40000000000000000";}";s:4:"hash";s:44:"GIDz4CYzRONdLN4w68KLC2kBsifzrrFKefMEmasjWdg=";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
         array (
         ),
-        'as' => 'generated::AOjCZX6ffd3snd6H',
+        'as' => 'generated::w2xzUAXC6XkzM0mu',
       ),
       'fallback' => false,
       'defaults' => 

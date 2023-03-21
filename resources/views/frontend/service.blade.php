@@ -17,7 +17,6 @@
                 <div class="row">
                     <div class="services-carosul owl-carousel owl-theme text-center">
                         <!-- Single Item -->
-
                         @foreach ($frontServices as $serv)
                         @if ($serv->parent_id == NULL)
 

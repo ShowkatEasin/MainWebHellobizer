@@ -78,14 +78,7 @@
             <div class="services-box text-center">
                 <div class="row">
                     <div class="services-carosul owl-carousel owl-theme text-center">
-                        <!-- Single Item -->
-
-                        @foreach ($frontServices as $serv)
-                        @if ($serv->parent_id == NULL)
-
-                        @endif
-                        @endforeach
-                        <!-- End Single Item -->
+                        
                        {{-- Add new 8 point Here --}}
 
                                       <a href="{{route('videomaking')}}">
@@ -102,7 +95,7 @@
                                     <a href="{{route('softwaredevelopment')}}">
                                         <div class="single-item">
                                             <div class="item">
-                                                <img src="{{asset('uploads/service/icon/softicon.png'/* .$serv->ico */)}}" alt="">
+                                                <img src="{{asset('uploads/service/icon/softicon.png')}}" alt="">
                                                 <h5>Software Development</h5>
                                                 <p>
                                                     Transform your business with our expert software development services. Our team creates custom software solutions.
@@ -114,7 +107,7 @@
                                     <a href="{{route('businessconsultancy')}}">
                                         <div class="single-item">
                                             <div class="item">
-                                                <img src="{{asset('uploads/service/icon/businessicon.png'/* .$serv->ico */)}}" alt="">
+                                                <img src="{{asset('uploads/service/icon/businessicon.png')}}" alt="">
                                                 <h5>Business Consultancy</h5>
                                                 <p>
                                                     Unlock your business's full potential with our expert business consultancy services to improve your company.
@@ -127,7 +120,7 @@
                                     <a href="{{route('digitalmarketing')}}">
                                         <div class="single-item">
                                             <div class="item">
-                                                <img src="{{asset('uploads/service/icon/branding.png'/* .$serv->ico */)}}" alt="">
+                                                <img src="{{asset('uploads/service/icon/branding.png')}}" alt="">
                                                 <h5>Digital Marketing</h5>
                                                 <p>
                                                     Grow your business and reach your target audience with our comprehensive digital marketing services for your Company. 
@@ -139,7 +132,7 @@
                                     <a href="{{route('graphicsdesign')}}">
                                         <div class="single-item">
                                             <div class="item">
-                                                <img src="{{asset('uploads/service/icon/graphic.png'/* .$serv->ico */)}}" alt="">
+                                                <img src="{{asset('uploads/service/icon/graphic.png')}}" alt="">
                                                 <h5>Graphics Design
                                                 </h5>
                                                 <p>
@@ -152,7 +145,7 @@
                                   <a href="{{route('webdesignanddevelopment')}}">
                                         <div class="single-item">
                                             <div class="item">
-                                                <img src="{{asset('uploads/service/icon/web.png'/* .$serv->ico */)}}" alt="">
+                                                <img src="{{asset('uploads/service/icon/web.png')}}" alt="">
                                                 <h5>Web Design & Development</h5>
                                                 <p>
                                                     Transform your online presence with our professional website design and development services. 
@@ -164,7 +157,7 @@
                                     <a href="{{route('socialmedia')}}">
                                         <div class="single-item">
                                             <div class="item">
-                                                <img src="{{asset('uploads/service/icon/digital.png'/* .$serv->ico */)}}" alt="">
+                                                <img src="{{asset('uploads/service/icon/digital.png')}}" alt="">
                                                 <h5>Social Media Setup & Monitoring</h5>
                                                 <p>
                                                     We provide the best services for Social Media Setup is a crucial component of any digital marketing strategy. 
@@ -176,7 +169,7 @@
                                     <a href="{{route('appdesign')}}">
                                         <div class="single-item">
                                             <div class="item">
-                                                <img src="{{asset('uploads/service/icon/app.png'/* .$serv->ico */)}}" alt="">
+                                                <img src="{{asset('uploads/service/icon/app.png')}}" alt="">
                                                 <h5>App Design & Development</h5>
                                                 <p>
                                                     This services that deliver innovative and user-friendly mobile applications for businesses.
@@ -200,7 +193,7 @@
     </div> --}}
     <!-- End Emi Banner Area -->
 
-<!--  ====================Start Partner========================= -->
+<!--  ====================Start Digitam Marketing========================= -->
 
 @if ($titles->special_service > 0)
 <div id="services" class="services-area bg-theme-small default-padding bottom-less">
@@ -217,92 +210,98 @@
         <div class="services-box text-center">
             <div class="row">
                 <div class="services-carosul owl-carousel owl-theme text-center">
-                   {{--  @foreach ($frontServices as $serv)
-                    @if ($serv->parent_id == $titles->special_service)
-                    
-                    @endif
-                    @endforeach --}}
-
-                    <a href="">
+              
+                    <a href="{{route('socialmediamarketing')}}">
                         <div class="single-item">
                             <div class="item">
-                                <img src="{{asset('uploads/service/icon/'/* .$serv->ico */)}}" alt="">
-                                <h5>Social Media Marketing{{-- {{$serv->title}} --}}</h5>
+                                <h3>Social Media Marketing</h3>
+                                <p>Social media marketing is the process of utilizing any kinds of social media platforms to reach 
+                                     a target audience.</p> <br>
+                                     <button class="btn btn-primary">Get Started</button>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="{{route('contentmarketing')}}">
+                        <div class="single-item">
+                            <div class="item">
+                                <h3>Content Marketing</h3>
+                                <p>
+                                    Our marketing strategy used to attract an audience
+                                     by creating and sharing relevant articles, videos and media.
+                                </p>  <br>
                                 
-                                <p>
-                                   {{--  {{ Str::limit(strip_tags( $serv->description)) }} --}}
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="single-item">
-                            <div class="item">
-                                <img src="{{asset('uploads/service/icon/')}}" alt="">
-                                <h5>Content Marketing{{-- {{$serv->title}} --}}</h5>
-                                <p>
-                                   {{--  {{ Str::limit(strip_tags( $serv->description)) }} --}}
-                                </p>
+                                <button class="btn btn-primary">Get Started</button>
                             </div>
                         </div>
                     </a>
 
-                    <a href="">
+                    <a href="{{route('emailmarketing')}}">
                         <div class="single-item">
                             <div class="item">
-                                <img src="{{asset('uploads/service/icon/')}}" alt="">
-                                <h5>Email Marketing</h5>
+                                <h3>Email Marketing</h3>
                                 <p>
-                                   {{--  {{ Str::limit(strip_tags( $serv->description)) }} --}}
+                                    Email marketing is a powerful marketing channel,
+                                     a form of direct marketing as well as digital, corporate and social marketing.
                                 </p>
+                                <br>
+                                <button class="btn btn-primary">Get Started</button>
+
                             </div>
                         </div>
                     </a>
 
-                    <a href="">
+                    <a href="{{route('videomarketing')}}">
                         <div class="single-item">
                             <div class="item">
-                                <img src="{{asset('uploads/service/icon/')}}" alt="">
-                                <h5>Video Marketing</h5>
+                                <h3>Video Marketing</h3>
                                 <p>
-                                   {{--  {{ Str::limit(strip_tags( $serv->description)) }} --}}
+                                   Our Video productio services can help direct people to your business,
+                                   build your reputation and expand your sales.
                                 </p>
+                                <br>
+                                <button class="btn btn-primary">Get Started</button>
                             </div>
                         </div>
                     </a>
 
-                    <a href="">
+                    <a href="{{route('influencermarketing')}}">
                         <div class="single-item">
                             <div class="item">
-                                <img src="{{asset('uploads/service/icon/')}}" alt="">
-                                <h5>Influencer Marketing</h5>
+                                <h3>Influencer Marketing</h3>
                                 <p>
-                                   {{--  {{ Str::limit(strip_tags( $serv->description)) }} --}}
+                                    Influencer marketing is a form of marketing that enables businesses to
+                                     collaborate with brand exposure.
                                 </p>
+                                <br>
+                                <button class="btn btn-primary">Get Started</button>
                             </div>
                         </div>
                     </a>
 
-                    <a href="">
+                    <a href="{{route('seo')}}">
                         <div class="single-item">
                             <div class="item">
-                                <img src="{{asset('uploads/service/icon/')}}" alt="">
-                                <h5>Search Engine Optimization(SEO)</h5>
+                                <h3>Search Engine Optimization(SEO)</h3>
                                 <p>
-                                   {{--  {{ Str::limit(strip_tags( $serv->description)) }} --}}
+                                     SEO improving your website and better visibility
+                                     your pages have in search results found and clicked on.
                                 </p>
+                                <br>
+                                <button class="btn btn-primary">Get Started</button>
                             </div>
                         </div>
                     </a>
 
-                    <a href="">
+                    <a href="{{route('analyticsandtracking')}}">
                         <div class="single-item">
                             <div class="item">
-                                <img src="{{asset('uploads/service/icon/')}}" alt="">
-                                <h5>Analytics and Tracking</h5>
+                                <h3>Analytics and Tracking</h3>
                                 <p>
-                                   {{--  {{ Str::limit(strip_tags( $serv->description)) }} --}}
+                                    Analytics tracking enables you to 
+                                    identify and track contacts you can see their activities on your website.
                                 </p>
+                                <br>
+                                <button class="btn btn-primary">Get Started</button>
                             </div>
                         </div>
                     </a>
@@ -316,74 +315,7 @@
 <!-- End Digital marketing -->
 
 
-{{-- LOGO-Partner Start --}}
-               
-<div id="services" class="services-area bg-theme-small default-padding bottom-less">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 offset-lg-2">
-                <div class="site-heading text-center">
-                    <h2>Our Partners</h2>
-                    <p>We are here to provide the services to grow your business up. Here, you can find the support
-                        of Graphics, Branding, Marketing, Software’s & More</p>
-                </div>
-            </div>
-        </div>
-        <div class="services-box text-center">
-            <div class="row">
-                <div class="services-carosul owl-carousel owl-theme text-center">
-                    <!-- Single Item -->
 
-                    @foreach ($frontServices as $serv)
-                    @if ($serv->parent_id == NULL)
-                    {{-- <a href="{{route('singleService',[$serv->slug])}}">
-                        <div class="single-item">
-                            <div class="item">
-                                <img src="{{asset('uploads/service/icon/'.$serv->ico)}}" alt="">
-                                <h5>{{$serv->title}}</h5>
-                                <p>
-                                    {{ Str::limit(strip_tags( $serv->description)) }}
-                                </p>
-                            </div>
-                        </div>
-                    </a> --}}
-                    @endif
-                    @endforeach
-                    <!-- End Single Item -->
-
-                                  <a href="{{route('singleService',[$serv->slug])}}">
-                                    <div class="single-item">
-                                        <div class="item">
-                                            <img src="{{asset('uploads/service/icon/pn2.png'/* .$serv->ico */)}}" alt="">
-                                            {{-- <h5></h5> --}}  
-                                        </div>
-                                    </div>
-                                </a>
-                                  
-                                <a href="{{route('singleService',[$serv->slug])}}">
-                                    <div class="single-item">
-                                        <div class="item">
-                                            <img src="{{asset('uploads/service/icon/pn3.png'/* .$serv->ico */)}}" alt="">
-                                            {{-- <h5></h5> --}}  
-                                        </div>
-                                    </div>
-                                </a>
-
-                                <a href="{{route('singleService',[$serv->slug])}}">
-                                    <div class="single-item">
-                                        <div class="item">
-                                            <img src="{{asset('uploads/service/icon/pn4.png'/* .$serv->ico */)}}" alt="">
-                                            {{-- <h5></h5> --}}  
-                                        </div>
-                                    </div>
-                                </a>
-                          </div>
-                     </div>
-                 </div>
-             </div>
-        </div>
-
-            {{-- LOGO-Partner End --}}
 
 <!-- ======================Start Blog======================= -->
 <div id="blog" class="blog-area bg-gray default-padding bottom-less">
@@ -539,6 +471,140 @@
     </div>
 <!-- End Why Us -->
 
+
+ <!-- ==============Testimonial Start =====================-->
+
+ <div id="services" class="services-area bg-theme-small default-padding bottom-less">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="site-heading text-center">
+                    <h2>Testimonial</h2>
+                    <p>Here is the comments and reviews of our beloved Customers</p>
+                </div>
+            </div>
+        </div>
+        <div class="services-box text-center">
+            <div class="row">
+                <div class="services-carosul owl-carousel owl-theme text-center">
+                   
+
+                                  <a href="">
+                                    <div class="single-item">
+                                        <div class="item">
+                                            <img src="{{asset('uploads/testimonial/p1.png')}}" alt="">
+                                            <h3>Customer Name</h3>
+                                            <p>
+                                                "I took many services from Hello bizer. Their services and support is amaizing."
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a> 
+                                <a href="">
+                                    <div class="single-item">
+                                        <div class="item">
+                                            <img src="{{asset('uploads/testimonial/p2.png')}}" alt="">
+                                            <h5>Customer Name</h5>
+                                            <p>
+                                                "I took many services from Hello bizer. Their services and support is amaizing."
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a> 
+                                <a href="">
+                                    <div class="single-item">
+                                        <div class="item">
+                                            <img src="{{asset('uploads/testimonial/p3.png')}}" alt="">
+                                            <h5>Customer Name</h5>
+                                            <p>
+                                                "I took many services from Hello bizer. Their services and support is amaizing."
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a> 
+                            
+                                <a href="">
+                                    <div class="single-item">
+                                        <div class="item">
+                                            <img src="{{asset('uploads/testimonial/p4.png')}}" alt="">
+                                            <h5>Customer Name</h5>
+                                            <p>
+                                                "I took many services from Hello bizer. Their services and support is amaizing."
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a> 
+                                <a href="">
+                                    <div class="single-item">
+                                        <div class="item">
+                                            <img src="{{asset('uploads/testimonial/p5.png')}}" alt="">
+                                            <h5>Customer Name</h5>
+                                            <p>
+                                                "I took many services from Hello bizer. Their services and support is amaizing."
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a> 
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- =================== Testimonial End ==============================-->
+
+{{-- LOGO-Partner Start --}}
+               
+<div id="services" class="services-area bg-theme-small default-padding bottom-less">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="site-heading text-center">
+                    <h2>Our Partners</h2>
+                    <p>We are here to provide the services to grow your business up. Here, you can find the support
+                        of Graphics, Branding, Marketing, Software’s & More</p>
+                </div>
+            </div>
+        </div>
+        <div class="services-box text-center">
+            <div class="row">
+                <div class="services-carosul owl-carousel owl-theme text-center">
+                   
+
+                    <a href="">
+                        <div class="single-item">
+                            <div class="item">
+                               <h1>LOGO</h1>
+                                <h5>Company Name</h5>                          
+                            </div>
+                        </div>
+                    </a> 
+                                  
+                    <a href="">
+                        <div class="single-item">
+                            <div class="item">
+                               <h1>LOGO</h1>
+                                <h5>Company Name</h5>                          
+                            </div>
+                        </div>
+                    </a> 
+
+                    <a href="">
+                        <div class="single-item">
+                            <div class="item">
+                               <h1>LOGO</h1>
+                                <h5>Company Name</h5>                          
+                            </div>
+                        </div>
+                    </a> 
+                          </div>
+                     </div>
+                 </div>
+             </div>
+        </div>
+
+            {{-- LOGO-Partner End --}}
+
 <!--=====================Start Work Process Area======================== -->
     <div class="work-process-area bg-gray default-padding">
         <div class="container">
@@ -608,10 +674,80 @@
             </div>
         </div>
     </div>
+
+     <!-- Start Testimonials
+    ============================================= -->
+     <div class="testimonials-area default-padding" style="display: none">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="site-heading single text-center">
+                        <h2>Testimonial</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="testimonial-items text-center">
+                        <div class="carousel slide" data-ride="carousel" data-interval="500000"
+                            id="testimonial-carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <span class="quote"></span>
+                                    <p>
+                                        Understood instrument or do connection no appearance do invitation. Dried quick
+                                        round it or order. Add past see west felt did any. Say out noise you taste merry
+                                        plate you share. My resolve arrived is we chamber be removal.
+                                    </p>
+                                    <h4>Junl Sarukh</h4>
+                                    <span>CEO of Softing</span>
+                                </div>
+                                <div class="carousel-item">
+                                    <span class="quote"></span>
+                                    <p>
+                                        Understood instrument or do connection no appearance do invitation. Dried quick
+                                        round it or order. Add past see west felt did any. Say out noise you taste merry
+                                        plate you share. My resolve arrived is we chamber be removal.
+                                    </p>
+                                    <h4>Anil Spia</h4>
+                                    <span>Director of Softing</span>
+                                </div>
+                                <div class="carousel-item">
+                                    <span class="quote"></span>
+                                    <p>
+                                        Understood instrument or do connection no appearance do invitation. Dried quick
+                                        round it or order. Add past see west felt did any. Say out noise you taste merry
+                                        plate you share. My resolve arrived is we chamber be removal.
+                                    </p>
+                                    <h4>Paul Munni</h4>
+                                    <span>Developer of Softing</span>
+                                </div>
+                            </div>
+                            <!-- End Carousel Content -->
+
+                            <!-- Carousel Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#testimonial-carousel" data-slide-to="0" class="active">
+                                    <img src="assets/img/800x800.png" alt="Thumb">
+                                </li>
+                                <li data-target="#testimonial-carousel" data-slide-to="1">
+                                    <img src="assets/img/800x800.png" alt="Thumb">
+                                </li>
+                                <li data-target="#testimonial-carousel" data-slide-to="2">
+                                    <img src="assets/img/800x800.png" alt="Thumb">
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- End Testimonials -->
 <!--=====================Start Work Process End======================== -->
 
  <!-- ======================Start Blog======================= -->
-    <div id="blog" class="blog-area bg-gray default-padding bottom-less">
+   {{--  <div id="blog" class="blog-area bg-gray default-padding bottom-less">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
@@ -659,12 +795,12 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- End Blog -->
 
     <!-- Start Testimonials
     ============================================= -->
-    <div class="testimonials-area default-padding" style="display: none">
+    {{-- <div class="testimonials-area default-padding" style="display: none">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
@@ -729,7 +865,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- End Testimonials -->
 
     <!-- Start Contact Area-->

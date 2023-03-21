@@ -14,6 +14,7 @@ use App\Http\Controllers\frontendController;
 use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\PortfolioController;
 use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\DigitalMarketingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -45,6 +46,10 @@ Route::get('/category/{slug}',[CategoryController::class,'singleCat'])->name('si
 Route::get('/service/{slug}',[ServicesController::class,'singleService'])->name('singleService');
 Route::get('/submain/{id}',[ServicesController::class,'subMain']);
 
+
+
+
+
 /* ==================Service Routes==================*/
 
 Route::get('/videomaking',[ServiceController::class,'videomaking'])->name('videomaking');
@@ -56,6 +61,21 @@ Route::get('/webdesignanddevelopment',[ServiceController::class,'webdesignanddev
 Route::get('/socialmedia',[ServiceController::class,'socialmedia'])->name('socialmedia');
 Route::get('/appdesign',[ServiceController::class,'appdesign'])->name('appdesign');
 
+
+/*======================== Digital Marketing Routes=============*/  
+
+Route::get('/socialmediamarketing',[DigitalMarketingController::class,'socialmediamarketing'])->name('socialmediamarketing');
+Route::get('/contentmarketing',[DigitalMarketingController::class,'contentmarketing'])->name('contentmarketing');
+Route::get('/emailmarketing',[DigitalMarketingController::class,'emailmarketing'])->name('emailmarketing');
+Route::get('/videomarketing',[DigitalMarketingController::class,'videomarketing'])->name('videomarketing');
+Route::get('/influencermarketing',[DigitalMarketingController::class,'influencermarketing'])->name('influencermarketing');
+Route::get('/seo',[DigitalMarketingController::class,'seo'])->name('seo');
+Route::get('/analyticsandtracking',[DigitalMarketingController::class,'analyticsandtracking'])->name('analyticsandtracking');
+
+
+
+
+ 
 
 
 
