@@ -12,9 +12,11 @@
                         <div class="row align-center">
                             <div class="col-lg-5 left-info simple-video">
                                 <div class="content" data-animation="animated fadeInUpBig">
-                                    <h1>{{$about->heading}}</h1>
+                                    <h1>About Us</h1>
                                     <p>
-                                        {{$about->desc}}
+                                        We specialize in providing one-stop solutions for all your business needs.
+                                         With our innovative solutions, expert team, and cutting-edge technologies, we help our clients
+                                         stay ahead of the curve and achieve success in their respective industries. 
                                     </p>
 
                                 </div>

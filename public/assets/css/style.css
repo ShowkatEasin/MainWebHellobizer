@@ -213,7 +213,7 @@ input {
   border: 1px solid #e7e7e7;
   border-radius: inherit;
   box-shadow: inherit;
-  min-height: 50px;
+ /*  min-height: 50px; */
 }
 /* Default CSS */
 .container-half {
@@ -365,23 +365,19 @@ a.active{
 }
 
 .btn {
-  display: inline-block;
-  font-family: "Poppins",sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 25px;
-  text-transform: uppercase;
-  -webkit-transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -ms-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-  transition: all 0.35s ease-in-out;
-  font-weight: 700;
-  letter-spacing: 1px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  overflow: hidden;
+  background: #4ac4f3 none repeat scroll 0 0;
+border: medium none;
+box-shadow: inherit;
+color: #ffffff;
+display: inline-block;
+font-family: "Poppins",sans-serif;
+font-weight: 600;
+margin-top: 15px;
+padding: 10px 35px;
+text-transform: uppercase;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
 }
 
 .btn-md {
@@ -1889,7 +1885,8 @@ body,
 =================================================================== */
 
 .services-area .services-box .single-item {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+ 
 }
 
 .services-area .services-box .item {
@@ -1899,7 +1896,7 @@ body,
   position: relative;
   z-index: 1;
   /* border: 1px solid rgba(255, 255, 255, 1); */
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: #8fd3f5 2px 4px;
 }
 
@@ -1939,7 +1936,7 @@ body,
 }
 .services-area .services-box .item img {
     display: inline-block;
-    width: 80px;
+    width: 100px;
     margin-bottom: 30px;
   }
 .services-area .services-box .item h5 {
@@ -3230,7 +3227,7 @@ body,
 .comments-form .title h4 {
   border-bottom: 1px solid #e7e7e7;
   font-weight: 600;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   padding-bottom: 15px;
   text-transform: capitalize;
 }
@@ -3241,7 +3238,7 @@ body,
 
 .blog-area.single .blog-items .item .contact-comments .col-md-6 {
   float: left;
-  padding: 0 15px;
+  padding: 0 0px;
 }
 
 
@@ -3467,6 +3464,8 @@ body,
   border: 1px solid #e7e7e7;
   box-shadow: inherit;
   color: #232323;
+  padding-top: 0%;
+  margin-top: 0%;
 }
 
 .contact-us-area .contact-form textarea {
@@ -3970,7 +3969,7 @@ footer.color-yellow .footer-bottom p a {
 
 .features-area  .item .info{
   background: #ffffff;
-  padding: 20px 20px;
+  padding: 10px 10px;
   min-height: 200px;
   display: block;
   overflow: hidden;
@@ -3984,3 +3983,13 @@ footer.color-yellow .footer-bottom p a {
 .footer-padding{
   padding-top: 100px;
 }
+
+.box{
+
+  padding: 10px 10px;
+  height: 100 px;
+  
+
+}
+
+

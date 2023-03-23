@@ -24,12 +24,13 @@
                 </div>
                 <div class="col-lg-6">
                     <h2>Let's lalk about your idea</h2>
-                    <form action="{{route('sendmessage')}}" method="POST">
+                    <form action="{{ route('sendmessage') }}" method="POST">
                         @csrf
                         <div class="col-lg-12">
                             <div class="row">
                                 <div class="form-group">
-                                    <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                                    <input class="form-control" id="name" name="name" placeholder="Name"
+                                        type="text" required>
                                     <span class="alert-error"></span>
                                 </div>
                             </div>
@@ -46,15 +47,16 @@
                         <div class="col-lg-12">
                             <div class="row">
                                 <div class="form-group">
-                                    <input class="form-control" id="phone" name="phone" placeholder="Phone" type="text" required>
+                                    <input class="form-control" id="phone" name="phone" placeholder="Phone"
+                                        type="text" required>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-12">
                             <div class="row">
                                 <div class="form-group comments">
-                                    <textarea class="form-control" id="message" name="message"
-                                        placeholder="Tell Us About Project *" rows="4" cols="50"></textarea>
+                                    <textarea class="form-control" id="message" name="message" placeholder="Tell Us About Project *" rows="4"
+                                        cols="50"></textarea>
                                 </div>
                             </div>
                         </div>
@@ -68,8 +70,8 @@
                         <!-- Alert Message -->
                         <div class="col-lg-12 alert-notification">
                             <div id="message" class="alert-msg">
-                                @if(Session::has('success'))
-                                <p>{!! Session('success') !!}</p>
+                                @if (Session::has('success'))
+                                    <p>{!! Session('success') !!}</p>
                                 @endif
                             </div>
                         </div>
