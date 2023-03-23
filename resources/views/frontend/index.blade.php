@@ -28,17 +28,20 @@
                                         innovative solutions,
                                         expert team, and cutting-edge technologies, we help our clients stay ahead of the
                                         curve and achieve success in their
-                                        respective industries. So if you're looking for a reliable partner to help you take
-                                        your business to the next level,
-                                        look no further than our digital business service provider firm.
+                                        respective industries.
                                     </p>
+                                    <a href=" {{route('about')}}">
+                                        <button class="btn btn-primary">See details to know</button>
+                                    </a>
 
                                 </div>
                             </div>
                             <div class="col-lg-6 right-info">
+                              
                                 <img src="assets/img/illustration/3.png" alt="Thumb">
                             </div>
-                            <div class="form-group col-md-6 col-sm-12 col-lg-6 mr-5">
+                            
+                            {{-- <div class="form-group col-md-6 col-sm-12 col-lg-6 mr-5">
                                 <div class="subscribe">
                                     <form action="{{ route('service.search') }}" method="POST">
                                         @csrf
@@ -53,7 +56,7 @@
                                         </div>
                                     </form>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
@@ -337,21 +340,7 @@
         <div class="container">
             <div class="choseus-items">
                 <div class="row">
-                    {{--  <div class="col-lg-6 thumb">
-                        <img src="{{asset('assets/img/illustration/1.png')}}" alt="Thumb">
-                    </div> --}}
-                    {{-- <div class="col-lg-6 info">
-                        <h2>Create your app page <br>with expert developer</h2>
-                        <p>
-                            If you think your business needs to grow, then get started with us.
-                        </p>
-                        <ul>
-                            <li>Cultivated an up solicitude mr unpleasant. </li>
-                            <li>Improved own provided blessing</li>
-                            <li>Moment led family.</li>
-                            <li>Opinions property the supplied. </li>
-                        </ul>
-                    </div> --}}
+                    
                 </div>
             </div>
             <div class="customer">
@@ -513,272 +502,7 @@
 
     {{-- LOGO-Partner End --}}
 
-    <!--=====================Start Work Process Area======================== -->
-    <div class="work-process-area bg-gray default-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="site-heading text-center">
-                        <h2>Our Working{{-- {{$titles->progress_title}} --}}</h2>
-                        <p>
-                            Our innovative solutions, expert team, and cutting-edge technologies, we help our clients stay
-                            ahead of the curve and achieve success in their respective industries.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="works-process-items text-center">
-                <div class="row">
-                    <!-- Single Item -->
-                    <div class="col-lg-4 single-item">
-                        <div class="item">
-                            <div class="icon">
-                                <i><img src="{{ asset('assets/img/discuss.gif') }}" alt=""></i>
-                                <span>01</span>
-                            </div>
-                            <div class="info">
-                                <h4>Discussion</h4>
-                                <p>
-                                    Building a business from the ground up doesn’t come with an instructional manual, after
-                                    all, and you certainly won’t be a business mogul on day one.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-
-                    <!-- Single Item -->
-                    <div class="col-lg-4 single-item">
-                        <div class="item">
-                            <div class="icon">
-                                <i class="fas fa-bong"></i>
-                                <span>02</span>
-                            </div>
-                            <div class="info">
-                                <h4>Strategy & Testing</h4>
-                                <p>
-                                    A Test Strategy is a plan for defining an approach to the Software Testing Life Cycle
-                                    (STLC). It guides QA teams to define Test Coverage and testing scope.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-
-                    <!-- Single Item -->
-                    <div class="col-lg-4 single-item">
-                        <div class="item">
-                            <div class="icon">
-                                <i class="fas fa-copy"></i>
-                                <span>03</span>
-                            </div>
-                            <div class="info">
-                                <h4>Reporting</h4>
-                                <p>
-                                    Management reporting is a source of business intelligence that helps business leaders in
-                                    making more accurate, data-driven decision goes into preparing and presenting.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Start Testimonials
-        ============================================= -->
-    <div class="testimonials-area default-padding" style="display: none">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="site-heading single text-center">
-                        <h2>Testimonial</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="testimonial-items text-center">
-                        <div class="carousel slide" data-ride="carousel" data-interval="500000"
-                            id="testimonial-carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <span class="quote"></span>
-                                    <p>
-                                        Understood instrument or do connection no appearance do invitation. Dried quick
-                                        round it or order. Add past see west felt did any. Say out noise you taste merry
-                                        plate you share. My resolve arrived is we chamber be removal.
-                                    </p>
-                                    <h4>Junl Sarukh</h4>
-                                    <span>CEO of Softing</span>
-                                </div>
-                                <div class="carousel-item">
-                                    <span class="quote"></span>
-                                    <p>
-                                        Understood instrument or do connection no appearance do invitation. Dried quick
-                                        round it or order. Add past see west felt did any. Say out noise you taste merry
-                                        plate you share. My resolve arrived is we chamber be removal.
-                                    </p>
-                                    <h4>Anil Spia</h4>
-                                    <span>Director of Softing</span>
-                                </div>
-                                <div class="carousel-item">
-                                    <span class="quote"></span>
-                                    <p>
-                                        Understood instrument or do connection no appearance do invitation. Dried quick
-                                        round it or order. Add past see west felt did any. Say out noise you taste merry
-                                        plate you share. My resolve arrived is we chamber be removal.
-                                    </p>
-                                    <h4>Paul Munni</h4>
-                                    <span>Developer of Softing</span>
-                                </div>
-                            </div>
-                            <!-- End Carousel Content -->
-
-                            <!-- Carousel Indicators -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#testimonial-carousel" data-slide-to="0" class="active">
-                                    <img src="assets/img/800x800.png" alt="Thumb">
-                                </li>
-                                <li data-target="#testimonial-carousel" data-slide-to="1">
-                                    <img src="assets/img/800x800.png" alt="Thumb">
-                                </li>
-                                <li data-target="#testimonial-carousel" data-slide-to="2">
-                                    <img src="assets/img/800x800.png" alt="Thumb">
-                                </li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Testimonials -->
-    <!--=====================Start Work Process End======================== -->
-
-    <!-- ======================Start Blog======================= -->
-    {{--  <div id="blog" class="blog-area bg-gray default-padding bottom-less">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="site-heading text-center">
-                        <h2>{{$titles->blog_title}}</h2>
-                        <p>
-                            {{$titles->blog_text}}
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="blog-items">
-                <div class="row">
-                    @foreach ($blogs as $blog)
-                    <div class="col-lg-4 col-md-6">
-                        <div class="item">
-                            <div class="thumb">
-                                <a href="{{url('news/'.$blog->slug)}}">
-                                    <img src="{{asset('uploads/blog/medium/'.$blog->image)}}" alt="Thumb">
-                                    <div class="post-type">
-                                        <i class="fas fa-image"></i>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="info">
-                                <h4>
-                                    <a href="{{url('news/'.$blog->slug)}}">{{$blog->title}}</a>
-                                </h4>
-                                <div class="meta">
-                                    <ul>
-                                        <li><a href="#"><i class="fas fa-calendar-alt "></i>  {{ date('d M, Y', strtotime($blog->created_at)) }}</a></li>
-                                        <li><a href="{{route('singleCat',[$blog->category->slug])}}"><i class="fas fa-flag"></i> {{$blog->category->name}}</a></li>
-                                    </ul>
-                                </div>
-                                <p style="display: block;overflow:hidden">
-                                    {{ Str::limit(strip_tags( $blog->description)) }}
-                                    <a href="{{url('news/'.$blog->slug)}}">Read more</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    @endforeach
-                    <a class="btn circle btn-theme effect btn-sm m-auto" href="{{route('blog')}}">Load More</a>
-
-                </div>
-            </div>
-        </div>
-    </div> --}}
-    <!-- End Blog -->
-
-    <!-- Start Testimonials
-        ============================================= -->
-    {{-- <div class="testimonials-area default-padding" style="display: none">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="site-heading single text-center">
-                        <h2>{{$titles->testimonial_title}}</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="testimonial-items text-center">
-                        <div class="carousel slide" data-ride="carousel" data-interval="500000"
-                            id="testimonial-carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <span class="quote"></span>
-                                    <p>
-                                        Understood instrument or do connection no appearance do invitation. Dried quick
-                                        round it or order. Add past see west felt did any. Say out noise you taste merry
-                                        plate you share. My resolve arrived is we chamber be removal.
-                                    </p>
-                                    <h4>Junl Sarukh</h4>
-                                    <span>CEO of Softing</span>
-                                </div>
-                                <div class="carousel-item">
-                                    <span class="quote"></span>
-                                    <p>
-                                        Understood instrument or do connection no appearance do invitation. Dried quick
-                                        round it or order. Add past see west felt did any. Say out noise you taste merry
-                                        plate you share. My resolve arrived is we chamber be removal.
-                                    </p>
-                                    <h4>Anil Spia</h4>
-                                    <span>Director of Softing</span>
-                                </div>
-                                <div class="carousel-item">
-                                    <span class="quote"></span>
-                                    <p>
-                                        Understood instrument or do connection no appearance do invitation. Dried quick
-                                        round it or order. Add past see west felt did any. Say out noise you taste merry
-                                        plate you share. My resolve arrived is we chamber be removal.
-                                    </p>
-                                    <h4>Paul Munni</h4>
-                                    <span>Developer of Softing</span>
-                                </div>
-                            </div>
-                            <!-- End Carousel Content -->
-
-                            <!-- Carousel Indicators -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#testimonial-carousel" data-slide-to="0" class="active">
-                                    <img src="assets/img/800x800.png" alt="Thumb">
-                                </li>
-                                <li data-target="#testimonial-carousel" data-slide-to="1">
-                                    <img src="assets/img/800x800.png" alt="Thumb">
-                                </li>
-                                <li data-target="#testimonial-carousel" data-slide-to="2">
-                                    <img src="assets/img/800x800.png" alt="Thumb">
-                                </li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> --}}
-    <!-- End Testimonials -->
+   
 
     <!-- Start Contact Area-->
     @include('frontend.getintouch')

@@ -14,15 +14,14 @@
                                 <div class="content" data-animation="animated fadeInUpBig">
                                     <h1>About Us</h1>
                                     <p>
-                                        We specialize in providing one-stop solutions for all your business needs.
+                                         We specialize in providing one-stop solutions for all your business needs.
                                          With our innovative solutions, expert team, and cutting-edge technologies, we help our clients
                                          stay ahead of the curve and achieve success in their respective industries. 
                                     </p>
-
                                 </div>
                             </div>
                             <div class="col-lg-7 right-info">
-                                <img src="{{asset('uploads/pages/'.$about->banner)}}" alt="Thumb">
+                                <img src="{{asset('uploads/service/large/1667371642.png')}}" alt="Thumb">
                             </div>
                         </div>
                     </div>
@@ -34,7 +33,7 @@
         </div>
     </div>
     <!-- End Banner -->
-    
+
     <!-- Start About
     ============================================= -->
     <div id="about" class="about-area default-padding">
@@ -57,6 +56,18 @@
                             <li>
                                 <i class="fas fa-check"></i> <span>Branched is on an ecstatic directly it</span>
                             </li>
+                            <li>
+                                <i class="fas fa-check"></i> <span>Elderly is detract tedious assured private</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i> <span>Do travelling companions contrasted</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i> <span>Mistress strongly remember up</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i> <span>Branched is on an ecstatic directly it</span>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -65,37 +76,36 @@
                         <div class="col-lg-6 col-md-6">
                             <div class="item">
                                 <i class="flaticon-ticket"></i>
-                                <h4>Vision 1</h4>
+                                <h4>Digital Marketing</h4>
                                 <p>
-                                    Downs those still witty an balls so chief so. Moment an little remain no lively
+                                    We provide a complete digital marketing solution for all sorts of business.
                                 </p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6">
                             <div class="item">
                                 <i class="flaticon-speech-bubble"></i>
-                                <h4>Vision 2</h4>
+                                <h4>SEO</h4>
                                 <p>
-                                    Downs those still witty an balls so chief so. Moment an little remain no lively
+                                    Try our tailored SEO packages to rank better in the SERP to your target customer.
                                 </p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6">
                             <div class="item">
                                 <i class="flaticon-email"></i>
-                                <h4>Vision 3</h4>
+                                <h4>Software Solution</h4>
                                 <p>
-                                    Downs those still witty an balls so chief so. Moment an little remain no lively
+                                    It is the promotion of brands to connect with potential customers
                                 </p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6">
                             <div class="item">
                                 <i class="flaticon-file"></i>
-                                <h4>Vision 4</h4>
+                                <h4>Web Design</h4>
                                 <p>
-                                    Downs those still witty an balls so chief so. Moment an little remain no lively
-                                </p>
+                                    Be competent in visually and grab the attention. We design your dream on the web.
                             </div>
                         </div>
                     </div>
@@ -103,7 +113,7 @@
             </div>
         </div>
     </div>
-    <!-- End About -->
+        <!-- End About -->
 
         <!-- Start About Bizer Area
     ============================================= -->
@@ -127,7 +137,7 @@
                                 <li class="pricing-header">
                                     <h4>WE Are HelloBizer</h4>
                                 </li>
-                                <p>We are the people who eat, drink, sleep and play with SE0 and development. We don’t do work for money, we love this work and that’s why we earn money. We love to work collaboratively with our clients to ensure that the objectives are met by our proven strategies.</p>
+                                <p>We are the people who eat, drink, sleep and play with SE0 and development. We love to work collaboratively with our clients to ensure that the objectives are met by our proven strategies.</p>
 
                             </ul>
                         </div>
@@ -137,9 +147,8 @@
                             <ul>
                                 <li class="pricing-header">
                                     <h4>How We Formed</h4>
-
                                 </li>
-                                <p>When we started we had nothing more than few computers, now have 18 members in our team. How we did it? We formed with very easy calculation, gradually with 1,2,3,4…..18 by satisfying over 300 clients for SEO, SMM and Development Projects for the last six years.</p>
+                                <p>When we started we had nothing more than few computers, now have 18 members in our team. How we did it? We formed with very easy calculation, SMM and Development Projects for the last few years.</p>
                             </ul>
                         </div>
                     </div>
@@ -150,43 +159,170 @@
     <!-- End About Bizer Area -->
 
 
-    <!-- Start Team
-    ============================================= -->
-    <div id="team" class="team-area default-padding bottom-less">
+     <!-- ==============Team Start =====================-->
+
+     <div id="services" class="services-area bg-theme-small default-padding bottom-less">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="site-heading text-center">
                         <h2>Innovative Team</h2>
-                        <p>
-                            Learning day desirous informed expenses material returned six the. She enabled invited exposed him another. Reasonably conviction solicitude me mr at discretion reasonable. Age out full gate bed day lose.
-                        </p>
+                        <p>Here is our team who can provide servies for your business.</p>
                     </div>
                 </div>
             </div>
-            <div class="team-items">
+            <div class="services-box text-center">
                 <div class="row">
-                    @forelse ($teams as $team)
-                    <div class="col-lg-3 col-md-3">
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="{{asset('uploads/team/'.$team->image)}}" alt="Thumb">
+                    <div class="services-carosul owl-carousel owl-theme text-center">
+                        <a href="">
+                            <div class="single-item">
+                                <div class="item">
+                                    <img src="{{ asset('uploads/testimonial/p1.png') }}" alt="">
+                                    <h5>Employee Name</h5>
+                                    <p>
+                                         Graphic Designer
+                                    </p>
+                                </div>
                             </div>
-                            <div class="info">
-                                <h4>{{$team->name}}</h4>
-                                <span>{{$team->title}}</span>
+                        </a>
+                        <a href="">
+                            <div class="single-item">
+                                <div class="item">
+                                    <img src="{{ asset('uploads/testimonial/p2.png') }}" alt="">
+                                    <h5>Employee Name</h5>
+                                    <p>
+                                         Graphic Designer
+                                    </p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
+                        <a href="">
+                            <div class="single-item">
+                                <div class="item">
+                                    <img src="{{ asset('uploads/testimonial/p3.png') }}" alt="">
+                                    <h5>Employee Name</h5>
+                                    <p>
+                                         Graphic Designer
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="single-item">
+                                <div class="item">
+                                    <img src="{{ asset('uploads/testimonial/p4.png') }}" alt="">
+                                    <h5>Employee Name</h5>
+                                    <p>
+                                         Graphic Designer
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="single-item">
+                                <div class="item">
+                                    <img src="{{ asset('uploads/testimonial/p5.png') }}" alt="">
+                                    <h5>Employee Name</h5>
+                                    <p>
+                                         Graphic Designer
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-
-                    @empty
-                    <p class="text-danger"> No team Available</p>
-                    @endforelse
                 </div>
             </div>
         </div>
     </div>
-    <!-- End Team -->
+    <!-- =================== Team End ==============================-->
+
+     <!-- ====================Start Why Chose Us========================= -->
+     <div id="about" class="choseus-area default-padding">
+        <div class="container">
+            <div class="choseus-items">
+                <div class="row">
+                    
+                </div>
+            </div>
+            <div class="customer">
+                <div class="col-lg-4 col-md-4 item">
+                    <div class="fun-fact">
+                        <div class="timer" data-to="230" data-speed="5000"></div>
+                        <span class="medium">Satisfied customers</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 item">
+                    <div class="fun-fact">
+                        <div class="timer" data-to="50" data-speed="5000"></div>
+                        <span class="medium">Professional Agents</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 item">
+                    <div class="fun-fact">
+                        <div class="timer" data-to="92" data-speed="5000"></div>
+                        <span class="medium">Professional Projects</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Why Us -->
+
+     {{--========================= LOGO-Partner Start=============== --}}
+
+     <div id="services" class="services-area bg-theme-small default-padding bottom-less">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="site-heading text-center">
+                        <h2>Our Partners</h2>
+                        <p>We are here to provide the services to grow your business up. Here, you can find the support
+                            of Graphics, Branding, Marketing, Software’s & More</p>
+                    </div>
+                </div>
+            </div>
+            <div class="services-box text-center">
+                <div class="row">
+                    <div class="services-carosul owl-carousel owl-theme text-center">
+
+
+                        <a href="">
+                            <div class="single-item">
+                                <div class="item">
+                                    <img src="{{ asset('uploads/partner/pn1.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="">
+                            <div class="single-item">
+                                <div class="item">
+                                    <img src="{{ asset('uploads/partner/pn2.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="">
+                            <div class="single-item">
+                                <div class="item">
+                                    <img src="{{ asset('uploads/partner/pn3.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="single-item">
+                                <div class="item">
+                                    <img src="{{ asset('uploads/partner/pn4.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{-- LOGO-Partner End --}}
 
     @include('frontend.getintouch')
 @endsection
