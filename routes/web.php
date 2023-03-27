@@ -15,6 +15,7 @@ use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\PortfolioController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\DigitalMarketingController;
+use App\Http\Controllers\PortfolioContentController;
 
 /*
 |--------------------------------------------------------------------------
@@ -73,9 +74,36 @@ Route::get('/seo',[DigitalMarketingController::class,'seo'])->name('seo');
 Route::get('/analyticsandtracking',[DigitalMarketingController::class,'analyticsandtracking'])->name('analyticsandtracking');
 
 
+/*======================== Portfolio Content Routes=============*/ 
+
+Route::get('/allproject',[PortfolioContentController::class,'allproject'])->name('allproject');
+Route::get('/digitalmarketingportfolio',[PortfolioContentController::class,'digitalmarketingportfolio'])->name('digitalmarketingportfolio');
+Route::get('/seoportfolio',[PortfolioContentController::class,'seoportfolio'])->name('seoportfolio');
+Route::get('/graphicsportfolio',[PortfolioContentController::class,'graphicsportfolio'])->name('graphicsportfolio');
+Route::get('/websiteportfolio',[PortfolioContentController::class,'websiteportfolio'])->name('websiteportfolio');
+Route::get('/ecommerceportfolio',[PortfolioContentController::class,'ecommerceportfolio'])->name('ecommerceportfolio');
+
+ /*======================== Portfolio Graphic Design=============*/ 
+ Route::get('/logodesign',[PortfolioContentController::class,'logodesign'])->name('logodesign');
+ Route::get('/brandingdesign',[PortfolioContentController::class,'brandingdesign'])->name('brandingdesign');
+ Route::get('/posterdesign',[PortfolioContentController::class,'posterdesign'])->name('posterdesign');
 
 
- 
+ /*======================== Portfolio Website=============*/ 
+
+ Route::get('/allwebsite',[PortfolioContentController::class,'allwebsite'])->name('allwebsite');
+
+ /*======================== Portfolio E-Commerce =============*/ 
+ Route::get('/allecommerce',[PortfolioContentController::class,'allecommerce'])->name('allecommerce');
+
+ /*======================== Portfolio SEO=============*/ 
+ Route::get('/allseo',[PortfolioContentController::class,'allseo'])->name('allseo');
+
+ /*======================== Portfolio Digital Marketing=============*/ 
+ Route::get('/alldigitalmarketing',[PortfolioContentController::class,'alldigitalmarketing'])->name('alldigitalmarketing');
+
+
+
 
 
 

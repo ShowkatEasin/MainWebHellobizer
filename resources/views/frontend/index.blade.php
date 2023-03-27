@@ -13,8 +13,7 @@
 
     <br>
     <br>
-    <!-- Start Banner
-        ============================================= -->
+    <!-- Start Banner ============================================= -->
     <div class="banner-area shape-index transparent-nav content-double text-medium">
         <div class="box-table">
             <div class="box-cell">
@@ -39,8 +38,7 @@
                             <div class="col-lg-6 right-info">
                               
                                 <img src="assets/img/illustration/3.png" alt="Thumb">
-                            </div>
-                            
+                            </div>   
                             {{-- <div class="form-group col-md-6 col-sm-12 col-lg-6 mr-5">
                                 <div class="subscribe">
                                     <form action="{{ route('service.search') }}" method="POST">
@@ -216,7 +214,7 @@
                 <div class="row">
                     <div class="col-lg-8 offset-lg-2">
                         <div class="site-heading text-center">
-                            <h2>For Your Digital Marketing{{--  @foreach ($frontServices as $serv)  @if ($serv->id == $titles->special_service) {{$serv->title}} @endif @endforeach --}}</h2>
+                            <h2>For Your Digital Marketing</h2>
                             <p>Our Digital Marketing include startup business, civil society organisations, faith
                                 communities,
                                 faith-based organisations, businesses, academia, and more. </p>

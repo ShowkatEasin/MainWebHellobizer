@@ -35,7 +35,7 @@
                             </div>
                             <div class="col-lg-6 right-info">
                                
-                                <img src="assets/img/illustration/seo.jpg" alt="Thumb">
+                                <img src="assets/img/illustration/analytics.jpg" alt="Thumb">
                             </div>
                            
                         </div>
