@@ -3,7 +3,7 @@
 
     <body>
 
-  <!-- Start Blog
+  <!-- Start DM
         ============================================= -->
         <div id="blog" class="blog-area bg-gray default-padding bottom-less">
             <div class="container">
@@ -105,5 +105,5 @@
         </div>
 
     </body>
-    <!-- End Blog -->
+    <!-- End DM -->
 @endsection

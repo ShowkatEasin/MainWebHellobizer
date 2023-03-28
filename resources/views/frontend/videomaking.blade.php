@@ -24,9 +24,7 @@
                             <div class="col-lg-6 left-info simple-video">
                                 <div class="content" data-animation="animated fadeInUpBig">
                                     <h1>Video <span>Making</span> for your business</h1>
-                                    <p>We specialize in providing one-stop solutions for all your business needs. With our
-                                        innovative solutions,
-                                        expert team, and cutting-edge technologies expert team.
+                                    <p>Video marketing is a strategy that uses videos to promote products, services, and brands. It engages audiences, increases brand awareness, and drives conversions.
                                     </p>
                                     <a href=" {{route('contact')}}">
                                         <button class="btn btn-primary">Talk With Our Cutomer Support Team</button>

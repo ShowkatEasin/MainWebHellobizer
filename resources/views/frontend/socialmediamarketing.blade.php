@@ -24,9 +24,8 @@
                             <div class="col-lg-6 left-info simple-video">
                                 <div class="content" data-animation="animated fadeInUpBig">
                                     <h1>Social Media<span> Marketing</span> </h1>
-                                    <p>We specialize in providing one-stop solutions for all your business needs. With our
-                                        innovative solutions,
-                                        expert team, and cutting-edge technologies expert team.
+                                    <p> Social media marketing is the process of utilizing social media platforms such as Facebook, Twitter, and Instagram to reach and engage with a target audience, build brand 
+                                        awareness, and promote products or services.
                                     </p>
                                     <a href=" {{route('contact')}}">
                                         <button class="btn btn-primary">Talk With Our Cutomer Support Team</button>

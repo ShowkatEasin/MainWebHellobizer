@@ -61,7 +61,7 @@ html {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+ /*  font-size: 14px; */
   font-weight: 400;
   line-height: 26px;
   overflow-x: hidden;
@@ -73,7 +73,7 @@ html, body, .wrapper {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #232323;
+  color: #1b1818;
   font-weight: normal;
   line-height: 1.2;
   font-family: 'Poppins', sans-serif;
@@ -101,6 +101,7 @@ img {
   border: none;
   outline: none;
   max-width: 100%;
+  
 }
 
 label {
@@ -129,6 +130,7 @@ p {
   margin: 0 0 15px;
   text-transform: none;
   font-weight: 400;
+  
 }
 
 hr {
@@ -745,6 +747,7 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
   padding-bottom: 20px;
   position: relative;
   text-transform: uppercase;
+  
 }
 
 .site-heading.clean h2 {

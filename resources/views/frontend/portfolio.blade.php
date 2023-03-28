@@ -32,17 +32,17 @@
                           </a>
 
                         <a href="{{route('seoportfolio')}}"> 
-                            <h2><strong>SEO</strong> </h2>                   
+                            <h3><strong>SEO</strong> </h3>                   
                         </a>
 
                         <a href="{{route('graphicsportfolio')}}"> 
                             <h3><strong>Graphic Design</strong> </h3>                   
                          </a>
                          <a href="{{ route('websiteportfolio') }}"> 
-                            <h2><strong>Website</strong> </h2>                   
+                            <h3><strong>Website</strong> </h3>                   
                           </a>
                           <a href="{{route('ecommerceportfolio')}}"> 
-                            <h2><strong>E-Commerce</strong> </h2>                   
+                            <h3><strong>E-Commerce</strong> </h3>                   
                           </a>
                     </div>
                 </div>
@@ -51,7 +51,7 @@
     </div>
 
 
-<!-- End Digital marketing -->
+<!-- End Portfolio Center  -->
 
  <!-- ====================Start % option ========================= -->
  <div id="about" class="choseus-area default-padding">

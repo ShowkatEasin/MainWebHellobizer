@@ -3,7 +3,7 @@
 
     <body>
 
-  <!-- Start Blog
+  <!-- Start Website
         ============================================= -->
         <div id="blog" class="blog-area bg-gray default-padding bottom-less">
             <div class="container">
@@ -167,5 +167,5 @@
      </div>
 
     </body>
-    <!-- End Blog -->
+    <!-- End Website -->
 @endsection

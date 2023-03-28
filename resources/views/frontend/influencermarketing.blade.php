@@ -53,7 +53,7 @@
 
 
 
-    <!--  ====================Start Digital Marketing========================= -->
+    <!--  ====================Start Digitam Marketing========================= -->
 
   
     <div id="services" class="services-area bg-theme-small default-padding bottom-less">
@@ -61,7 +61,7 @@
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="site-heading text-center">
-                        <h2>For Your Digital Marketing{{--  @foreach ($frontServices as $serv)  @if ($serv->id == $titles->special_service) {{$serv->title}} @endif @endforeach --}}</h2>
+                        <h2>For Your Digital Marketing</h2>
                         <p>Our Digital Marketing include startup business, civil society organisations, faith
                             communities,
                             faith-based organisations, businesses, academia, and more. </p>
@@ -76,9 +76,7 @@
                             <div class="single-item">
                                 <div class="item">
                                     <h4><strong>Social Media Marketing</strong></h4>
-                                    <p>Social media marketing is the process of utilizing any kinds of social media
-                                        platforms to reach
-                                        a target audience.</p> <br>
+                                    <p>Social media marketing is the process of utilizing social media platforms such as Facebook, Twitter, and Instagram to reach target audience.</p> <br>
                                     <button class="btn btn-primary">Get Started</button>
                                 </div>
                             </div>
@@ -88,8 +86,8 @@
                                 <div class="item">
                                     <h4> <strong>Content Marketing</strong></h4>
                                     <p>
-                                        Our marketing strategy used to attract an audience
-                                        by creating and sharing relevant articles, videos and social media.
+                                        Content marketing is a strategy that creates and shares valuable, relevant content to attract and retain an audience.
+                                         It builds trust, establishes thought leadership.
                                     </p> <br>
 
                                     <button class="btn btn-primary">Get Started</button>
@@ -102,8 +100,8 @@
                                 <div class="item">
                                     <h4><strong>Email Marketing</strong></h4>
                                     <p>
-                                        Email marketing is a powerful marketing channel,
-                                        a form of direct marketing as well as digital, corporate and social marketing.
+                                        Email marketing is a strategy that involves sending personalized messages
+                                         to subscribers to promote products, build relationships, and increase sales for your business.
                                     </p>
                                     <br>
                                     <button class="btn btn-primary">Get Started</button>
@@ -117,8 +115,8 @@
                                 <div class="item">
                                     <h4><strong>Video Marketing</strong></h4>
                                     <p>
-                                        Our Video productio services can help direct people to your business,
-                                        build your reputation and expand your sales.
+                                        Video marketing is a strategy that uses videos to promote products, services,
+                                         and brands. It engages audiences, increases brand awareness, and drives conversions.
                                     </p>
                                     <br>
                                     <button class="btn btn-primary">Get Started</button>
@@ -131,8 +129,8 @@
                                 <div class="item">
                                     <h4><strong>Influencer Marketing</strong></h4>
                                     <p>
-                                        Influencer marketing is a form of marketing that enables businesses to
-                                        collaborate with brand exposure to improve your company.
+                                        Influencer marketing partners with social media personalities to promote products or brands, build awareness, and drive sales.
+                                         It leverages an influencer's credibility.
                                     </p>
                                     <br>
                                     <button class="btn btn-primary">Get Started</button>
@@ -145,8 +143,8 @@
                                 <div class="item">
                                     <h4><strong>Search Engine Optimization(SEO)</strong></h4>
                                     <p>
-                                        SEO improving your website and better visibility
-                                        your pages have in search results found and clicked on.
+                                        SEO is the process of optimizing websites to rank higher in search engine results pages. It improves
+                                         website visibility, and increases conversions.
                                     </p>
                                     <br>
                                     <button class="btn btn-primary">Get Started</button>
@@ -159,8 +157,8 @@
                                 <div class="item">
                                     <h4><strong>Analytics and Tracking</strong></h4>
                                     <p>
-                                        Analytics tracking enables you to
-                                        identify and track contacts you can see their activities on your website.
+                                        Analytics and tracking are digital marketing campaign performance to optimize strategies for maximum results.
+                                         These are crucial components of any digital marketing.
                                     </p>
                                     <br>
                                     <button class="btn btn-primary">Get Started</button>
