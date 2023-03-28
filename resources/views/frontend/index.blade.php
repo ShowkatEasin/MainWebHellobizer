@@ -487,7 +487,7 @@
                     </div>
                     <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
                         <div class="position-relative h-100">
-                            <img src="/uploads/home/meeting.webp" alt="Thumb"> &nbsp; &nbsp;
+                            <img src="/uploads/home/meeting.webp" alt="Thumb">
                            
                         </div>
                     </div>
@@ -534,7 +534,7 @@
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="site-heading text-center">
-                        <h2>Our Partners</h2>
+                        <h2>Our Recent Clients</h2>
                         <p>Our partners are more than just clients - they're an integral part of our team.
                              Here are some of the organizations we've worked with to achieve great things.</p>
                     </div>
