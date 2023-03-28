@@ -86,7 +86,8 @@ h1,h2,h3,h4 {
 }
 
 h5,h5 {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+ 
 }
 
 .h1,h1{font-size:36px}
@@ -101,6 +102,7 @@ img {
   border: none;
   outline: none;
   max-width: 100%;
+  margin-bottom: 1%;
   
 }
 

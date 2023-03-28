@@ -1,68 +1,73 @@
 @extends('frontend.layouts.main')
 @section('main-content')
-
-    <body>
-
-    <!-- Start About
-    ============================================= -->
-    <div id="about" class="about-area default-padding">
+    <!-- Start Contact Area
+        ============================================= -->
+    <div id="contact" class="contact-us-area default-padding">
         <div class="container">
+            
             <div class="row">
-                <div class="col-lg-6 default info">
-                    <h4>About the partner programme</h4>
-                    <h2>How is the partnership set up?</h2>
-                    <div class="bottom-info">
-                       <p>
-                        Our partner marketing strategy gets all different sized businesses on the first page of Google.
-                         Become a HelloBizer partner and we’ll get your clients there, too.
-                        Our partner marketing strategy gets all different sized businesses on the first page of Google.
-                         Become a HelloBizer partner and we’ll get your clients there, too.
-                       </p>
-                    </div>
-                </div>
-                <div class="col-lg-6 services-info">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6">
-                            <div class="item">
-                                <i class="flaticon-ticket"></i>
-                                <h4>Referral Partnership</h4>
-                                <p>
-                                    The most common partnership is a
-                                     referral partnership where you do the referring
-                                      and we do the contracting. 
+                <!-- <div class="form-header">
+                        <h3>Schedule a Brief Meeting to Discuss
+
+                        </h3>
+                    </div> -->
+                <div class="pricing-item">
+                    <ul>
+                        <li class="pricing-header">
+                            <h2>Schedule a Brief Meeting to Discuss</h2>
+                            @if (Session::has('success'))
+                                <p style="font-size: 20px; color: green;padding-top: 20px;">{!! Session('success') !!}</p>
+                            @endif
+                        </li>
+                        <form action="{{ route('freequotesend') }}" class="free-quote" method="POST">
+                            @csrf
+
+                            <div class="row">
+                                <div class="col-md-6 col-lg-4">
+                                    <input type="text" class="form-control" placeholder="Your Name"name="name" required>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <input type="text" class="form-control" placeholder="Phone Number" name="phone" required>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <input type="email" class="form-control" placeholder="Email Address" name="email" required>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <input type="text" class="form-control" placeholder="Facebook Page/Website Url"
+                                        name="url" required>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <select name="mainservice" id="mainservice" class="form-control" rel="2" required>
+                                        <option value="" style="display: none" selected>Select Services</option>
+                                        @foreach ($frontServices as $service)
+                                            @if ($service->parent_id == null)
+                                                <option value="{{ $service->id }}" rel="{{ $service->id }}"
+                                                    class="mainservice"> {{ $service->title }}</option>
+                                            @endif
+                                        @endforeach
+
+
+                                    </select>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <select name="subservice" id="subservice" class="form-control">
+
+
+                                    </select>
+                                </div>
+                                <div class="col-md-12 col-lg-12">
+                                    <textarea class="form-control" id="comments" name="comments" placeholder="Tell Us About Project *" rows="5"></textarea>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="item">
-                                <i class="flaticon-speech-bubble"></i>
-                                <h4>Strategic Partnership</h4>
-                                <p>
-                                    For partners with clear overlapping value
-                                     propositions and large client bases, we can engage strategically.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="item">
-                                <i class="flaticon-email"></i>
-                                <h4>Channel Reseller</h4>
-                                <p>
-                                    If you are an agency that would like to broaden your scope of offerings, increase your advertising. 
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="item">
-                                <i class="flaticon-file"></i>
-                                <h4>Reporting Partnership </h4>
-                                 <p>
-                                    A partnership must file an annual information return to report the income
-                            </div>
-                        </div>
-                    </div>
+                            <li class="footer">
+                                <button class="btn circle btn-theme border btn-sm">Send</button>
+                            </li>
+                        </form>
+
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-        <!-- End About -->
+    <!-- End Contact -->
 @endsection
