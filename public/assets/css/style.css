@@ -83,6 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1,h2,h3,h4 {
   margin-bottom: 15px;
+  margin-left: 10px;
 }
 
 h5,h5 {
@@ -132,6 +133,7 @@ p {
   margin: 0 0 15px;
   text-transform: none;
   font-weight: 400;
+  margin-left: 10px;
   
 }
 

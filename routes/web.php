@@ -16,6 +16,7 @@ use App\Http\Controllers\PortfolioController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\DigitalMarketingController;
 use App\Http\Controllers\PortfolioContentController;
+use App\Http\Controllers\BlogsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -101,6 +102,16 @@ Route::get('/ecommerceportfolio',[PortfolioContentController::class,'ecommercepo
 
  /*======================== Portfolio Digital Marketing=============*/ 
  Route::get('/alldigitalmarketing',[PortfolioContentController::class,'alldigitalmarketing'])->name('alldigitalmarketing');
+
+ /* ==================Blogs Route=================== */
+ Route::get('/blogs',[BlogsController::class,'blogs'])->name('blogs');
+ Route::get('/blog1',[BlogsController::class,'blog1'])->name('blog1');
+ Route::get('/blog2',[BlogsController::class,'blog2'])->name('blog2');
+ Route::get('/blog3',[BlogsController::class,'blog3'])->name('blog3');
+ Route::get('/blog4',[BlogsController::class,'blog4'])->name('blog4');
+ Route::get('/blog5',[BlogsController::class,'blog5'])->name('blog5');
+ Route::get('/blog6',[BlogsController::class,'blog6'])->name('blog6');
+
 
 
 

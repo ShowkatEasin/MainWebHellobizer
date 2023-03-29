@@ -1,7 +1,8 @@
 @extends('frontend.layouts.main')
 @section('main-content')
+
     <!-- Start Blog
-        ============================================= -->
+            ============================================= -->
     <div id="blog" class="blog-area bg-gray full-width single default-padding">
         <div class="container">
             <div class="row">
@@ -10,16 +11,16 @@
                     <div class="item">
                         <div class="thumb">
                             <a href="#">
-                                <img src="http://127.0.0.1:8000/uploads/blog/large/blogs6.jpg" alt="Thumb">
+                                <img src="http://127.0.0.1:8000/uploads/blog/large/blogs3.jpg" alt="Thumb">
                                 <div class="post-type">
                                     <i class="fas fa-images"></i>
                                 </div>
                             </a>
                         </div>
                         <div class="info">
-                            <h2>
-                                <a href="">Business Consultancy</a>
-                            </h2>
+                            <h3>
+                                <a href="">Graphics Design</a>
+                            </h3>
                             <div class="meta">
                                 <ul>
                                     <li><a href="#"><i class="fas fa-calendar-alt "></i> 22 Oct, 2022</a></li>
@@ -28,26 +29,30 @@
                             </div>
                             <h1
                                 style="margin-top: 0.5rem; margin-bottom: 1rem; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-weight: 500; line-height: 1.2; color: rgb(51, 51, 51); font-size: 2.5rem; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; text-align: start;">
-                                <span style="font-weight: bolder;">Branding</span></h1>
+                                <span style="font-weight: bolder;">Branding</span>
+                            </h1>
                             <p
                                 style="margin-bottom: 0.9rem; color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400;">
                                 <span style="font-weight: 400;">In marketing, branding is the use of a name, term, design,
                                     symbol, or other feature to identify a product or service and distinguish it from those
                                     of other producers. The key components of a brand include the brand name, brand logo,
-                                    brand identity, and brand messaging.</span></p>
+                                    brand identity, and brand messaging.</span>
+                            </p>
                             <p
                                 style="margin-bottom: 0.9rem; color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400;">
                                 &nbsp;</p>
                             <h2
                                 style="margin-top: 0.5rem; margin-bottom: 1rem; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-weight: 500; line-height: 1.2; color: rgb(51, 51, 51); font-size: 2rem; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; text-align: start;">
-                                <span style="font-weight: bolder;">The importance of Branding&nbsp;</span></h2>
+                                <span style="font-weight: bolder;">The importance of Branding&nbsp;</span>
+                            </h2>
                             <p
                                 style="margin-bottom: 0.9rem; color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400;">
                                 <span style="font-weight: 400;">Branding is an important part of any business, large or
                                     small. A strong brand can help a company to stand out in a crowded marketplace, build
                                     customer trust and loyalty, and increase its value. Branding can also be a major
                                     liability if not done correctly, so it is important to understand the process and how to
-                                    do it correctly.</span></p>
+                                    do it correctly.</span>
+                            </p>
                             <p
                                 style="margin-bottom: 0.9rem; color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400;">
                                 &nbsp;</p>
@@ -57,19 +62,22 @@
                                     the customer, the competition, and the company’s strengths and weaknesses. This is
                                     followed by the development of a brand strategy, which includes the selection of a brand
                                     name, logo, and identity. The brand strategy is then implemented through marketing
-                                    communications, such as advertising, public relations, and social media.</span></p>
+                                    communications, such as advertising, public relations, and social media.</span>
+                            </p>
                             <p
                                 style="margin-bottom: 0.9rem; color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400;">
                                 <span style="font-weight: 400;">When done correctly, branding can be a powerful tool for any
                                     business. Understanding the process and how to do it correctly is essential for any
-                                    company looking to create a strong brand.</span></p>
+                                    company looking to create a strong brand.</span>
+                            </p>
                             <p
                                 style="margin-bottom: 0.9rem; color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400;">
                                 &nbsp;</p>
                             <h2
                                 style="margin-top: 0.5rem; margin-bottom: 1rem; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-weight: 500; line-height: 1.2; color: rgb(51, 51, 51); font-size: 2rem; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; text-align: start;">
                                 <span style="font-weight: bolder;">There are many benefits to branding, including the
-                                    ability to:</span></h2>
+                                    ability to:</span>
+                            </h2>
                             <p
                                 style="margin-bottom: 0.9rem; color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400;">
                                 &nbsp;</p>
@@ -175,7 +183,8 @@
                                 <span style="font-weight: 400;">A strong brand can be a major asset to a company, making it
                                     more valuable and helping it to stand out in a crowded marketplace. Branding can also be
                                     a major liability if not done correctly, resulting in a loss of customer trust and
-                                    loyalty.</span></p>
+                                    loyalty.</span>
+                            </p>
                             <p
                                 style="margin-bottom: 0.9rem; color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400;">
                                 &nbsp;</p>
@@ -184,20 +193,23 @@
                                 <span style="font-weight: 400;">When done correctly, branding can help a company to build
                                     customer trust and loyalty, differentiate itself from its competitors, and increase its
                                     value. Branding can also be used to create an emotional connection with customers,
-                                    making them more likely to be loyal and engaged.</span></p>
+                                    making them more likely to be loyal and engaged.</span>
+                            </p>
                             <p
                                 style="margin-bottom: 0.9rem; color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400;">
                                 &nbsp;</p>
                             <h2
                                 style="margin-top: 0.5rem; margin-bottom: 1rem; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-weight: 500; line-height: 1.2; color: rgb(51, 51, 51); font-size: 2rem; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; text-align: start;">
-                                <span style="font-weight: bolder;">Process of Branding&nbsp;</span></h2>
+                                <span style="font-weight: bolder;">Process of Branding&nbsp;</span>
+                            </h2>
                             <p
                                 style="margin-bottom: 0.9rem; color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400;">
                                 <span style="font-weight: 400;">This starts with research to understand the customer, the
                                     competition, and the company’s strengths and weaknesses. This is followed by the
                                     development of a brand strategy, which includes the selection of a brand name, logo, and
                                     identity. The brand strategy is then implemented through marketing communications, such
-                                    as advertising, public relations, and social media.</span></p>
+                                    as advertising, public relations, and social media.</span>
+                            </p>
                             <p
                                 style="margin-bottom: 0.9rem; color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400;">
                                 &nbsp;</p>
@@ -207,7 +219,8 @@
                                     the customer, the competition, and the company’s strengths and weaknesses. This is
                                     followed by the development of a brand strategy, which includes the selection of a brand
                                     name, logo, and identity. The brand strategy is then implemented through marketing
-                                    communications, such as advertising, public relations, and social media.</span></p>
+                                    communications, such as advertising, public relations, and social media.</span>
+                            </p>
                             <p
                                 style="margin-bottom: 0.9rem; color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400;">
                                 &nbsp;</p>
@@ -233,17 +246,17 @@
                             <h2 style="font-size: 20px">Categories</h2>
                             <ul>
                                 <li style="border-bottom: 1px dashed #4ac4f3; "><a
-                                        href="http://127.0.0.1:8000/category/software">Digital Marketing</a></li>
+                                        href="{{route('blog1')}}">Digital Marketing</a></li>
                                 <li style="border-bottom: 1px dashed #4ac4f3; "><a
-                                        href="http://127.0.0.1:8000/category/app-design-development">Web Design & Development</a></li>
+                                        href="{{route('blog2')}}">Web Design & Development</a></li>
                                 <li style="border-bottom: 1px dashed #4ac4f3; "><a
-                                        href="http://127.0.0.1:8000/category/web-solutions">Graphics Design</a></li>
+                                        href="{{route('blog3')}}">Graphics Design</a></li>
                                 <li style="border-bottom: 1px dashed #4ac4f3; "><a
-                                        href="http://127.0.0.1:8000/category/branding">Social Media Marketing</a></li>
+                                        href="{{route('blog4')}}">Social Media Marketing</a></li>
                                 <li style="border-bottom: 1px dashed #4ac4f3; "><a
-                                        href="http://127.0.0.1:8000/category/graphic-design">Software Development</a></li>
+                                        href="{{route('blog5')}}">Software Development</a></li>
                                 <li style="border-bottom: 1px dashed #4ac4f3; "><a
-                                        href="http://127.0.0.1:8000/category/graphic-design">Business Consultancy</a></li>
+                                        href="{{route('blog6')}}">Business Consultancy</a></li>
                             </ul>
                         </section><!-- .widget -->
                     </div>
@@ -276,8 +289,6 @@
                                             2022</span>
                                     </a>
                                 </li>
-
-
                             </ul>
                         </section><!-- .widget -->
                     </div>
@@ -286,6 +297,4 @@
         </div>
     </div>
     <!-- End Blog -->
-
-   
-        @endsection
+@endsection

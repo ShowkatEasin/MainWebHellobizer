@@ -10,16 +10,16 @@
                     <div class="item">
                         <div class="thumb">
                             <a href="#">
-                                <img src="http://127.0.0.1:8000/uploads/blog/large/blogs6.jpg" alt="Thumb">
+                                <img src="uploads/blog/large/1665921616.jpg" alt="Thumb">
                                 <div class="post-type">
                                     <i class="fas fa-images"></i>
                                 </div>
                             </a>
                         </div>
                         <div class="info">
-                            <h2>
-                                <a href="">Business Consultancy</a>
-                            </h2>
+                            <h3>
+                                <a href="#">Web Design & Development</a>
+                            </h3>
                             <div class="meta">
                                 <ul>
                                     <li><a href="#"><i class="fas fa-calendar-alt "></i> 22 Oct, 2022</a></li>
@@ -233,17 +233,17 @@
                             <h2 style="font-size: 20px">Categories</h2>
                             <ul>
                                 <li style="border-bottom: 1px dashed #4ac4f3; "><a
-                                        href="http://127.0.0.1:8000/category/software">Digital Marketing</a></li>
+                                        href="{{route('blog1')}}">Digital Marketing</a></li>
                                 <li style="border-bottom: 1px dashed #4ac4f3; "><a
-                                        href="http://127.0.0.1:8000/category/app-design-development">Web Design & Development</a></li>
+                                        href="{{route('blog2')}}">Web Design & Development</a></li>
                                 <li style="border-bottom: 1px dashed #4ac4f3; "><a
-                                        href="http://127.0.0.1:8000/category/web-solutions">Graphics Design</a></li>
+                                        href="{{route('blog3')}}">Graphics Design</a></li>
                                 <li style="border-bottom: 1px dashed #4ac4f3; "><a
-                                        href="http://127.0.0.1:8000/category/branding">Social Media Marketing</a></li>
+                                        href="{{route('blog4')}}">Social Media Marketing</a></li>
                                 <li style="border-bottom: 1px dashed #4ac4f3; "><a
-                                        href="http://127.0.0.1:8000/category/graphic-design">Software Development</a></li>
+                                        href="{{route('blog5')}}">Software Development</a></li>
                                 <li style="border-bottom: 1px dashed #4ac4f3; "><a
-                                        href="http://127.0.0.1:8000/category/graphic-design">Business Consultancy</a></li>
+                                        href="{{route('blog6')}}">Business Consultancy</a></li>
                             </ul>
                         </section><!-- .widget -->
                     </div>
@@ -276,8 +276,6 @@
                                             2022</span>
                                     </a>
                                 </li>
-
-
                             </ul>
                         </section><!-- .widget -->
                     </div>
@@ -289,3 +287,4 @@
 
    
         @endsection
+

@@ -233,17 +233,17 @@
                             <h2 style="font-size: 20px">Categories</h2>
                             <ul>
                                 <li style="border-bottom: 1px dashed #4ac4f3; "><a
-                                        href="http://127.0.0.1:8000/category/software">Digital Marketing</a></li>
+                                        href="{{route('blog1')}}">Digital Marketing</a></li>
                                 <li style="border-bottom: 1px dashed #4ac4f3; "><a
-                                        href="http://127.0.0.1:8000/category/app-design-development">Web Design & Development</a></li>
+                                        href="{{route('blog2')}}">Web Design & Development</a></li>
                                 <li style="border-bottom: 1px dashed #4ac4f3; "><a
-                                        href="http://127.0.0.1:8000/category/web-solutions">Graphics Design</a></li>
+                                        href="{{route('blog3')}}">Graphics Design</a></li>
                                 <li style="border-bottom: 1px dashed #4ac4f3; "><a
-                                        href="http://127.0.0.1:8000/category/branding">Social Media Marketing</a></li>
+                                        href="{{route('blog4')}}">Social Media Marketing</a></li>
                                 <li style="border-bottom: 1px dashed #4ac4f3; "><a
-                                        href="http://127.0.0.1:8000/category/graphic-design">Software Development</a></li>
+                                        href="{{route('blog5')}}">Software Development</a></li>
                                 <li style="border-bottom: 1px dashed #4ac4f3; "><a
-                                        href="http://127.0.0.1:8000/category/graphic-design">Business Consultancy</a></li>
+                                        href="{{route('blog6')}}">Business Consultancy</a></li>
                             </ul>
                         </section><!-- .widget -->
                     </div>

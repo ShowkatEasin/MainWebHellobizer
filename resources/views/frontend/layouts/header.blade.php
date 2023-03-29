@@ -39,9 +39,6 @@
                         <a class="smooth-menu @if(\Request::segment(1)== "portfolio") active @endif" href="{{route('portfolio')}}">Portfolio</a>
                     </li>
 
-                    {{-- <li>
-                        <a class="smooth-menu @if(\Request::segment(1)== "project") active @endif" href="{{route('project')}}">Project</a>  
-                    </li> --}}
 
                     <li>
                         <a class="smooth-menu @if(\Request::segment(1)== "Partner") active @endif" href="{{route('partner')}}">Partner</a>  
@@ -52,7 +49,7 @@
                     </li>
 
                     <li>
-                        <a class="smooth-menu {{-- @if(\Request::segment(1)== "news") active @endif --}}" href="{{route('blog')}}">Blog</a>
+                        <a class="smooth-menu" href="{{route('blogs')}}">Blog</a>
                     </li>
 
                     <li>

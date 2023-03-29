@@ -580,6 +580,7 @@
             </div>
         </div>
     </div>
+    </div>
 
     {{-- LOGO-Partner End --}}
 
