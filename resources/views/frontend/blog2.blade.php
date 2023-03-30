@@ -46,7 +46,6 @@
                                 customer trust and loyalty, and increase its value. Branding can also be a major
                                 liability if not done correctly, so it is important to understand the process and how to
                                 do it correctly.</p>
-
                             <br>
 
                             <p>The process of branding starts with research to understand
@@ -96,11 +95,6 @@
                                 other options are available.
                             </p>
                             <br>
-
-
-
-
-
                             <div class="post-pagi-area">
                                 <a href="{{ route('blog1') }}" class="float-left"><i class="fas fa-arrow-left"></i> Previous Post</a>
                                 <a href="{{ route('blog3') }}" class="float-right">Next Post <i

@@ -197,7 +197,7 @@
                                 </div>
                                 <div class="info">  
                                                   
-                                        <img src="{{asset('uploads/service/icon/app.png')}}" alt="">
+                                     
                                             <h3>Technical training</h3>
                                             <p>Improve your skills to serve better and sell more.</p>
                                         
@@ -209,7 +209,7 @@
                                 <div class="thumb">
                                 </div>
                                 <div class="info"> 
-                                          <img src="{{asset('uploads/service/icon/digital.png')}}" alt="">    
+                                           
                                             <h3>Sales enablement</h3>
                                             <p>We help you activate your lead base to identify opportunities.</p>
                                      
@@ -221,7 +221,7 @@
                                 <div class="thumb">
                                 </div>
                                 <div class="info">     
-                                           <img src="{{asset('uploads/service/icon/web.png')}}" alt="">
+                                           
                                             <h3>Incentives and discounts</h3>
                                             <p>We encourage a true partnership program with exclusive advantages.</p>
                                        
@@ -233,7 +233,7 @@
                                 <div class="thumb">
                                 </div>
                                 <div class="info">     
-                                           <img src="{{asset('uploads/service/icon/digital.png')}}" alt="">
+                                          
                                             <h3>Deal registration</h3>
                                             <p>Provides transparent reporting and visibility into referral pipeline.</p>
                                         
@@ -245,7 +245,7 @@
                                 <div class="thumb">
                                 </div>
                                 <div class="info">     
-                                           <img src="{{asset('uploads/service/icon/graphic.png')}}" alt=""> 
+                                           
                                             <h3>Customized marketing </h3>
                                             <p>Keeps campaigns moving quickly and consistently.</p>
                                        
@@ -257,7 +257,7 @@
                                 <div class="thumb">
                                 </div>
                                 <div class="info">     
-                                           <img src="{{asset('uploads/service/icon/digital.png')}}" alt="">
+                                         
                                             <h3>Partner portal</h3>
                                             <p>Track every step of your business partnership journey with HelloBizer.</p>
                                         
@@ -269,7 +269,7 @@
                                 <div class="thumb">
                                 </div>
                                 <div class="info">     
-                                            <img src="{{asset('uploads/service/icon/app.png')}}" alt="">
+                                           
                                             <h3>Sales Team</h3>
                                             <p>Offer sales support at every stage of a client’s campaign.</p>
                                          
@@ -281,7 +281,7 @@
                                 <div class="thumb">
                                 </div>
                                 <div class="info">     
-                                            <img src="{{asset('uploads/service/icon/graphic.png')}}" alt=""> 
+                                           
                                             <h3>Marketing Ideas</h3>
                                             <p>Proven strategies to drive referrals and increase revenue share.</p>
                                         
