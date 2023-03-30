@@ -66,8 +66,6 @@
     </div>
     <!-- End Banner -->
 
-
-
     <!--======================Start Services======================= -->
     <div id="services" class="services-area bg-theme-small default-padding bottom-less">
         <div class="container">
@@ -124,7 +122,6 @@
                                 </div>
                             </div>
                         </a>
-
                         <a href="{{ route('digitalmarketing') }}">
                             <div class="single-item">
                                 <div class="item">
@@ -290,7 +287,6 @@
                                     </div>
                                 </div>
                             </a>
-
                             <a href="{{ route('seo') }}">
                                 <div class="single-item">
                                     <div class="item">
@@ -304,7 +300,6 @@
                                     </div>
                                 </div>
                             </a>
-
                             <a href="{{ route('analyticsandtracking') }}">
                                 <div class="single-item">
                                     <div class="item">
@@ -323,8 +318,6 @@
                 </div>
             </div>
         </div>
-    
-
     <!-- End Digital marketing -->
 
 
@@ -467,19 +460,17 @@
                     <div class="col-lg-4">
                         <div class="row g-5">
                             <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
-                                <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                    <i class="fa fa-award text-white"></i>
-                                </div>
-                                <h4>Best In Industry</h4>
+                                
+                                <h3>Best In Industry</h3>
                                 <p>At HelloBizer, we are committed to being the best in the digital marketing industry. We are passionate about what we do, and we
                                      take pride in delivering exceptional results for our clients.</p>
                             </div>
                             <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
                                 <br>
-                                <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                    <i class="fa fa-award text-white"></i>
-                                </div>
-                                <h4>Competitive Pricing</h4>
+                                <br>
+                                <br>
+                                
+                                <h3>Competitive Pricing</h3>
                                 <p>We believe in providing high-quality digital marketing services at a fair and competitive price. We understand that every business has unique needs and budgets,
                                      which is why we offer a range of pricing packages to fit your specific needs and goals.</p>
                             </div>
@@ -487,26 +478,30 @@
                     </div>
                     <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
                         <div class="position-relative h-100">
-                            <img src="/uploads/home/meeting.webp" alt="Thumb">
+                            <br>
+                            <br>
+                            <br>
+                            <img src="/uploads/home/meeting1.webp" alt="Thumb">
+                           
                            
                         </div>
+                        
+
                     </div>
                     <div class="col-lg-4">
                         <div class="row g-8">
                             <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
-                                <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                   <i class="fa fa-award text-white"></i>
-                                </div>
-                                <h4> Professional Team</h4>
+                                
+                                <h3> Professional Team</h3>
                                 <p>At HelloBizer, we pride ourselves on having a team of highly professional and experienced experts. Our team is made up of individuals who are passionate & dedicated
                                      to helping our clients achieve their business goals.</p>
                             </div>
                             <div class="col-12 wow zoomIn justify-content-right mb-10" data-wow-delay="0.8s">
                                 <br>
-                                <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                    <i class="fa fa-award text-white"></i>
-                                </div>
-                                <h4>24/7 Support</h4>
+                                <br>
+                                <br>
+                                
+                                <h3>24/7 Support</h3>
                                 <p>We believe that exceptional customer service and support are key to our success. Our Team is always available to answer your questions,
                                      provide guidance, and offer support throughout the entire process.</p>
                             </div>

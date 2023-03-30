@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1,h2,h3,h4 {
   margin-bottom: 15px;
-  margin-left: 10px;
+   margin-left: 10px; 
 }
 
 h5,h5 {
@@ -103,7 +103,7 @@ img {
   border: none;
   outline: none;
   max-width: 100%;
-  margin-bottom: 1%;
+  padding-right: 0%;
   
 }
 
@@ -133,7 +133,7 @@ p {
   margin: 0 0 15px;
   text-transform: none;
   font-weight: 400;
-  margin-left: 10px;
+  margin-left: 10px; 
   
 }
 
@@ -3408,27 +3408,28 @@ body,
 }
 
 .f-item .social li.twitter a {
-  background-color: #00b6f1;
+  background-color: #ffffff;
+  height: 60px;
 }
 
 .f-item .social li.pinterest a {
-  background-color: #bd081c;
+  background-color: #ffffff;
 }
 
 .f-item .social li.facebook a {
-  background-color: #3b5998;
+  background-color: #ffffff;
 }
 
 .f-item .social li.g-plus a {
-  background-color: #df4a32;
+  background-color: #ffffff;
 }
 
 .f-item .social li.vimeo a {
-  background-color: #1ab7ea;
+  background-color: #ffffff;
 }
 
 .f-item .social li.instagram a {
-  background-color: #cd486b;
+  background-color: #ffffff;
 }
 
 .contact-us-area .address-items .info li i {

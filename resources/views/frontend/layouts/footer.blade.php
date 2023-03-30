@@ -7,13 +7,11 @@
                     <div class="col-lg-3 col-md-6 item">
                         <div class="f-item">
                             <img src="{{asset('assets/img/light-logo.png')}}" alt="Logo">
-                            <br>
+                            <p>One Stop Solutions for your business.</p>
+                            
+                            <p>We specialize in providing one-stop solutions for all your business needs.</p>
                          
-                            <h4>Social Address</h4>
-                                <ul class="social">
-
-                                    {!! $titles->social !!}
-                                </ul>
+                            
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-6 item l-10">
@@ -54,28 +52,39 @@
                             <h2 style="font-size: 18px">Recent Blogs</h2>
                             <ul>
                                 <li style="border-bottom: 1px dashed #4ac4f3;">
-                                    <a class="smooth-menu" href="">Blog January 2023</a>
+                                    <a href="{{ route('blog1') }}"><span>Blog : 01 Jan, 2022</span>
+                                    </a>
                                 </li>
+
                                 <li style="border-bottom: 1px dashed #4ac4f3;">
-                                    <a class="smooth-menu" href="">Blog February 2023</a>
+                                    <a href="{{ route('blog2') }}"><span>Blog : 01 Feb, 2022</span>
+                                    </a>
                                 </li>
+                                
                                 <li style="border-bottom: 1px dashed #4ac4f3;">
-                                    <a class="smooth-menu" href="">Blog March 2023</a>
+                                    <a href="{{ route('blog3') }}"><span> Blog : 01 Mar,
+                                            2022</span>
+                                    </a>
                                 </li>
+                                
                                 <li style="border-bottom: 1px dashed #4ac4f3;">
-                                    <a class="smooth-menu" href="">Blog April 2023</a>
+                                    <a href="{{ route('blog4') }}"><span> Blog : 01 Apr,
+                                            2022</span>
+                                    </a>
                                 </li>
+
                                 <li style="border-bottom: 1px dashed #4ac4f3;">
-                                    <a class="smooth-menu" href="">Blog May 2023</a>
+                                    <a href="{{ route('blog5') }}"><span> Blog : 01 May,
+                                            2022</span>
+                                    </a>
                                 </li>
-                                <li >
-                                    <li style="border-bottom: 1px dashed #4ac4f3;">
-                                    <a class="smooth-menu" href="">Blog June 2023</a>
+
+                                <li style="border-bottom: 1px dashed #4ac4f3;">
+                                    <a href="{{ route('blog6') }}"><span> Blog : 01 Jun,
+                                            2022</span>
+                                    </a>
                                 </li>
-                                <li >
-                                    <li style="border-bottom: 1px dashed #4ac4f3;">
-                                    <a class="smooth-menu" href="">Blog July 2023</a>
-                                </li>
+                                
                             </ul>
                         </section><!-- .widget -->
                     </div>

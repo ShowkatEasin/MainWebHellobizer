@@ -28,17 +28,17 @@
                             </div>
                             <div class="info">
                                 <h4>
-                                    <a href="http://127.0.0.1:8000/news/graphics-design-2">Digital Marketing</a>
+                                    <a href="{{route('blog1')}}">Digital Marketing</a>
                                 </h4>
                                 <div class="meta">
                                     <ul>
-                                        <li><a href="#"><i class="fas fa-calendar-alt "></i>  22 Oct, 2022</a></li>
-                                        <li><a href="http://127.0.0.1:8000/category/graphic-design"><i class="fas fa-flag"></i> Graphic Design</a></li>
+                                        <li><a href="{{route('blog1')}}"><i class="fas fa-calendar-alt "></i>  01 Jan, 2022</a></li>
+                                        <li><a href="{{route('blog1')}}"><i class="fas fa-flag"></i> Digital Marketing</a></li>
                                     </ul>
                                 </div>
                                 <p style="display: block;overflow:hidden">
                                     BrandingIn marketing, branding is the use of a name, term, design, symbol, or other feature to ident...
-                                    <a href="http://127.0.0.1:8000/news/graphics-design-2">Read more</a>
+                                    <a href="{{route('blog1')}}">Read more</a>
                                 </p>
                             </div>
                         </div>
@@ -59,13 +59,13 @@
                                 </h4>
                                 <div class="meta">
                                     <ul>
-                                        <li><a href="#"><i class="fas fa-calendar-alt "></i>  22 Oct, 2022</a></li>
-                                        <li><a href="{{route('blog2')}}"><i class="fas fa-flag"></i> Graphic Design</a></li>
+                                        <li><a href="{{route('blog2')}}"><i class="fas fa-calendar-alt "></i>  01 Feb, 2022</a></li>
+                                        <li><a href="{{route('blog2')}}"><i class="fas fa-flag"></i> Web Design & Development</a></li>
                                     </ul>
                                 </div>
                                 <p style="display: block;overflow:hidden">
                                     BrandingIn marketing, branding is the use of a name, term, design, symbol, or other feature to ident...
-                                    <a href="http://127.0.0.1:8000/news/graphics-design-2">Read more</a>
+                                    <a href="{{route('blog2')}}">Read more</a>
                                 </p>
                             </div>
                         </div>
@@ -86,7 +86,7 @@
                                 </h4>
                                 <div class="meta">
                                     <ul>
-                                        <li><a href="#"><i class="fas fa-calendar-alt "></i>  22 Oct, 2022</a></li>
+                                        <li><a href="{{route('blog3')}}"><i class="fas fa-calendar-alt "></i>  01 Mar, 2022</a></li>
                                         <li><a href="http://127.0.0.1:8000/category/graphic-design"><i class="fas fa-flag"></i> Graphic Design</a></li>
                                     </ul>
                                 </div>
@@ -113,8 +113,8 @@
                                 </h4>
                                 <div class="meta">
                                     <ul>
-                                        <li><a href="#"><i class="fas fa-calendar-alt "></i>  22 Oct, 2022</a></li>
-                                        <li><a href="http://127.0.0.1:8000/category/graphic-design"><i class="fas fa-flag"></i> Graphic Design</a></li>
+                                        <li><a href="{{route('blog4')}}"><i class="fas fa-calendar-alt "></i>  01 Apr, 2022</a></li>
+                                        <li><a href="{{route('blog4')}}"><i class="fas fa-flag"></i> Social Media Marketing</a></li>
                                     </ul>
                                 </div>
                                 <p style="display: block;overflow:hidden">
@@ -140,8 +140,8 @@
                                 </h4>
                                 <div class="meta">
                                     <ul>
-                                        <li><a href="#"><i class="fas fa-calendar-alt "></i>  22 Oct, 2022</a></li>
-                                        <li><a href="http://127.0.0.1:8000/category/graphic-design"><i class="fas fa-flag"></i> Graphic Design</a></li>
+                                        <li><a href="{{route('blog5')}}"><i class="fas fa-calendar-alt "></i>  01 May, 2022</a></li>
+                                        <li><a href="{{route('blog5')}}"><i class="fas fa-flag"></i> Software Development</a></li>
                                     </ul>
                                 </div>
                                 <p style="display: block;overflow:hidden">
@@ -163,17 +163,17 @@
                             </div>
                             <div class="info">
                                 <h4>
-                                    <a href="http://127.0.0.1:8000/news/graphics-design-2">Business Consultancy</a>
+                                    <a href="{{route('blog6')}}">Business Consultancy</a>
                                 </h4>
                                 <div class="meta">
                                     <ul>
-                                        <li><a href="#"><i class="fas fa-calendar-alt "></i>  22 Oct, 2022</a></li>
-                                        <li><a href="http://127.0.0.1:8000/category/graphic-design"><i class="fas fa-flag"></i> Graphic Design</a></li>
+                                        <li><a href="{{route('blog6')}}"><i class="fas fa-calendar-alt "></i>  01 Jun, 2022</a></li>
+                                        <li><a href="{{route('blog6')}}"><i class="fas fa-flag"></i> Business Consultancy</a></li>
                                     </ul>
                                 </div>
                                 <p style="display: block;overflow:hidden">
                                     BrandingIn marketing, branding is the use of a name, term, design, symbol, or other feature to ident...
-                                    <a href="http://127.0.0.1:8000/news/graphics-design-2">Read more</a>
+                                    <a href="Business Consultancy">Read more</a>
                                 </p>
                             </div>
                         </div>
@@ -189,7 +189,7 @@
             </span>
         
         
-                    <a href="http://127.0.0.1:8000/news?page=2" rel="next" class="relative inline-flex items-center px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 rounded-md hover:text-gray-500 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150">
+                    <a href="" rel="next" class="relative inline-flex items-center px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 rounded-md hover:text-gray-500 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150">
                 Next &raquo;
             </a>
             </nav>
