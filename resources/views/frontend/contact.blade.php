@@ -18,139 +18,104 @@
                     </div>
                 </div>
             </div>
-            <div class="box">
-                <div class="row">
-                    <div class="col-lg-8 offset-lg-2">
-                        <form action="" method="POST">
-                            <div class="col-lg-12">
-                                <div class="row">
-                                    <div class="form-group">
-                                        <label for="name">
-                                            <h4>Enter Your Full Name</h4>
-                                        </label>
-                                        <input class="form-control" id="name" name="name"
-                                            placeholder="Example : Adnan Rahman" type="text" required>
-                                        <span class="alert-error"></span>
-                                    </div>
-                                </div>
+
+           {{-- Form Start--}}
+
+           <div class="row">
+            <!-- <div class="form-header">
+                    <h3>Schedule a Brief Meeting to Discuss
+
+                    </h3>
+                </div> -->
+            <div class="pricing-item">
+                <ul>
+                    <li class="pricing-header">
+                        <h2>Schedule a Brief Meeting to Discuss</h2>
+                        @if (Session::has('success'))
+                            <p style="font-size: 20px; color: green;padding-top: 20px;">{!! Session('success') !!}</p>
+                        @endif
+                    </li>
+                    <form action="{{ route('freequotesend') }}" class="free-quote" method="POST">
+                        @csrf
+
+                        <div class="row">
+                            <div class="col-md-6 col-lg-4">
+                                <input type="text" class="form-control" placeholder="Your Name"name="name" required>
                             </div>
-                            <div class="col-lg-12">
-                                <div class="row">
-                                    <div class="form-group">
-                                        <label for="email">
-                                            <h4>Enter Your Email</h4>
-                                        </label>
-                                        <input class="form-control" id="email" name="email"
-                                            placeholder="Example : hellobizer@gmail.com*" type="email" required>
-                                        <span class="alert-error"></span>
-                                    </div>
-                                </div>
+                            <div class="col-md-6 col-lg-4">
+                                <input type="text" class="form-control" placeholder="Phone Number" name="phone" required>
                             </div>
-                            <div class="col-lg-12">
-                                <div class="row">
-                                    <div class="form-group">
-                                        <label for="phone">
-                                            <h4>Enter Your Phone</h4>
-                                        </label>
-                                        <input class="form-control" id="phone" name="phone"
-                                            placeholder="Example : +8801646962234" type="text" required>
-                                        <span class="alert-error"></span>
-                                    </div>
-                                </div>
+                            <div class="col-md-6 col-lg-4">
+                                <input type="email" class="form-control" placeholder="Email Address" name="email" required>
                             </div>
-                            <div class="col-lg-12">
-                                <div class="row">
-                                    <div class="form-group">
-                                        <label for="website">
-                                            <h4>Enter Your Website</h4>
-                                        </label>
-                                        <input class="form-control" id="phone" name="phone"
-                                            placeholder="Example : www.hellobizer.com" type="text" required>
-                                        <span class="alert-error"></span>
-                                    </div>
-                                </div>
+                            <div class="col-md-6 col-lg-4">
+                                <input type="text" class="form-control" placeholder="Facebook Page/Website Url"
+                                    name="url" required>
                             </div>
+                            <div class="col-md-6 col-lg-4">
+                                <select name="mainservice" id="mainservice" class="form-control" rel="2" required>
+                                    <option value="" style="display: none" selected>Select Services</option>
+                                    @foreach ($frontServices as $service)
+                                        @if ($service->parent_id == null)
+                                            <option value="{{ $service->id }}" rel="{{ $service->id }}"
+                                                class="mainservice"> {{ $service->title }}</option>
+                                        @endif
+                                    @endforeach
 
-                            <div class="row">
-                                <div class="col">
-                                    <label for="date">
-                                        <h4>Your Convenient Date</h4>
-                                    </label>
-                                    <input type="date" class="form-control" placeholder="Example : 22-03-2023">
-                                </div>
-                                <div class="col">
-                                    <label for="time">
-                                        <h4>Your Convenient Time</h4>
-                                    </label>
-                                    <input type="time" class="form-control" placeholder="Example : 4:00 PM">
-                                    <br>
-                                </div>
+
+                                </select>
                             </div>
+                            <div class="col-md-6 col-lg-4">
+                                <select name="subservice" id="subservice" class="form-control">
 
-                            {{-- ================checkbox Start================ --}}
 
-                            <form>
-                                <fieldset>
-                                    <legend>Are you interested in?</legend>
-                                    <div>
-                                        <input type="checkbox" id="instagram" name="source" value="instagram">
-                                        <label for="instagram">SEO</label> &nbsp; &nbsp; 
+                                </select>
+                            </div>
+                            <div class="col-md-12 col-lg-12">
+                                <textarea class="form-control" id="comments" name="comments" placeholder="Tell Us About Project *" rows="5"></textarea>
+                            </div>
+                        </div>
+                        <br>
 
-                                        <input type="checkbox" id="facebook" name="source" value="facebook">
-                                        <label for="facebook">Website </label>  &nbsp; &nbsp;
+                         {{-- ================checkbox Start================ --}}
 
-                                        <input type="checkbox" id="facebook" name="source" value="facebook">
-                                        <label for="facebook">Software</label>  &nbsp; &nbsp;
+                         <form>
+                            <fieldset>
+                                <legend>Are you interested in?</legend>
+                                <div>
+                                    <input type="checkbox" id="instagram" name="source" value="instagram">
+                                    <label for="instagram">SEO</label> &nbsp; &nbsp; 
 
-                                        <input type="checkbox" id="facebook" name="source" value="facebook">
-                                        <label for="facebook">Digital marketing</label>  &nbsp; &nbsp;
+                                    <input type="checkbox" id="facebook" name="source" value="facebook">
+                                    <label for="facebook">Website </label>  &nbsp; &nbsp;
 
-                                        <input type="checkbox" id="facebook" name="source" value="facebook">
-                                        <label for="facebook">Video making</label>  &nbsp; &nbsp;
+                                    <input type="checkbox" id="facebook" name="source" value="facebook">
+                                    <label for="facebook">Software</label>  &nbsp; &nbsp;
 
-                                        <input type="checkbox" id="facebook" name="source" value="facebook">
-                                        <label for="facebook">Business Consultancy</label>  &nbsp; &nbsp;
-                                    </div>
-                                </fieldset>
-                            </form>
-                            <br>
+                                    <input type="checkbox" id="facebook" name="source" value="facebook">
+                                    <label for="facebook">Digital marketing</label>  &nbsp; &nbsp;
 
-                            {{-- ================checkbox End================ --}}
+                                    <input type="checkbox" id="facebook" name="source" value="facebook">
+                                    <label for="facebook">Video making</label>  &nbsp; &nbsp;
 
-                            <div class="col-lg-12">
-                                <div class="row">
-                                    <div class="form-group comments">
-                                        <label for="text">
-                                            <h4>Your Message</h4>
-                                        </label>
-                                        <textarea class="form-control" id="message" name="message" placeholder="Tell Us About Project *" rows="4"
-                                            cols="50"></textarea>
-                                    </div>
+                                    <input type="checkbox" id="facebook" name="source" value="facebook">
+                                    <label for="facebook">Business Consultancy</label>  &nbsp; &nbsp;
                                 </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="row">
-                                    <button type="submit" name="submit" id="submit c">
-                                        Send Message <i class="fa fa-paper-plane"></i>
-                                    </button>
-                                    <br>
-                                </div>
-                            </div>
-                            <!-- Alert Message -->
-                            <div class="col-lg-12 alert-notification">
-                               {{--  @if (Session::has('success'))
-                                    <p>{!! Session('success') !!}</p>
-                                @endif --}}
-                            </div>
+                            </fieldset>
                         </form>
-                    </div>
-                </div>
+                        <br>
+
+                        {{-- ================checkbox End================ --}}
+                        <li class="footer">
+                            <button class="btn circle btn-theme border btn-sm">Send</button>
+                        </li>
+                    </form>
+
+                </ul>
             </div>
         </div>
-
-        <!-- End Contact -->
-
-         {{--   Get in Touch Start --}}
+    </div>
+</div>
 
          <div id="services" class="services-area bg-theme-small default-padding bottom-less">
             <div class="container">
@@ -195,9 +160,15 @@
                                         <h3><strong>Social</strong></h3>
                                       
                                         <ul>
-                                            <li>Facebook</li>
-                                            <li>Instagram</li>
-                                            <li>Twitter</li>    
+                                            <li>
+                                                <i class="fab fa-facebook-f fa-2x" style="color: #3b5998;"></i>&nbsp; 
+                                                <i class="fab fa-instagram fa-2x" style="color: #ac2bac;"></i>&nbsp; 
+                                                <i class="fab fa-linkedin-in fa-2x" style="color: #0082ca;"></i>&nbsp; 
+                                                <i class="fab fa-whatsapp fa-2x" style="color: #25d366;"></i> &nbsp;
+                                                <i class="fab fa-youtube fa-2x" style="color: #ed302f;"></i>
+                                            </li>
+                                          </ul>
+                                            
                                     </div>
                                 </div>
                         </div>
@@ -245,6 +216,7 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-lg-12">
                             <div class="row">
                                 <div class="form-group">

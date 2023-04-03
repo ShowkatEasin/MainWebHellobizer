@@ -27,7 +27,7 @@
                         <div class="row align-center">
                             <div class="col-lg-6 left-info simple-video">
                                 <div class="content" data-animation="animated fadeInUpBig">
-                                    <h1>We are relevant, generous and consistent.  <span> We want to partner with you.</span>  <span></span> </h1>
+                                    <h1>We are relevant and consistent. We want to <span>partner </span>with you.  </h1>
                                     <p>A business partner is a commercial entity with which another commercial entity has some form of alliance. This relationship may be a contractual, exclusive bond in which both entities commit not to ally with third parties. 
                                     </p>
                                 </div>
@@ -103,28 +103,28 @@
                        
                        <ul>
                         <li>
-                            <i class="fas fa-check"></i> <span>Elderly is detract tedious assured private</span>
+                            <i class="fas fa-check"></i> <span>Awards - Community participation</span>
                         </li>
                         <li>
-                            <i class="fas fa-check"></i> <span>Do travelling companions contrasted</span>
+                            <i class="fas fa-check"></i> <span>Mentoring - business skilled support</span>
                         </li>
                         <li>
-                            <i class="fas fa-check"></i> <span>Mistress strongly remember up</span>
+                            <i class="fas fa-check"></i> <span>Discount - goods or services</span>
                         </li>
                         <li>
-                            <i class="fas fa-check"></i> <span>Do travelling companions contrasted</span>
+                            <i class="fas fa-check"></i> <span>Sponsorship - exposure in return for money or in-kind</span>
                         </li>
                         <li>
-                            <i class="fas fa-check"></i> <span>Mistress strongly remember up</span>
+                            <i class="fas fa-check"></i> <span>Collection Point - for goods or services</span>
                         </li>
                         <li>
-                            <i class="fas fa-check"></i> <span>Mistress strongly remember up</span>
+                            <i class="fas fa-check"></i> <span>Infrastructure - meeting space or shared office</span>
                         </li>
                         <li>
-                            <i class="fas fa-check"></i> <span>Mistress strongly remember up</span>
+                            <i class="fas fa-check"></i> <span>Employment - members work experience</span>
                         </li>
                         <li>
-                            <i class="fas fa-check"></i> <span>Do travelling companions contrasted</span>
+                            <i class="fas fa-check"></i> <span>In-Kind Support - goods or services</span>
                         </li>
                         
                     </ul>
@@ -167,7 +167,7 @@
                                 <i class="flaticon-file"></i>
                                 <h4>Reporting Partnership </h4>
                                  <p>
-                                    A partnership must file an annual information return.
+                                    A partnership must file an annual information return to identify your record.
                             </div>
                         </div>
                     </div>
@@ -199,7 +199,7 @@
                                                   
                                      
                                             <h3>Technical training</h3>
-                                            <p>Improve your skills to serve better and sell more.</p>
+                                            <p>Improve your skills to serve better and Sales for your business or Company.</p>
                                         
                                       </div>
                             </div>
@@ -211,7 +211,7 @@
                                 <div class="info"> 
                                            
                                             <h3>Sales enablement</h3>
-                                            <p>We help you activate your lead base to identify opportunities.</p>
+                                            <p>We help you activate your lead base to identify your brand to get better opportunities.</p>
                                      
                                 </div>
                             </div>
@@ -223,20 +223,8 @@
                                 <div class="info">     
                                            
                                             <h3>Incentives and discounts</h3>
-                                            <p>We encourage a true partnership program with exclusive advantages.</p>
+                                            <p>We encourage a true partnership program with advantages.</p>
                                        
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-5">
-                            <div class="item">
-                                <div class="thumb">
-                                </div>
-                                <div class="info">     
-                                          
-                                            <h3>Deal registration</h3>
-                                            <p>Provides transparent reporting and visibility into referral pipeline.</p>
-                                        
                                 </div>
                             </div>
                         </div>
@@ -252,6 +240,20 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="col-lg-3 col-md-5">
+                            <div class="item">
+                                <div class="thumb">
+                                </div>
+                                <div class="info">     
+                                          
+                                            <h3>Deal registration</h3>
+                                            <p>Provides transparent reporting and visibility into referral pipeline.</p>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        
                         <div class="col-lg-3 col-md-5">
                             <div class="item">
                                 <div class="thumb">

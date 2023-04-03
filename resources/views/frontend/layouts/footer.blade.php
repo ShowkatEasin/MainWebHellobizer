@@ -7,9 +7,18 @@
                     <div class="col-lg-3 col-md-6 item">
                         <div class="f-item">
                             <img src="{{asset('assets/img/light-logo.png')}}" alt="Logo">
-                            <p>One Stop Solutions for your business.</p>
+                            <p>We specialize in providing one-stop 
+                                solutions for all your business needs.</p>
                             
-                            <p>We specialize in providing one-stop solutions for all your business needs.</p>
+                          <ul>
+                            <li>
+                                <i class="fab fa-facebook-f fa-2x" style="color: #0992c0;"></i>&nbsp; &nbsp;
+                                <i class="fab fa-instagram fa-2x" style="color: #0992c0;"></i>&nbsp; &nbsp;
+                                <i class="fab fa-linkedin-in fa-2x" style="color: #0992c0;"></i>&nbsp; &nbsp;
+                                <i class="fab fa-whatsapp fa-2x" style="color: #0992c0;"></i> &nbsp; &nbsp;
+                                <i class="fab fa-youtube fa-2x" style="color: #0992c0;"></i>
+                            </li>
+                          </ul>
                          
                             
                         </div>
@@ -52,35 +61,35 @@
                             <h2 style="font-size: 18px">Recent Blogs</h2>
                             <ul>
                                 <li style="border-bottom: 1px dashed #4ac4f3;">
-                                    <a href="{{ route('blog1') }}"><span>Blog : 01 Jan, 2022</span>
+                                    <a href="{{ route('blog1') }}"><span> 01 January, 2022</span>
                                     </a>
                                 </li>
 
                                 <li style="border-bottom: 1px dashed #4ac4f3;">
-                                    <a href="{{ route('blog2') }}"><span>Blog : 01 Feb, 2022</span>
+                                    <a href="{{ route('blog2') }}"><span> 01 February, 2022</span>
                                     </a>
                                 </li>
                                 
                                 <li style="border-bottom: 1px dashed #4ac4f3;">
-                                    <a href="{{ route('blog3') }}"><span> Blog : 01 Mar,
+                                    <a href="{{ route('blog3') }}"><span> 01 March,
                                             2022</span>
                                     </a>
                                 </li>
                                 
                                 <li style="border-bottom: 1px dashed #4ac4f3;">
-                                    <a href="{{ route('blog4') }}"><span> Blog : 01 Apr,
+                                    <a href="{{ route('blog4') }}"><span> 01 April,
                                             2022</span>
                                     </a>
                                 </li>
 
                                 <li style="border-bottom: 1px dashed #4ac4f3;">
-                                    <a href="{{ route('blog5') }}"><span> Blog : 01 May,
+                                    <a href="{{ route('blog5') }}"><span> 01 May,
                                             2022</span>
                                     </a>
                                 </li>
 
                                 <li style="border-bottom: 1px dashed #4ac4f3;">
-                                    <a href="{{ route('blog6') }}"><span> Blog : 01 Jun,
+                                    <a href="{{ route('blog6') }}"><span>  01 June,
                                             2022</span>
                                     </a>
                                 </li>
@@ -91,7 +100,6 @@
                     {{-- blogs end --}}
                    
                     <div class="col-lg-4 col-md-6 item f-item">
-
                         <section class="site-heading address">
                             <h2 style="font-size: 18px">Contact info</h2>
                             <ul>
@@ -123,7 +131,6 @@
                                         <span>+44-20-7328-4499</span>
                                     </div>
                                 </li>
-
                             </ul>
                         </section><!-- .widget -->
                     </div>

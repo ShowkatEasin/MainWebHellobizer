@@ -16,33 +16,34 @@
 
                              <br>
                              <br>
-                    </div>
-                </div>
-            </div>
+                       </div>
+                   </div>
+               </div>
             <div class="services-box text-center">
                 <div class="row">
                     <div class="services-carosul owl-carousel owl-theme text-center">
 
                         <a href="{{ route('allproject')}}"> 
-                            <h3><strong>All Project</strong> </h3>                   
+                            <h2>All Project</h2>                
                           </a>
 
-                        <a href="{{route('digitalmarketingportfolio')}}"> 
-                            <h3><strong>Digital Marketing</strong> </h3>                   
+                          <a href="{{route('digitalmarketingportfolio')}}"> 
+                            <h2>Digital Marketing</h2>                   
                           </a>
 
-                        <a href="{{route('seoportfolio')}}"> 
-                            <h3><strong>SEO</strong> </h3>                   
-                        </a>
+                          <a href="{{route('seoportfolio')}}"> 
+                            <h2>SEO</h2>                   
+                            </a>
 
-                        <a href="{{route('graphicsportfolio')}}"> 
-                            <h3><strong>Graphic Design</strong> </h3>                   
-                         </a>
+                            <a href="{{route('graphicsportfolio')}}"> 
+                                <h2>Graphic Design</h2>                   
+                             </a>
+
                          <a href="{{ route('websiteportfolio') }}"> 
-                            <h3><strong>Website</strong> </h3>                   
+                            <h2>Website</h2>                   
                           </a>
                           <a href="{{route('ecommerceportfolio')}}"> 
-                            <h3><strong>E-Commerce</strong> </h3>                   
+                            <h2>E-Commerce</h2>                   
                           </a>
                     </div>
                 </div>

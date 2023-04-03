@@ -13,7 +13,7 @@
 
     <br>
     <br>
-    <!-- Start Banner ============================================= -->
+    <!--  ======================Start Banner======================= -->
     <div class="banner-area shape-index transparent-nav content-double text-medium">
         <div class="box-table">
             <div class="box-cell">
@@ -28,33 +28,19 @@
                                         expert team, and cutting-edge technologies, we help our clients stay ahead of the
                                         curve and achieve success in their
                                         respective industries.
-                                    </p>
-                                    <a href=" {{route('about')}}">
-                                        <button class="btn btn-primary">See details to know</button>
-                                    </a>
 
+                                        <br>
+                                        <a href=" {{route('about')}}">
+                                            <button class="btn btn-primary">See details to know</button>
+                                        </a>
+                                    </p>
                                 </div>
                             </div>
                             <div class="col-lg-6 right-info">
                               
                                 <img src="assets/img/illustration/3.png" alt="Thumb">
                             </div>   
-                            {{-- <div class="form-group col-md-6 col-sm-12 col-lg-6 mr-5">
-                                <div class="subscribe">
-                                    <form action="{{ route('service.search') }}" method="POST">
-                                        @csrf
-                                        <div class="input-group stylish-input-group ">
-                                            <input type="text" placeholder="Find Your Solution" class="form-control"
-                                                name="search"id="email">
-                                            <span class="input-group-addon">
-                                                <button type="submit">
-                                                    <i class="fa fa-paper-plane"></i>
-                                                </button>
-                                            </span>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div> --}}
+                            
                         </div>
                     </div>
                 </div>
@@ -88,6 +74,7 @@
                             <div class="single-item">
                                 <div class="item">
                                     <img src="{{ asset('uploads/service/icon/videoicon.png') }}" alt="">
+                                  {{--  <i class="fab fa-youtube fa-2x" style="color: #0992c0;"></i> --}}
                                     <h5>Video Making</h5>
                                     <p>
                                         Elevate your brand's visual story telling with our expert and professional
@@ -102,8 +89,7 @@
                                     <img src="{{ asset('uploads/service/icon/softicon.png') }}" alt="">
                                     <h5>Software Development</h5>
                                     <p>
-                                        Transform your business with our expert software development services. Our team
-                                        creates custom software solutions.
+                                       You can Transform your business with our expert software development services.
                                         {{-- {{ Str::limit(strip_tags( $serv->description)) }} --}}
                                     </p>
                                 </div>
@@ -116,7 +102,7 @@
                                     <h5>Business Consultancy</h5>
                                     <p>
                                         Unlock your business's full potential with our expert business consultancy services
-                                        to improve your company.
+                                        to grow sales.
                                         {{--  {{ Str::limit(strip_tags( $serv->description)) }} --}}
                                     </p>
                                 </div>
@@ -155,9 +141,8 @@
                                     <img src="{{ asset('uploads/service/icon/web.png') }}" alt="">
                                     <h5>Web Design & Development</h5>
                                     <p>
-                                        Transform your online presence with our professional website design and development
-                                        services.
-                                        {{-- {{ Str::limit(strip_tags( $serv->description)) }} --}}
+                                        Transform your online presence with our professional website design and development.
+                                       
                                     </p>
                                 </div>
                             </div>
@@ -168,9 +153,7 @@
                                     <img src="{{ asset('uploads/service/icon/digital.png') }}" alt="">
                                     <h5>Social Media Setup & Monitoring</h5>
                                     <p>
-                                        We provide the best services for Social Media Setup is a crucial component of any
-                                        digital marketing strategy.
-                                        {{--  {{ Str::limit(strip_tags( $serv->description)) }} --}}
+                                        We provide the best services for Social Media Setup is a crucial for your business.
                                     </p>
                                 </div>
                             </div>
@@ -182,30 +165,21 @@
                                     <h5>App Design & Development</h5>
                                     <p>
                                         This services that deliver innovative and user-friendly mobile applications for
-                                        businesses.
-                                        {{--  {{ Str::limit(strip_tags( $serv->description)) }} --}}
+                                        businesses. 
                                     </p>
                                 </div>
                             </div>
                         </a>
                         {{-- End new 8 --}}
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End Services -->
-    <!-- start Emi Banner Area -->
-    {{-- <div id="emi-banner">
-        <div class="container default-padding">
-            <img src="assets/img/emi.webp" alt="">
-        </div>
-    </div> --}}
-    <!-- End Emi Banner Area -->
 
     <!--  ====================Start Digitam Marketing========================= -->
 
-  
         <div id="services" class="services-area bg-theme-small default-padding bottom-less">
             <div class="container">
                 <div class="row">
@@ -225,8 +199,8 @@
                             <a href="{{ route('socialmediamarketing') }}">
                                 <div class="single-item">
                                     <div class="item">
-                                        <h4><strong>Social Media Marketing</strong></h4>
-                                        <p>Social media marketing is the process of utilizing social media platforms such as Facebook, Twitter, and Instagram to reach target audience.</p> <br>
+                                        <h5>Social Media Marketing</h5>
+                                        <p>Social media marketing is the process of utilizing social media platforms such as Facebook, Twitter, and Instagram to reach target audience. </p> <br>
                                         <button class="btn btn-primary">Get Started</button>
                                     </div>
                                 </div>
@@ -234,7 +208,7 @@
                             <a href="{{ route('contentmarketing') }}">
                                 <div class="single-item">
                                     <div class="item">
-                                        <h4> <strong>Content Marketing</strong></h4>
+                                        <h5>Content Marketing</h5>
                                         <p>
                                             Content marketing is a strategy that creates and shares valuable, relevant content to attract and retain an audience.
                                              It builds trust, establishes thought leadership.
@@ -248,7 +222,7 @@
                             <a href="{{ route('emailmarketing') }}">
                                 <div class="single-item">
                                     <div class="item">
-                                        <h4><strong>Email Marketing</strong></h4>
+                                        <h5>Email Marketing</h5>
                                         <p>
                                             Email marketing is a strategy that involves sending personalized messages
                                              to subscribers to promote products, build relationships, and increase sales for your business.
@@ -263,7 +237,7 @@
                             <a href="{{ route('videomarketing') }}">
                                 <div class="single-item">
                                     <div class="item">
-                                        <h4><strong>Video Marketing</strong></h4>
+                                        <h5>Video Marketing</h5>
                                         <p>
                                             Video marketing is a strategy that uses videos to promote products, services,
                                              and brands. It engages audiences, increases brand awareness, and drives conversions.
@@ -277,10 +251,10 @@
                             <a href="{{ route('influencermarketing') }}">
                                 <div class="single-item">
                                     <div class="item">
-                                        <h4><strong>Influencer Marketing</strong></h4>
+                                        <h5>Influencer Marketing</h5>
                                         <p>
-                                            Influencer marketing partners with social media personalities to promote products or brands, build awareness, and drive sales.
-                                             It leverages an influencer's credibility.
+                                            Influencer Marketing partners with social media personalities to promote products, brands and business, build awareness, and drive sales &
+                                              influencer's credibility.
                                         </p>
                                         <br>
                                         <button class="btn btn-primary">Get Started</button>
@@ -290,7 +264,7 @@
                             <a href="{{ route('seo') }}">
                                 <div class="single-item">
                                     <div class="item">
-                                        <h4><strong>Search Engine Optimization(SEO)</strong></h4>
+                                        <h5>Search Engine Optimization(SEO)</h5>
                                         <p>
                                             SEO is the process of optimizing websites to rank higher in search engine results pages. It improves
                                              website visibility, and increases conversions.
@@ -303,10 +277,10 @@
                             <a href="{{ route('analyticsandtracking') }}">
                                 <div class="single-item">
                                     <div class="item">
-                                        <h4><strong>Analytics and Tracking</strong></h4>
+                                        <h5>Analytics and Tracking</h5>
                                         <p>
-                                            Analytics and tracking are digital marketing campaign performance to optimize strategies for maximum results.
-                                             These are crucial components of any digital marketing.
+                                            Analytics and tracking measures digital marketing campaign performance to optimize for maximum results.
+                                           It's a crucial components.
                                         </p>
                                         <br>
                                         <button class="btn btn-primary">Get Started</button>
@@ -321,9 +295,111 @@
     <!-- End Digital marketing -->
 
 
+    {{-- =================This week Offer start=============== --}}
+
+    <div id="blog" class="blog-area bg-gray default-padding bottom-less">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="site-heading text-center">
+                        <h2>This Week offer</h2>
+                        <p>In publishing and graphic design, lorem ipsum is a filler text commonly used to demonstrate
+                            the graphic elements of a document or visual presentation graphic elements of a document or visual presentation.
+                         </p>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-items">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="item">
+                            <div class="thumb">
+                                <a href="{{route('posterdesign')}}">
+                                    <img src="/uploads/graphics/gr3.png" alt="Thumb">  
+                                </a>
+                            </div>
+                            <div class="info">
+                                <h4>
+                                    <a href="{{route('posterdesign')}}">Poster design </a>
+                                </h4>
+                                <p style="display: block;overflow:hidden">
+                                    You can design your business or corporate campaign poster. We also provide Branding and marketing Services for your company....
+                                    <a href="{{route('posterdesign')}}">See Details</a> <br>
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="item">
+                            <div class="thumb">
+                                <a href="{{route('brandingdesign')}}">
+                                    <img src="/uploads/graphics/gr2.png" alt="Thumb">
+                            </div>
+                            <div class="info">
+                                <h4>
+                                    <a href="{{route('brandingdesign')}}">Branding Design</a>
+                                </h4>
+                                <p style="display: block;overflow:hidden">
+                                    Your business branding is your main attraction.
+                                     You can make eye-catching design with discount price within a short time duration....
+                                    <a href="{{route('brandingdesign')}}">See Details</a> 
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="item">
+                            <div class="thumb">
+                                <a href="{{route('allwebsite')}}">
+                                    <img src="/uploads/website/gr2.png" alt="Thumb">
+                            </div>
+                            <div class="info">
+                                <h4>
+                                    <a href="{{route('allwebsite')}}">Website & E-Commerce</a>
+                                </h4>
+                                <p style="display: block;overflow:hidden">
+                                    In this offer you can make website and E-Commerce in budget friendly price within a short time.
+                                     We also provide better domain and hosting facilities....
+                                    <a href="{{route('allwebsite')}}">See Details</a>
+                                  
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                 
+                    <div class="col-lg-12 col-md-12 pagi-area">
+                        <nav aria-label="navigation">
+                            <ul class="pagination">
+                                <nav role="navigation" aria-label="Pagination Navigation"
+                                    class="flex justify-between">
+
+                                    <span
+                                        class="relative inline-flex items-center px-4 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 cursor-default leading-5 rounded-md">
+                                        &laquo; Previous
+                                    </span>
 
 
-   
+                                    <a href="{{route('allseo')}}" rel="next"
+                                        class="relative inline-flex items-center px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 rounded-md hover:text-gray-500 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150">
+                                        Next &raquo;
+                                    </a>
+                                </nav>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{-- =================This week Offer end=============== --}}
+
     <!-- ====================Start Why Chose Us========================= -->
     <div id="about" class="choseus-area default-padding">
         <div class="container">
@@ -379,61 +455,60 @@
                 <div class="row">
                     <div class="services-carosul owl-carousel owl-theme text-center">
 
-                        <a href="">
+                       
                             <div class="single-item">
                                 <div class="item">
                                     <img src="{{ asset('uploads/testimonial/p1.png') }}" alt="">
-                                    <h5>Customer Name</h5>
+                                    <h5>Tanvir Hossain</h5>
                                     <p>
-                                        "I took many services from Hello bizer. Their services and support is amaizing."
+                                        "HelloBizer is one of the best Digital Marketing Agency in a recent time. Their services and support is amazing."
                                     </p>
                                 </div>
                             </div>
-                        </a>
-                        <a href="">
+                      
                             <div class="single-item">
                                 <div class="item">
                                     <img src="{{ asset('uploads/testimonial/p2.png') }}" alt="">
-                                    <h5>Customer Name</h5>
+                                    <h5>Faisal Ahmed </h5>
                                     <p>
-                                        "I took many services from Hello bizer. Their services and support is amaizing."
+                                        "I took Professional Page  setup services from HelloBizer. It was an outstanding service from their team."
                                     </p>
                                 </div>
                             </div>
-                        </a>
-                        <a href="">
+                       
+                       
                             <div class="single-item">
                                 <div class="item">
                                     <img src="{{ asset('uploads/testimonial/p3.png') }}" alt="">
-                                    <h5>Customer Name</h5>
+                                    <h5>MST Mohini</h5>
                                     <p>
-                                        "I took many services from Hello bizer. Their services and support is amaizing."
+                                        "HelloBizer is a tremendous Agency for Digital Marketing. Their AD CAMPAIGN is one of the best services"
                                     </p>
                                 </div>
                             </div>
-                        </a>
-                        <a href="">
+                        
+                       
                             <div class="single-item">
                                 <div class="item">
                                     <img src="{{ asset('uploads/testimonial/p4.png') }}" alt="">
-                                    <h5>Customer Name</h5>
+                                    <h5>Hridoy Howladar</h5>
                                     <p>
-                                        "I took many services from Hello bizer. Their services and support is amaizing."
+                                        "Their Professional Page Setup and Monitoriing is best. I really like their professinalism and Services."
                                     </p>
                                 </div>
                             </div>
                         </a>
-                        <a href="">
+                       
                             <div class="single-item">
                                 <div class="item">
                                     <img src="{{ asset('uploads/testimonial/p5.png') }}" alt="">
-                                    <h5>Customer Name</h5>
+                                    <h5>Shamima Shima</h5>
                                     <p>
-                                        "I took many services from Hello bizer. Their services and support is amaizing."
+                                        "HelloBizer is best for their Branding Design and Digital Marketing. They have professionalism in their services."
                                     </p>
                                 </div>
                             </div>
-                        </a>
+                       
                     </div>
                 </div>
             </div>
@@ -461,7 +536,7 @@
                         <div class="row g-5">
                             <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
                                 
-                                <h3>Best In Industry</h3>
+                               <h3>Best In Industry</h3>
                                 <p>At HelloBizer, we are committed to being the best in the digital marketing industry. We are passionate about what we do, and we
                                      take pride in delivering exceptional results for our clients.</p>
                             </div>
@@ -480,8 +555,8 @@
                         <div class="position-relative h-100">
                             <br>
                             <br>
-                            <br>
-                            <img src="/uploads/home/meeting1.webp" alt="Thumb">
+                           
+                            <img src="/uploads/home/meeting.webp" alt="Thumb">
                            
                            
                         </div>
@@ -524,7 +599,7 @@
 
           {{--========================= LOGO-Partner Start=============== --}}
 
-    <div id="services" class="services-area bg-theme-small default-padding bottom-less">
+   {{--  <div id="services" class="services-area bg-theme-small default-padding bottom-less">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
@@ -540,13 +615,13 @@
                     <div class="services-carosul owl-carousel owl-theme text-center">
 
 
-                        <a href="">
+                        
                             <div class="single-item">
                                 <div class="item">
                                     <img src="{{ asset('uploads/partner/pn1.png') }}" alt="">
                                 </div>
                             </div>
-                        </a>
+                      
 
                         <a href="">
                             <div class="single-item">
@@ -574,8 +649,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    </div>
+    </div>--}}
+    </div> 
 
     {{-- LOGO-Partner End --}}
 
