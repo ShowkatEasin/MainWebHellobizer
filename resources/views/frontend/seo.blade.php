@@ -2,11 +2,11 @@
 @section('frontcss')
     <style>
         /* .no-background .nav  li a{
-                color:white!important;
-            }
-            .no-background .nav .dropdown-menu li a{
-                color: #333333!important;
-            } */
+                    color:white!important;
+                }
+                .no-background .nav .dropdown-menu li a{
+                    color: #333333!important;
+                } */
     </style>
 @stop
 @section('main-content')
@@ -14,7 +14,7 @@
     <br>
     <br>
     <!-- Start Banner
-        ============================================= -->
+            ============================================= -->
     <div class="banner-area shape-index transparent-nav content-double text-medium">
         <div class="box-table">
             <div class="box-cell">
@@ -23,21 +23,23 @@
                         <div class="row align-center">
                             <div class="col-lg-6 left-info simple-video">
                                 <div class="content" data-animation="animated fadeInUpBig">
-                                    <h2>SEO - <span>Search Engine Optimization</span> </h2>
-                                    <p>SEO is the process of optimizing websites to rank higher in search engine results pages. It improves website visibility, drives organic traffic, and increases conversions.
+                                    <h1>SEO<span> Marketing</span> </h1>
+                                    <p>SEO marketing can be a highly effective way to increase a website's visibility and
+                                        attract more organic traffic. However, it requires ongoing effort and dedication, as
+                                        search engine algorithms and best practices are constantly evolving. Additionally,
+                                        businesses must ensure that their SEO strategies align with their overall marketing
+                                        goals and target audience.
                                     </p>
-                                    <a href=" {{route('contact')}}">
+                                    <a href=" {{ route('contact') }}">
                                         <button class="btn btn-primary">Talk With Our Cutomer Support Team</button>
                                     </a>
-                                   
-
                                 </div>
                             </div>
                             <div class="col-lg-6 right-info">
-                               
+
                                 <img src="assets/img/illustration/seo.jpg" alt="Thumb">
                             </div>
-                           
+
                         </div>
                     </div>
                 </div>
@@ -49,135 +51,12 @@
     </div>
     <!-- End Banner -->
 
-
-
-     <!--  ====================Start Digitam Marketing========================= -->
-
-  
-     <div id="services" class="services-area bg-theme-small default-padding bottom-less">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="site-heading text-center">
-                        <h2>For Your Digital Marketing</h2>
-                        <p>Our Digital Marketing include startup business, civil society organisations, faith
-                            communities,
-                            faith-based organisations, businesses, academia, and more. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="services-box text-center">
-                <div class="row">
-                    <div class="services-carosul owl-carousel owl-theme text-center">
-
-                        <a href="{{ route('socialmediamarketing') }}">
-                            <div class="single-item">
-                                <div class="item">
-                                    <h4><strong>Social Media Marketing</strong></h4>
-                                    <p>Social media marketing is the process of utilizing social media platforms such as Facebook, Twitter, and Instagram to reach target audience.</p> <br>
-                                    <button class="btn btn-primary">Get Started</button>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="{{ route('contentmarketing') }}">
-                            <div class="single-item">
-                                <div class="item">
-                                    <h4> <strong>Content Marketing</strong></h4>
-                                    <p>
-                                        Content marketing is a strategy that creates and shares valuable, relevant content to attract and retain an audience.
-                                         It builds trust, establishes thought leadership.
-                                    </p> <br>
-
-                                    <button class="btn btn-primary">Get Started</button>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="{{ route('emailmarketing') }}">
-                            <div class="single-item">
-                                <div class="item">
-                                    <h4><strong>Email Marketing</strong></h4>
-                                    <p>
-                                        Email marketing is a strategy that involves sending personalized messages
-                                         to subscribers to promote products, build relationships, and increase sales for your business.
-                                    </p>
-                                    <br>
-                                    <button class="btn btn-primary">Get Started</button>
-
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="{{ route('videomarketing') }}">
-                            <div class="single-item">
-                                <div class="item">
-                                    <h4><strong>Video Marketing</strong></h4>
-                                    <p>
-                                        Video marketing is a strategy that uses videos to promote products, services,
-                                         and brands. It engages audiences, increases brand awareness, and drives conversions.
-                                    </p>
-                                    <br>
-                                    <button class="btn btn-primary">Get Started</button>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="{{ route('influencermarketing') }}">
-                            <div class="single-item">
-                                <div class="item">
-                                    <h4><strong>Influencer Marketing</strong></h4>
-                                    <p>
-                                        Influencer marketing partners with social media personalities to promote products or brands, build awareness, and drive sales.
-                                         It leverages an influencer's credibility.
-                                    </p>
-                                    <br>
-                                    <button class="btn btn-primary">Get Started</button>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="{{ route('seo') }}">
-                            <div class="single-item">
-                                <div class="item">
-                                    <h4><strong>Search Engine Optimization(SEO)</strong></h4>
-                                    <p>
-                                        SEO is the process of optimizing websites to rank higher in search engine results pages. It improves
-                                         website visibility, and increases conversions.
-                                    </p>
-                                    <br>
-                                    <button class="btn btn-primary">Get Started</button>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="{{ route('analyticsandtracking') }}">
-                            <div class="single-item">
-                                <div class="item">
-                                    <h4><strong>Analytics and Tracking</strong></h4>
-                                    <p>
-                                        Analytics and tracking are digital marketing campaign performance to optimize strategies for maximum results.
-                                         These are crucial components of any digital marketing.
-                                    </p>
-                                    <br>
-                                    <button class="btn btn-primary">Get Started</button>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-<!-- End Digital marketing -->
-    
     <!-- ====================Start Why Chose Us========================= -->
     <div id="about" class="choseus-area default-padding">
         <div class="container">
             <div class="choseus-items">
                 <div class="row">
-                    
+
                 </div>
             </div>
             <div class="customer">
@@ -205,65 +84,275 @@
     <!-- End Why Us -->
 
 
-   
 
-          {{--========================= LOGO-Partner Start=============== --}}
 
-    <div id="services" class="services-area bg-theme-small default-padding bottom-less">
+    <!--====================== Start Key Elements ======================= -->
+    <div id="blog" class="blog-area bg-gray default-padding bottom-less">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="site-heading text-center">
-                        <h2>Our Partners</h2>
-                        <p>We are here to provide the services to grow your business up. Here, you can find the support
-                            of Graphics, Branding, Marketing, Software’s & More</p>
+                        <h2>Our <span> SEO Marketing </span>Services </h2>
+                        <p>The goal of SEO marketing is to increase organic traffic to a website by improving its ranking
+                            for relevant search queries. This is achieved by implementing various on-page and off-page
+                            optimization techniques that align with search engine algorithms and best practices.</p>
                     </div>
                 </div>
             </div>
-            <div class="services-box text-center">
+            <div class="blog-items">
                 <div class="row">
-                    <div class="services-carosul owl-carousel owl-theme text-center">
 
+                    <div class="col-lg-3 col-md-5">
+                        <div class="item">
+                            <div class="thumb">
+                            </div>
+                            <div class="info">
 
-                        <a href="">
-                            <div class="single-item">
-                                <div class="item">
-                                    <img src="{{ asset('uploads/partner/pn1.png') }}" alt="">
-                                </div>
-                            </div>
-                        </a>
+                                <h4>Keyword Research</h4>
+                                <p> Keyword Research identifying the most relevant and high-traffic keywords and phrases
+                                    related to a business's products, blogs content or company services.</p>
 
-                        <a href="">
-                            <div class="single-item">
-                                <div class="item">
-                                    <img src="{{ asset('uploads/partner/pn2.png') }}" alt="">
-                                </div>
                             </div>
-                        </a>
+                        </div>
+                    </div>
 
-                        <a href="">
-                            <div class="single-item">
-                                <div class="item">
-                                    <img src="{{ asset('uploads/partner/pn3.png') }}" alt="">
-                                </div>
+                    <div class="col-lg-3 col-md-5">
+                        <div class="item">
+                            <div class="thumb">
                             </div>
-                        </a>
-                        <a href="">
-                            <div class="single-item">
-                                <div class="item">
-                                    <img src="{{ asset('uploads/partner/pn4.png') }}" alt="">
-                                </div>
+                            <div class="info">
+
+                                <h4>On-Page Optimization</h4>
+                                <p>This involves optimizing various on-page elements of a website, such as meta tags,
+                                    headers, images and content, to make SEO-friendly.</p>
+
                             </div>
-                        </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-5">
+                        <div class="item">
+                            <div class="thumb">
+                            </div>
+                            <div class="info">
+
+                                <h4>Link Building</h4>
+                                <p>Link Building optimizing a website's technical aspects, such as site speed, mobile
+                                    responsiveness to improve user experience and search engine
+                                    crawling.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-5">
+                        <div class="item">
+                            <div class="thumb">
+                            </div>
+                            <div class="info">
+
+                                <h4>Technical SEO</h4>
+                                <p>Technical SEO tracking and analyzing video performance metrics, such as views, engagement
+                                    rates, and conversions, to measure the campaigns for your business</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 pagi-area">
+                        <nav aria-label="navigation">
+                            <ul class="pagination">
+                                <nav role="navigation" aria-label="Pagination Navigation" class="flex justify-between">
+                                </nav>
+
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    {{-- LOGO-Partner End --}}
+    </body>
+    <!-- End  Key Elements -->
 
-    
-    @include('frontend.getintouch')
+    {{--  Get A Free 30-Minute Strategy Session Start --}}
+
+    <div id="contact" class="contact-us-area default-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="site-heading text-center">
+                        <h2>Let us build your brand</h2>
+                        <p>
+                            Learning day desirous informed expenses material returned six the. She enabled invited
+                            exposed him another. Reasonably conviction solicitude me mr at discretion reasonable. Age
+                            out full gate bed day lose.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 address">
+                    <div class="address-items">
+                        <div class="google-maps">
+                            {!! $titles->map !!}
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h2>Get A Free 30-Minute Strategy Session</h2>
+                    <form action="{{ route('sendmessage') }}" method="POST">
+                        @csrf
+                        <div class="col-lg-12">
+                            <div class="row">
+                                <div class="form-group">
+                                    <input class="form-control" id="name" name="name" placeholder="Name"
+                                        type="text" required>
+                                    <span class="alert-error"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="row">
+                                <div class="form-group">
+                                    <input class="form-control" id="email" name="email" placeholder="Email*"
+                                        type="email" required>
+                                    <span class="alert-error"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="row">
+                                <div class="form-group">
+                                    <input class="form-control" id="phone" name="phone" placeholder="Phone"
+                                        type="text" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="row">
+                                <div class="form-group comments">
+                                    <textarea class="form-control" id="message" name="message" placeholder="Tell Us About Project *" rows="4"
+                                        cols="50"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="row">
+                                <button type="submit" name="submit" class="button">
+                                    Claim Now
+                                </button>
+                            </div>
+                        </div>
+                        <!-- Alert Message -->
+                        <div class="col-lg-12 alert-notification">
+                            <div id="message" class="alert-msg">
+                                @if (Session::has('success'))
+                                    <p>{!! Session('success') !!}</p>
+                                @endif
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{--  Get A Free 30-Minute Strategy Session End --}}
+
+
+    <!-- Start About
+        ============================================= -->
+    <div id="about" class="about-area default-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 default info">
+
+                    <h2>Get in touch</h2>
+                    <ul>
+                        <li>
+                            <i class=""></i> <span>There are some facilities to connect with us to get couple of
+                                discound offers in weekly and monthly packages.</span>
+                        </li>
+                    </ul>
+
+                    <div class="bottom-info">
+                        <ul>
+                            <li>
+                                <i class="fas fa-check"></i> <span>Digital Maketing Serveces.</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i> <span>We Provide official website with friendly budget.</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i> <span>E-Commerce for your Business.</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i> <span>Branding and Monitization for Startup Business.</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i> <span>Software Solution</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 services-info">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="item">
+
+                                <h4>Location</h4>
+                                <p>
+                                    House-15, Rd 03, Block-B, Rampura Banasree, 1219
+                                    Dhaka Bangladesh.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="item">
+
+                                <h4>Contact Us</h4>
+                                <p>
+                                    Phone: +8801324-738600 <br>
+                                    Email: hellobizer@gmail.com
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="item">
+
+                                <h4>Our Hours</h4>
+                                <p>
+                                    We are open Six Days a Week <br>
+                                    SAT-THUR 10:00 AM - 07:00 PM
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 item">
+                            <div class="f-item">
+
+                                <h4>Social Contact</h4>
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/hellobizer"><i class="fab fa-facebook-f"
+                                                style="color: #0992c0;"></i></a> &nbsp; &nbsp;
+                                        <i class="fab fa-instagram" style="color: #0992c0;"></i>&nbsp; &nbsp;
+                                        <i class="fab fa-linkedin-in fa-2x" style="color: #0992c0;"></i>&nbsp; &nbsp;
+                                        <i class="fab fa-whatsapp fa-2x" style="color: #0992c0;"></i> &nbsp; &nbsp;
+                                        <i class="fab fa-youtube fa-2x" style="color: #0992c0;"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+    </div>
+    </div>
+    </div>
+    {{--  Get in Touch End --}}
+
     <!-- End Contact -->
 @endsection

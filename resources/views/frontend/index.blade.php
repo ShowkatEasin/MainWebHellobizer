@@ -70,7 +70,7 @@
 
                         {{-- Add new 8 point Here --}}
 
-                        <a href="{{ route('videomaking') }}">
+                        <a href="{{route('videomaking')}}">
                             <div class="single-item">
                                 <div class="item">
                                     <img src="{{ asset('uploads/service/icon/videoicon.png') }}" alt="">
@@ -83,7 +83,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="{{ route('softwaredevelopment') }}">
+                        <a href="{{route('softwaredevelopment')}}">
                             <div class="single-item">
                                 <div class="item">
                                     <img src="{{ asset('uploads/service/icon/softicon.png') }}" alt="">
@@ -95,7 +95,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="{{ route('businessconsultancy') }}">
+                        <a href="{{route('businessconsultancy')}}">
                             <div class="single-item">
                                 <div class="item">
                                     <img src="{{ asset('uploads/service/icon/businessicon.png') }}" alt="">
@@ -121,7 +121,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="{{ route('graphicsdesign') }}">
+                        <a href="{{route('graphicsdesign')}}">
                             <div class="single-item">
                                 <div class="item">
                                     <img src="{{ asset('uploads/service/icon/graphic.png') }}" alt="">
@@ -135,7 +135,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="{{ route('webdesignanddevelopment') }}">
+                        <a href="{{route('webdesignanddevelopment')}}">
                             <div class="single-item">
                                 <div class="item">
                                     <img src="{{ asset('uploads/service/icon/web.png') }}" alt="">
@@ -147,7 +147,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="{{ route('socialmedia') }}">
+                        <a href="{{route('socialmedia')}}">
                             <div class="single-item">
                                 <div class="item">
                                     <img src="{{ asset('uploads/service/icon/digital.png') }}" alt="">
@@ -158,7 +158,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="{{ route('appdesign') }}">
+                        <a href="{{route('appdesign')}}">
                             <div class="single-item">
                                 <div class="item">
                                     <img src="{{ asset('uploads/service/icon/app.png') }}" alt="">
@@ -196,7 +196,7 @@
                     <div class="row">
                         <div class="services-carosul owl-carousel owl-theme text-center">
 
-                            <a href="{{ route('socialmediamarketing') }}">
+                            <a href="{{route('socialmediamarketing')}}">
                                 <div class="single-item">
                                     <div class="item">
                                         <h5>Social Media Marketing</h5>
@@ -205,7 +205,7 @@
                                     </div>
                                 </div>
                             </a>
-                            <a href="{{ route('contentmarketing') }}">
+                            <a href="{{route('contentmarketing')}}">
                                 <div class="single-item">
                                     <div class="item">
                                         <h5>Content Marketing</h5>
@@ -219,7 +219,7 @@
                                 </div>
                             </a>
 
-                            <a href="{{ route('emailmarketing') }}">
+                            <a href="{{route('emailmarketing')}}">
                                 <div class="single-item">
                                     <div class="item">
                                         <h5>Email Marketing</h5>
@@ -234,7 +234,7 @@
                                 </div>
                             </a>
 
-                            <a href="{{ route('videomarketing') }}">
+                            <a href="{{route('videomarketing')}}">
                                 <div class="single-item">
                                     <div class="item">
                                         <h5>Video Marketing</h5>
@@ -248,7 +248,7 @@
                                 </div>
                             </a>
 
-                            <a href="{{ route('influencermarketing') }}">
+                            <a href="{{route('influencermarketing')}}">
                                 <div class="single-item">
                                     <div class="item">
                                         <h5>Influencer Marketing</h5>
@@ -261,7 +261,7 @@
                                     </div>
                                 </div>
                             </a>
-                            <a href="{{ route('seo') }}">
+                            <a href="{{route('seo')}}">
                                 <div class="single-item">
                                     <div class="item">
                                         <h5>Search Engine Optimization(SEO)</h5>
@@ -274,7 +274,7 @@
                                     </div>
                                 </div>
                             </a>
-                            <a href="{{ route('analyticsandtracking') }}">
+                            <a href="{{route('analyticsandtracking')}}">
                                 <div class="single-item">
                                     <div class="item">
                                         <h5>Analytics and Tracking</h5>
@@ -303,8 +303,8 @@
                 <div class="col-lg-8 offset-lg-2">
                     <div class="site-heading text-center">
                         <h2>This Week offer</h2>
-                        <p>In publishing and graphic design, lorem ipsum is a filler text commonly used to demonstrate
-                            the graphic elements of a document or visual presentation graphic elements of a document or visual presentation.
+                        <p>We provide many kind of offers in every week. Specially our Graphics, Branding, Website, E-Commerce and Professional page set up is available for this week.
+                          
                          </p>
                     </div>
                 </div>
@@ -330,7 +330,6 @@
                             </div>
                         </div>
                     </div>
-                
 
                     <div class="col-lg-4 col-md-6">
                         <div class="item">
@@ -567,12 +566,11 @@
                         <div class="row g-8">
                             <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
                                 
-                                <h3> Professional Team</h3>
+                                <h3>Professional Team</h3>
                                 <p>At HelloBizer, we pride ourselves on having a team of highly professional and experienced experts. Our team is made up of individuals who are passionate & dedicated
                                      to helping our clients achieve their business goals.</p>
                             </div>
                             <div class="col-12 wow zoomIn justify-content-right mb-10" data-wow-delay="0.8s">
-                                <br>
                                 <br>
                                 <br>
                                 
@@ -593,66 +591,12 @@
             </div>
         </div>
     </div>
+    </div>
 
 
 <!-- End Why -->
 
-          {{--========================= LOGO-Partner Start=============== --}}
-
-   {{--  <div id="services" class="services-area bg-theme-small default-padding bottom-less">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="site-heading text-center">
-                        <h2>Our Recent Clients</h2>
-                        <p>Our partners are more than just clients - they're an integral part of our team.
-                             Here are some of the organizations we've worked with to achieve great things.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="services-box text-center">
-                <div class="row">
-                    <div class="services-carosul owl-carousel owl-theme text-center">
-
-
-                        
-                            <div class="single-item">
-                                <div class="item">
-                                    <img src="{{ asset('uploads/partner/pn1.png') }}" alt="">
-                                </div>
-                            </div>
-                      
-
-                        <a href="">
-                            <div class="single-item">
-                                <div class="item">
-                                    <img src="{{ asset('uploads/partner/pn2.png') }}" alt="">
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="">
-                            <div class="single-item">
-                                <div class="item">
-                                    <img src="{{ asset('uploads/partner/pn3.png') }}" alt="">
-                                </div>
-                            </div>
-                        </a>
-                        <a href="">
-                            <div class="single-item">
-                                <div class="item">
-                                    <img src="{{ asset('uploads/partner/pn4.png') }}" alt="">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>--}}
-    </div> 
-
-    {{-- LOGO-Partner End --}}
+       
 
    
 

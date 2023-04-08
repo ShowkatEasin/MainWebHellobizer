@@ -74,7 +74,6 @@ Route::get('/influencermarketing',[DigitalMarketingController::class,'influencer
 Route::get('/seo',[DigitalMarketingController::class,'seo'])->name('seo');
 Route::get('/analyticsandtracking',[DigitalMarketingController::class,'analyticsandtracking'])->name('analyticsandtracking');
 
-
 /*======================== Portfolio Content Routes=============*/ 
 
 Route::get('/allproject',[PortfolioContentController::class,'allproject'])->name('allproject');
@@ -111,14 +110,6 @@ Route::get('/ecommerceportfolio',[PortfolioContentController::class,'ecommercepo
  Route::get('/blog4',[BlogsController::class,'blog4'])->name('blog4');
  Route::get('/blog5',[BlogsController::class,'blog5'])->name('blog5');
  Route::get('/blog6',[BlogsController::class,'blog6'])->name('blog6');
-
-
-
-
-
-
-
-
 Route::get('/popup',[frontendController::class,'popup'])->name('quote2');
 Route::match(['get','post'],'/search',[ServicesController::class,'serviceSearch'])->name('service.search');
 
@@ -126,8 +117,6 @@ Route::match(['get','post'],'/search',[ServicesController::class,'serviceSearch'
 Route::get('/contact',[frontendController::class,'contact'])->name('contact');
 Route::post('/send-message',[frontendController::class,'sendmessage'])->name('sendmessage');
 Route::match(['get','post'],'/send-quote',[frontendController::class,'freequotesend'])->name('freequotesend');
-
-
 
 Auth::routes();
 
@@ -153,5 +142,4 @@ Route::get('/migrate', function(){
     Artisan::call('migrate:fresh', ['--force' => true]);
     dd('migrated!');
 });
-
 

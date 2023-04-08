@@ -1,5 +1,4 @@
-<!-- Start Footer
-    ============================================= -->
+<!--  ==================Start Footer=========================== -->
     <footer class="footer-padding bg-light">
         <div class="container ml-10px">
             <div class="f-items">
@@ -12,15 +11,13 @@
                             
                           <ul>
                             <li>
-                                <i class="fab fa-facebook-f fa-2x" style="color: #0992c0;"></i>&nbsp; &nbsp;
+                                <a href="https://www.facebook.com/hellobizer"><i class="fab fa-facebook-f fa-2x" style="color: #0992c0;"></i></a>&nbsp; &nbsp;
                                 <i class="fab fa-instagram fa-2x" style="color: #0992c0;"></i>&nbsp; &nbsp;
                                 <i class="fab fa-linkedin-in fa-2x" style="color: #0992c0;"></i>&nbsp; &nbsp;
                                 <i class="fab fa-whatsapp fa-2x" style="color: #0992c0;"></i> &nbsp; &nbsp;
                                 <i class="fab fa-youtube fa-2x" style="color: #0992c0;"></i>
                             </li>
-                          </ul>
-                         
-                            
+                          </ul> 
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-6 item l-10">
@@ -109,7 +106,7 @@
                                     </div>
                                     <div class="info">
                                         <p>Location:</p>
-                                        <span>{{$titles->address}}
+                                        <span>House-15, Rd 03, Block-B, Banasree, 1219
                                         </span>
                                     </div>
                                 </li>

@@ -28,13 +28,41 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
 
+            
+
             <div class="collapse navbar-collapse" id="navbar-menu">
                 <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
 
-                    <li class="smooth-menu">
-                        <a href="{{route('service')}}" class="dropdown-toggle smooth-menu" data-toggle="dropdown" >Service</a>
-                    </li>
+                    
+            
 
+                    <li class="nav-item dropdown">    
+                        <a href="{{route('service')}}" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Service</a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            
+                            <li><a class="dropdown-item" href="{{route('graphicsdesign')}}">Graphic Design</a></li>
+                            <li><a class="dropdown-item" href="{{route('webdesignanddevelopment')}}">Web Desighn & Development</a></li>
+
+                            <li class="nav-item dropdown">
+                                <a href="" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Digital Marketing</a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="{{route('socialmediamarketing')}}">Social Media Marketing</a></li>
+                                    <li><a class="dropdown-item" href="{{route('contentmarketing')}}">Content Marketing</a></li>
+                                    <li><a class="dropdown-item" href="{{route('emailmarketing')}}">Email Marketing</a></li>
+                                    <li><a class="dropdown-item" href="{{route('videomarketing')}}">Video Marketing</a></li>
+                                    <li><a class="dropdown-item" href="{{route('influencermarketing')}}">Influencer Marketing</a></li>
+                                    <li><a class="dropdown-item" href="{{route('seo')}}">SEO</a></li>
+                                    <li><a class="dropdown-item" href="{{route('analyticsandtracking')}}">Analytics & Tracking</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="{{route('socialmedia')}}">Social Media Setup & Monitoring</a></li>
+                            <li><a class="dropdown-item" href="{{route('businessconsultancy')}}">Business Consultancy</a></li>
+                            <li><a class="dropdown-item" href="{{route('videomaking')}}">Video making</a></li>
+                            <li><a class="dropdown-item" href="{{route('softwaredevelopment')}}">Software Development</a></li>
+                            <li><a class="dropdown-item" href="{{route('appdesign')}}">App Design & Development</a></li>
+                          </ul>
+                      </li>
+ 
                     <li>
                         <a class="smooth-menu @if(\Request::segment(1)== "portfolio") active @endif" href="{{route('portfolio')}}">Portfolio</a>
                     </li>
@@ -60,37 +88,12 @@
                         <a class="smooth-menu @if(\Request::segment(1)== "contact") active @endif" href="{{route('contact')}}">Contact</a>
                     </li>
 
-                    
-                      {{--  <ul class="dropdown-menu">
-                            @forelse ( $categories2 as $cat )
-                              @if (($cat->children->count()==0))
-                              <li><a href="{{route('singleService',[$cat->slug])}}" @if(\Request::segment(2)== $cat->slug) class="active" @endif>{{$cat->title}}</a></li>
-                              @else
-                              <li class="dropdown dropdown-right"><a href="{{route('singleService',[$cat->slug])}}" class="dropdown-toggle smooth-menu  @if(\Request::segment(2)== $cat->slug) active @endif" data-toggle="dropdown">{{ $cat->title }}</a>
-                                <ul  class="dropdown-menu">
-
-                                    @foreach ($cat->children as $child)
-                                    <li><a href="{{route('singleService',[$child->slug])}}" @if(\Request::segment(2)== $child->slug) class="active" @endif> {{ $child->title }}</a></li>
-                                    @endforeach
-                                </ul>  --}}
-
-                           {{--  </li> --}}
-                              {{-- @endif --}}
-
-                           {{--  @empty
-                             <p>No Services Avaiable</p>
-                            @endforelse
- --}}
+                
 
                 
 </ul>
 </li>
-    
-                    
-                   
-                  
-                    
-                      
+               
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div>

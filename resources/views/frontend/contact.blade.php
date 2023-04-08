@@ -117,7 +117,7 @@
     </div>
 </div>
 
-         <div id="services" class="services-area bg-theme-small default-padding bottom-less">
+        {{--  <div id="services" class="services-area bg-theme-small default-padding bottom-less">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 offset-lg-2">
@@ -161,10 +161,10 @@
                                       
                                         <ul>
                                             <li>
-                                                <i class="fab fa-facebook-f fa-2x" style="color: #3b5998;"></i>&nbsp; 
-                                                <i class="fab fa-instagram fa-2x" style="color: #ac2bac;"></i>&nbsp; 
-                                                <i class="fab fa-linkedin-in fa-2x" style="color: #0082ca;"></i>&nbsp; 
-                                                <i class="fab fa-whatsapp fa-2x" style="color: #25d366;"></i> &nbsp;
+                                                <i class="fab fa-facebook-f fa-2x" style="color: #3b5998;"></i>
+                                                <i class="fab fa-instagram fa-2x" style="color: #ac2bac;"></i>
+                                                <i class="fab fa-linkedin-in fa-2x" style="color: #0082ca;"></i>
+                                                <i class="fab fa-whatsapp fa-2x" style="color: #25d366;"></i> 
                                                 <i class="fab fa-youtube fa-2x" style="color: #ed302f;"></i>
                                             </li>
                                           </ul>
@@ -175,7 +175,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
    
         {{--   Get in Touch End --}}
 

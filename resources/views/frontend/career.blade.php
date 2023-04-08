@@ -24,7 +24,7 @@
                             <div class="col-lg-6 left-info simple-video">
                                 <div class="content" data-animation="animated fadeInUpBig">
                                     <h1>Let's Build Something Amazing<span> Together</span> </h1>
-                                    <p> is an Internet Marketing Firm Located in Bangladesh. We are providing services in
+                                    <p>HelloBizer is an Internet Marketing Firm Located in Bangladesh. We are providing services in
                                         various fields related to Online Marketing, Web Designing and Development. We assure
                                         the best working environment that is fun, rewarding and beneficial to our employees.
                                         We help our employees to reach their full potential while growing professionally.
@@ -161,45 +161,6 @@
                         <nav aria-label="navigation">
                             <ul class="pagination">
                                 <nav role="navigation" aria-label="Pagination Navigation" class="flex justify-between">
-
-                                    <br>
-
-                                    {{-- collaps Strat --}}
-
-                                    <p>
-                                        <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1"
-                                            role="button" aria-expanded="false"
-                                            aria-controls="multiCollapseExample1">Shortcut Note Left</a>
-                                        <a class="btn btn-primary" type="button" data-toggle="collapse"
-                                            data-target="#multiCollapseExample2" aria-expanded="false"
-                                            aria-controls="multiCollapseExample2">Shortcut Note Right</a>
-                                        <a class="btn btn-primary" type="button" data-toggle="collapse"
-                                            data-target=".multi-collapse" aria-expanded="false"
-                                            aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both
-                                            elements</a>
-
-                                    </p>
-                                    <div class="row">
-                                        <div class="col">
-                                            <div class="collapse multi-collapse" id="multiCollapseExample1">
-                                                <div class="card card-body">
-                                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-                                                    terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
-                                                    labore wes anderson cred nesciunt sapiente ea proident.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="collapse multi-collapse" id="multiCollapseExample2">
-                                                <div class="card card-body">
-                                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-                                                    terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
-                                                    labore wes anderson cred nesciunt sapiente ea proident.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {{-- collaps End --}}
                                 </nav>
 
                             </ul>

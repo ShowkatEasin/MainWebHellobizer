@@ -1,8 +1,6 @@
 @extends('frontend.layouts.main')
 @section('main-content')
 
-
-
     @foreach ($project as $item )
     <div class="banner-area content-double banner-top-padding text-dark  small-text" @if ($loop->iteration % 2==0)
         style="background-color: #f1f1f1 ;"
@@ -34,6 +32,5 @@
 
     @endforeach
     <!-- End Banner -->
-
 
 @endsection
